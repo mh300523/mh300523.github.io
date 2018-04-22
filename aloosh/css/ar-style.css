@@ -1,0 +1,88 @@
+header .top_bar .lang .ar
+{
+    margin-left: 3px;
+}
+header .top_bar .lang .en
+{
+    margin-right: 3px;
+}
+header .down_bar .mobile_nav .list > span
+{
+    margin-right: 10px;
+}
+header .down_bar .mobile_nav .sidenav .closebtn 
+{
+    left: 20px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: right;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    right: auto;
+    left: 25px;
+}
+.categories .btn
+{
+    border-left: 1px solid #f0f0f0;
+}
+.bootstrap-select.btn-group .dropdown-menu
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.searchbox
+{
+   padding-right: 30px;
+}
+.lg
+{
+    left: 8px;
+}
+header .log_in .user
+{
+    margin-left: 8px;
+}
+header .main .cat .title > .fa
+{
+    margin-left: 15px;
+}
+header .main .cat .title
+{
+    padding-right: 37px;
+}
+header .main .count > .fa,header .down_bar .count > .fa
+{
+    margin-left: 9px;
+}
+header .cat .menu .sub_list
+{
+    right: 226px;
+}
+.pro .info .price
+{
+    direction: ltr;
+}
+.pro .info .price .current
+{
+    margin-right: 5px;
+}
+.pro .info .price .past
+{
+    margin-left: 5px;
+}
+.join .form-group .check
+{
+    left: 8px;
+}
+
+
+
+@media(max-width:991px)
+{
+    .small .fa-search
+    {
+        margin-left: 7px;
+    }
+}

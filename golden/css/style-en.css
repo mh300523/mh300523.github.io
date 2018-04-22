@@ -1,0 +1,117 @@
+header .contact > img
+{
+    margin-right: 7px;
+}
+header .top_bar .lang
+{
+    margin-left: 28px;
+}
+header .top_bar .lang .ar
+{
+    margin-right: 10px;
+}
+header .down_nav .main > ul > li:last-child
+{
+    padding-right: 0;
+}
+header .searchbox .search_icon
+{
+    right: 7px;
+}
+header .searchbox
+{
+    margin-right: 15px;
+}
+header .social > a
+{
+    margin-left: 9px;
+}
+header .mobile_nav .list > span
+{
+    margin-left: 8px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+    right: 30px;
+}
+header .link > .dropdown-toggle > span
+{
+    margin-left: 3px;
+}
+.heading h3:after 
+{
+    left: 0;
+}
+.pro .new
+{
+    left: 12px;
+}
+.pro .act
+{
+    margin-left: 8px;
+}
+.pro .price
+{
+    direction: ltr;
+}
+.pro .cart > .fa
+{
+    margin-left: 3px;
+}
+.pro .name
+{
+    direction: ltr;
+}
+.pro_slider .owl-item
+{
+    margin-left: 22px;
+}
+.bans .banner:first-child
+{
+    margin-right: 30px;
+}
+.join .form-group .check
+{
+    margin-left: 10px;
+}
+.join .form-group .check
+{
+    font-size: 14px;
+}
+footer .payment
+{
+    direction: rtl;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px)
+{
+    header .top_bar .lang
+    {
+        margin-left: 0;
+    }
+    header .searchbox
+    {
+        margin-right: 0;
+    }
+    .bans .banner:first-child
+    {
+        margin-right: 0;
+    }
+    .join .form-group .check
+    {
+        margin-left: 0;
+    }
+    .heading > h3
+    {
+        font-size: 18px;
+    }
+}

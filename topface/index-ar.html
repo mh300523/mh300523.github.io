@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Top Face</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-ar.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+    </head>
+    <body>
+    <div class="over_click"></div>
+    
+      	<header>
+   		<div class="top_nav">
+   			<div class="container custom">
+   				<div class="top_bar">
+   					<div class="lang">
+						<a class="en" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Enhlish" ><img src="images/lang-en.png"></a>
+						<a class="ar" href="index-ar.html" data-toggle="tooltip" data-placement="bottom" title="عربي" ><img src="images/lang-ar.png"></a>
+					</div>
+   					<div class="searchbox lg">
+					    <input class="searchinput" id="search" placeholder="البحث" type="search">
+					    <span class="changed"></span>
+						<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+   				</div>
+   				<div class="down_bar">
+   					<div class="logo">
+						<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+					</div>
+  					<div class="main_links">
+						<ul class="nav_bar list-unstyled list-inline">
+							<li><a href="#">الرئيسية</a></li>
+							<li><a href="#">من نحن</a></li>
+							<li class="dropdown dir">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">المنتجات</a>
+							  <ul class="dropdown-menu pro_menu">
+								<li>
+									<a class="sub" href="#">شفاه</a>
+								</li>
+								<li>
+									<a class="sub" href="#">عيون</a>
+								</li>
+								<li>
+									<a class="sub" href="#">وجه</a>
+								</li>
+								<li>
+									<a class="sub" href="#">أظافر</a>
+								</li>
+								<li>
+									<a class="sub" href="#">أخري</a>
+								</li>
+							  </ul>
+							</li>
+							<li><a href="#">العروض</a></li>
+							<li><a href="#">اتصل بنا</a></li>
+						</ul>
+					</div>
+  					<div class="recomend">
+						<div class="my_account">
+						  <button class="dropdown-toggle re_btn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						   <i class="fa fa-user-circle" aria-hidden="true"></i>
+							حسابي <i class="fa fa-angle-down" aria-hidden="true"></i>
+						  </button>
+						  <div class="triangle"></div>
+						  <ul class="dropdown-menu reg_menu" aria-labelledby="dropdownMenu1">
+							<li><a href="#">تسجيل الدخول</a></li>
+							<li><a href="#">تسجيل جديد</a></li>
+						  </ul>
+						</div>
+						
+						<div class="cart">
+						  <button class="dropdown-toggle re_btn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						   <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>0</span>0 SAR
+						  </button>
+						  <div class="triangle"></div>
+						  <ul class="dropdown-menu cash_menu" aria-labelledby="dropdownMenu2">
+						  	لا يوجد شئ
+						  </ul>
+						</div>
+					</div>
+  					
+  					<div class="searchbox sm">
+					    <input class="searchinput" id="search" placeholder="البحث" type="search">
+					    <span class="changed"></span>
+						<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+  					
+  					<div class="mobile_nav">
+						<div id="mySidenav" class="sidenav">
+							<span href="#" class="closebtn">&times;</span>
+							<ul class="list-unstyled">
+								<li><a class="direct" href="#">الرئيسية</a></li>
+								<li><a class="direct" href="#">من نحن</a></li>
+								<li class="mob_cat">
+									<a class="direct" href="#">المنتجات</a>
+									<ul class="mob_menu list-unstyled">
+										<li class="sub_cat">
+											<a class="mob_item" href="#">شفاه</a>
+										</li>
+										<li class="sub_cat">
+											<a class="mob_item" href="#">عيون</a>
+										</li>
+										<li class="sub_cat">
+											<a class="mob_item" href="#">وجه</a>
+										</li>
+										<li class="sub_cat">
+											<a class="mob_item" href="#">أظافر</a>
+										</li>
+										<li class="sub_cat">
+											<a class="mob_item" href="#">أخري</a>
+										</li>
+									</ul>
+								</li>
+								<li><a class="direct" href="#">العروض</a></li>
+								<li><a class="direct" href="#">اتصل بنا</a></li>
+							</ul>
+						</div>
+						<div class="mob_bar">
+							<button class="list" id="navbtn">
+								<i class="fa fa-bars"></i><span>القائمة الرئيسية</span> 
+							</button>
+						</div>
+					</div>
+  				
+   				</div>
+   			</div>
+   		</div>
+   	</header>
+   	
+   	
+	 <!--slider-->
+    <div class="slider">
+		<div class="mainslider owl-carousel">
+			  <div class="slideitem">
+			   <img class="img-responsive" src="images/slider-1.jpg" data-navipicture="images/slider-1.jpg">
+			  </div>
+			  <div class="slideitem">
+			  	<img class="img-responsive" src="images/slider-2.jpg" data-navipicture="images/slider-2.jpg"> 
+			  </div>
+		</div>
+    </div>
+    <!--end slider-->
+  	
+  	
+  	<div class="banners">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-4 col-sm-4">
+    				<div class="banner">
+						<a href="#">
+							<img src="images/banner-3.jpg" class="img-responsive" alt="banner">
+						</a>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-4">
+    				<div class="banner">
+						<a href="#">
+							<img src="images/banner-2.jpg" class="img-responsive" alt="banner">
+						</a>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-4">
+    				<div class="banner">
+						<a href="#">
+							<img src="images/banner-1.jpg" class="img-responsive" alt="banner">
+						</a>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-4">
+    				<div class="banner">
+						<a href="#">
+							<img src="images/banner-6.jpg" class="img-responsive" alt="banner">
+						</a>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-4">
+    				<div class="banner">
+						<a href="#">
+							<img src="images/banner-5.jpg" class="img-responsive" alt="banner">
+						</a>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-4">
+    				<div class="banner">
+						<a href="#">
+							<img src="images/banner-4.jpg" class="img-responsive" alt="banner">
+						</a>
+    				</div>
+    			</div>
+  			</div>
+  		</div>
+  	</div>
+  	
+  	
+  	
+	<div class="recent">
+    	<div class="container">
+    		<h3 class="heading">
+    			العروض
+    		</h3>
+    		<div class="owl-carousel pro_slider owl-theme">
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-1.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-2.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-3.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-4.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-5.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-1.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-2.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-3.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-4.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-5.png" alt="product">
+						<div class="overlay">
+						   <div class="actions">
+								<button class="act eye"><i class="fa fa-eye" aria-hidden="true"></i></button>
+								<button class="act add"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+								<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="name">
+							<a href="#">اسم المنتج</a> 
+						</div>
+						<div class="price">
+							<div class="current">150 SAR</div>
+							<div class="past">180 SAR</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	</div>
+    </div>
+    
+    
+    <div class="join">
+    	<div class="container">
+    		<div class="join_us">
+    			<div class="join_tit">الإشتراك.</div>
+    			<div class="join_intro">اشترك الأن ليصلك جديد المنتجات والعروض</div>
+    			<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="البريد الإلكتروني">
+					<span class="changed"></span>
+					 <button class="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+				</div>
+    		</div>
+    	</div>
+    </div>
+ 	
+ 	
+ 	<footer>
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-4">
+ 					<div class="logo">
+						<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+					</div>
+ 				</div>
+ 				<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">معلومات</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">من نحن</a></li>
+							<li><a href="#">معلومات التوصيل</a></li>
+							<li><a href="#">الخصوصية</a></li>
+							<li><a href="#">شروط الإستخدام</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">خدمة العملاء</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">اتصل بنا</a></li>
+							<li><a href="#">إرجاع الطلب</a></li>
+							<li><a href="#">خريطة الموقع</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">اضافات</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">الشركات</a></li>
+							<li><a href="#">قسائم الهدايا</a></li>
+							<li><a href="#">نظام العمولة</a></li>
+							<li><a href="#">العروض المميزة</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">حسابي</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">حسابي</a></li>
+							<li><a href="#">طلباتي</a></li>
+							<li><a href="#">قائمة الرغبات</a></li>
+							<li><a href="#">القائمة البريدية</a></li>
+						</ul>
+					</div>
+				</div>
+ 			</div>
+ 			<div class="social">
+ 				<a href="#"><img src="images/face.png" alt="facebook_icon"></a>
+ 				<a href="#"><img src="images/twt.png" alt="twitter_icon"></a>
+ 				<a href="#"><img src="images/inst.png" alt="instgram_icon"></a>
+ 			</div>
+ 			<div class="copy_right">
+				جميع الحقوق محفوظة &copy; توب فيس 2018  تصميم وتطوير <a href="#"> <img src="images/ours.png"> مؤسسة تسوق</a>  
+			</div>
+ 		</div>
+ 	</footer>
+  
+ 
+		<script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/plug.js"></script>
+    </body>
+</html> 

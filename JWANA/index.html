@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>JWANA</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+		
+		<header>
+			<div class="top_nav">
+				<div class="container custom">
+					<div class="top_bar">
+						<ul class="nav_links list-unstyled list-inline">
+							<li><a href="#">الرئيسية</a></li>
+							<li><a href="#">عن جوانا</a></li>
+							<li><a href="#">معلومات الشحن والتوصيل</a></li>
+							<li><a href="#">القائمة البريدية</a></li>
+							<li><a href="#">اتصل بنا</a></li>
+						</ul>
+					</div>
+					<div class="down_bar">
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						<div class="main_nav">
+							<ul class="nav_bar list-unstyled list-inline">
+								<li><a href="#">وصل حديثا</a></li>
+								<li><a href="#">ملابس وفساتين</a></li>
+								<li><a href="#">إكسسوارات</a></li>
+								<li><a href="#">ساعات</a></li>
+								<li><a href="#">شنط</a></li>
+								<li><a href="#">أحذية</a></li>
+								<li><a href="#">مكياج</a></li>
+								<li class="partcular"><a href="#">العروض المميزة</a></li>
+							</ul>
+						</div>
+						<div class="recomend">
+							<div class="my_account dropdown" data-toggle="tooltip" data-placement="top" title="حسابي">
+								<a class="re_btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<img src="images/user.png" alt="user_icon">
+								</a>
+								<ul class="dropdown-menu reg_menu">
+									<li><a href="#">تسجيل الدخول</a></li>
+									<li><a href="#">تسجيل جديد</a></li>
+								</ul>
+							</div>
+
+							<div class="fav" data-toggle="tooltip" data-placement="top" title="المفضلة">
+								<a class="re_btn" href="#">
+									<img src="images/wish.png" alt="wish_icon">
+								</a>
+							</div>
+
+							<div class="cart" data-toggle="tooltip" data-placement="top" title="عربة التسوق">
+								<a class="re_btn" href="#">
+									<img src="images/cart.png" alt="cart_icon">
+								</a>
+							</div>
+							
+							<div class="search" data-toggle="tooltip" data-placement="top" title="البحث">
+								<button class="search_btn" data-toggle="modal" data-target=".bs-example-modal-sm">
+									<img src="images/search_sy.png" alt="search_icon">
+								</button>
+							</div>
+						</div>
+						<div class="mobile_nav">
+							<div class="mob_bar">
+								<button class="list" id="navbtn">
+									<i class="fas fa-bars"></i><span>القائمة الرئيسية</span> 
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<!--------------- start search modal ---------------->
+		<div class="modal fade bs-example-modal-sm over_mod" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true"><img src="images/search-close.png"></span>
+			</button>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="searchbox">
+						<input class="searchinput" id="search" placeholder="البحث" type="search">
+						<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------------- end search modal ---------------->
+		
+		<!-------------------start sidenav------------------->
+		<div id="mySidenav" class="sidenav">
+			<span href="#" class="closebtn">&times;</span>
+			<ul class="list-unstyled side_ul">
+				<li><a class="direct" href="#">الرئيسية</a></li>
+				<li><a class="direct" href="#">عن جوانا</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id8" aria-expanded="false">المنتجات</a>
+					<ul class="mob_menu list-unstyled collapse" id="id8">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">وصل حديثا</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ملابس وفساتين</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">إكسسوارات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ساعات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">شنط</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">أحذية</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">مكياج</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">العروض المميزة</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">معلومات الشحن والتوصيل</a></li>
+				<li><a class="direct" href="#">القائمة البريدية</a></li>
+				<li><a class="direct" href="#">اتصل بنا</a></li>
+			</ul>
+		</div>
+		<!-------------------end sidenav------------------->
+		
+		
+		<div class="slider">
+			<div class="container custom">
+				<div class="mainslider owl-carousel">
+					<div class="slideitem">
+						<img class="img-responsive" src="images/slider.jpg" alt="slider">
+					</div>
+					<div class="slideitem">
+						<img class="img-responsive" src="images/slider.jpg" alt="slider">
+					</div>
+					<div class="slideitem">
+						<img class="img-responsive" src="images/slider.jpg" alt="slider">
+					</div>
+					<div class="slideitem">
+						<img class="img-responsive" src="images/slider.jpg" alt="slider">
+					</div>
+					<div class="slideitem">
+						<img class="img-responsive" src="images/slider.jpg" alt="slider">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="our_parts">
+			<div class="container">
+				<div class="parts">
+					<div class="part">
+						<a href="#">
+							<div class="pa_photo">
+								<img class="img-responsive" src="images/io-1.png" alt="cat_icon">
+							</div>
+							<div class="pa_name">
+								ملابس وفساتين
+							</div>
+						</a>
+					</div>
+					<div class="part">
+						<a href="#">
+							<div class="pa_photo">
+								<img class="img-responsive" src="images/io-2.png" alt="cat_icon">
+							</div>
+							<div class="pa_name">
+								إكسسوارات
+							</div>
+						</a>
+					</div>
+					<div class="part">
+						<a href="#">
+							<div class="pa_photo">
+								<img class="img-responsive" src="images/io-3.png" alt="cat_icon">
+							</div>
+							<div class="pa_name">
+								ساعات
+							</div>
+						</a>
+					</div>
+					<div class="part">
+						<a href="#">
+							<div class="pa_photo">
+								<img class="img-responsive" src="images/io-4.png" alt="cat_icon">
+							</div>
+							<div class="pa_name">
+								شنط
+							</div>
+						</a>
+					</div>
+					<div class="part">
+						<a href="#">
+							<div class="pa_photo">
+								<img class="img-responsive" src="images/io-5.png" alt="cat_icon">
+							</div>
+							<div class="pa_name">
+								أحذية
+							</div>
+						</a>
+					</div>
+					<div class="part">
+						<a href="#">
+							<div class="pa_photo">
+								<img class="img-responsive" src="images/io-6.png" alt="cat_icon">
+							</div>
+							<div class="pa_name">
+								مكياج
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="products">
+			<div class="container">
+				<div class="pros_title">وصل حديثاً</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="pr_photo">
+							<img src="images/pro-1.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-2.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="pr_photo">
+							<img src="images/pro-3.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="pr_photo">
+							<img src="images/pro-4.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="pr_photo">
+							<img src="images/pro-5.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">	
+						<div class="pr_photo">
+							<img src="images/pro-1.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-2.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="banners">
+			<div class="banner">
+				<div class="ban_photo">
+					<img src="images/banner.jpg" class="img-responsive" alt="banner">
+				</div>
+				<div class="ban_info">
+					<div class="ban_title">منتجــات رائعــة بأسعــار مذهلــة</div>
+					<div class="ban_detail">لا تفوتك العروض والتخفيضات</div>
+					<a href="#" class="ban_shop">تسوقي الآن</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="products offers">
+			<div class="container">
+				<div class="pros_title">العروض المميزة</div>
+				<div class="prods">
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-6.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-7.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-8.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-9.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-10.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-11.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-12.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-13.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-14.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-15.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="view_more">
+					<a href="#" class="more">عرض المزيد</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="products offers_sm">
+			<div class="container">
+				<div class="pros_title">العروض المميزة</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="pr_photo">
+							<img src="images/pro-6.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-7.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="pr_photo">
+							<img src="images/pro-8.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="pr_photo">
+							<img src="images/pro-9.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="pr_photo">
+							<img src="images/pro-10.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">	
+						<div class="pr_photo">
+							<img src="images/pro-11.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-12.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-13.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-14.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item pro">
+						<div class="discount">40%</div>
+						<div class="pr_photo">
+							<img src="images/pro-15.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">اسم المنتج</a> 
+							</div>
+							<div class="price">
+								<div class="current">500 SAR</div>
+								<div class="past">820 SAR</div>
+							</div>
+						</div>
+						<div class="overlay">
+							<div class="actions">
+								<button class="act heart" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<img src="images/over-1.png" alt="wish_icon">
+								</button>
+								<button class="act add" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<img src="images/over-2.png" alt="cart_icon">
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="feats">
+							<div class="fe_photo">
+								<img class="img-responsive" src="images/f-1.png" alt="feature">
+							</div>
+							<div class="fe_detail">
+								<div class="fe_name">
+									منتجات مميزة
+								</div>
+								<div class="fe_info">
+									منتجات مميزة ومصممة بشكل إحترافي
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="feats">
+							<div class="fe_photo">
+								<img class="img-responsive" src="images/f-2.png" alt="feature">
+							</div>
+							<div class="fe_detail">
+								<div class="fe_name">
+									الشحن المجاني
+								</div>
+								<div class="fe_info">
+									شحن مجاني للطلبات أكثر من 1000 ريال
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="feats">
+							<div class="fe_photo">
+								<img class="img-responsive" src="images/f-3.png" alt="feature">
+							</div>
+							<div class="fe_detail">
+								<div class="fe_name">
+									الدفع عند الإستلام
+								</div>
+								<div class="fe_info">
+									الدفع عند الإستلام لجميع الطلبات
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="container">
+				<div class="foot_content">
+					<div class="logo">
+						<a href="#"><img class="img-responsive" src="images/foot_logo.png" alt="logo"></a>
+					</div>
+					<div class="social_naving">
+						<div class="social">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+						</div>
+						<div class="foot_naving">
+							<ul class="naving_bar list-unstyled list-inline">
+								<li><a href="#">وصل حديثا</a></li>
+								<li><a href="#">ملابس وفساتين</a></li>
+								<li><a href="#">إكسسوارات</a></li>
+								<li><a href="#">ساعات</a></li>
+								<li><a href="#">شنط</a></li>
+								<li><a href="#">أحذية</a></li>
+								<li><a href="#">مكياج</a></li>
+								<li><a href="#">العروض المميزة</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="copy_pay">
+					<div class="copy">
+						© جميع الحقوق محفوظة متجر جوانا 2018 - تصميم وتطوير <a class="ours" href="#"><img src="images/ours.png"></a>
+					</div>
+					<div class="pay">
+						<a href="#"><img src="images/pay.png" alt="payment" class="img-responsive"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html> 

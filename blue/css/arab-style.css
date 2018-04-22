@@ -1,0 +1,143 @@
+.top_nav .lang,.top_nav .social,.left_side
+{
+    float: left;
+}
+.top_nav .links
+{
+    float: right;
+}
+.top_nav .links ul > li > a
+{
+    margin-left: 20px;
+}
+.top_nav .links
+{
+    margin-right: 15px;
+}
+.caret
+{
+    margin-right: 2px;
+}
+.top_nav .lang a:first-child
+{
+    margin-right: 8px; 
+}
+.top_nav .social span a
+{
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.top_nav .lang
+{
+    margin-right: 33px;
+    margin-left: 20px;
+}
+.down_nav .recomend button .fa
+{
+    margin-left: 4px;
+}
+.down_nav .recomend button .fa-shopping-cart span
+{
+    left: 14px;
+}
+.down_nav .logo
+{
+    padding-right: 50px;
+}
+.down_nav .searchbar
+{
+    padding-right: 24px;
+}
+.down_nav .searchbar button
+{
+    left: 20px;
+}
+.main .nav > li > a
+{
+    padding-right: 19px;
+    padding-left: 19px;
+}
+.main .nav > li:last-child a
+{
+    margin-left: 0px;
+}
+
+.pro .info .price .current,.pro .info .price .past
+{
+    float: left;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.photo
+{
+    margin-right: 0;
+    margin-left: 13px;
+    float: right;
+}
+.join .form-group button
+{
+    left: 20px;
+}
+.join .form-group button
+{
+    right: 20px;
+}
+.features .detail
+{
+    float: right;
+}
+.dropdown-menu > li 
+{
+    padding-right: 10px;
+}
+.recomend
+{
+    text-align: left;
+}
+
+
+
+
+
+
+
+@media(max-width:991px)
+{
+     .top_nav .lang, .top_nav .social
+    {
+        float: none;
+    }
+    .down_nav .logo
+    {
+        padding-right: 0;
+    }
+    .down_nav .recomend button
+    {
+        margin-right: 19px;
+    }
+     .navbar-nav > li
+    {
+        padding-right: 12px;
+    }
+    .recomend
+    {
+        text-align: center;
+    }
+    .left_side
+    {
+        float: none;
+    }
+    .top_nav .lang a:first-child 
+    
+     {
+        margin-right: 0px;
+     }
+    .navbar-nav > li {
+        float: none;
+     }
+    .top_nav .lang
+    {
+        margin-right: 26px;
+        margin-left: 26px;
+    }
+}

@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Smart Mix</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-select.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-en.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+
+		<header>
+			<div class="top_nav">
+				<div class="container custom">
+					<div class="lang-bar">
+						<a href="index.html" role="button" data-toggle="tooltip" data-placement="bottom" title="عربي">
+							<img src="images/lang-ar.png" alt="lang-ar">
+						</a>
+						<a href="index-en.html" role="button" data-toggle="tooltip" data-placement="bottom" title="English">
+							<img src="images/lang-en.png" alt="lang-en">
+						</a>
+					</div>
+					<div class="top_bar">
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo2.png" alt="logo"></a>
+						</div>
+						<div class="search_cat">
+							<div class="categories">
+								<select class="selectpicker">
+									<option selected disabled>All Categories</option>
+									<option>Category 1</option>
+									<option>Category 2</option>
+									<option>Category 3</option>
+								</select>
+							</div>
+							<div class="searchbox">
+								<input class="searchinput" id="search" placeholder="Search" type="search">
+								<button class="search_icon" type="submit"><i class="fas fa-search"></i></button>
+							</div>
+						</div>
+						<div class="recomend">
+							<div class="fav">
+								<a class="re_btn" href="#">
+									<i class="fas fa-heart ic"></i> Wish List
+								</a>
+							</div>
+
+							<div class="my_account dropdown">
+								<a class="re_btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-user-circle ic"></i> My Account <i class="fas fa-chevron-down"></i>
+								</a>
+								<ul class="dropdown-menu reg_menu">
+									<li><a href="#">Log In</a></li>
+									<li><a href="#">Sign Up</a></li>
+								</ul>
+							</div>
+
+							<div class="cart">
+								<a class="re_btn" href="#">
+									<i class="fas fa-shopping-cart ic"></i> <span>0</span> SAR 0
+								</a>
+							</div>
+						</div>
+
+						<div class="mob_bar">
+							<button class="list" id="navbtn">
+								<i class="fas fa-bars"></i> <span>Main Menu</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="down_nav">
+				<div class="container">
+					<div class="down_bar">
+						<div class="cating">
+							<div class="c_title" data-toggle="collapse" data-target="#ida" aria-expanded="false">
+								<i class="fas fa-bars"></i>Categories
+							</div>
+							<div class="demo collapse in" id="ida">
+								<ul class="list-unstyled demo_ul">
+									<li class="demo_li">
+										<a class="d_sub" href="#">Clothes</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Accessories</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Cosmetics</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Shoes</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Bags</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Perfumes</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Kids Games</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Handmades</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Featured Designs</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Exclusive Products</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Food & Beverage</a>
+										<ul class="list-unstyled sub_list">
+											<li><a class="sub_item" href="#">Product 1</a></li>
+											<li><a class="sub_item" href="#">Product 2</a></li>
+											<li><a class="sub_item" href="#">Product 3</a></li>
+											<li><a class="sub_item" href="#">Product 4</a></li>
+											<li><a class="sub_item" href="#">Product 5</a></li>
+										</ul>
+									</li>
+									<li class="demo_li">
+										<a class="d_sub" href="#">Other</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="main_links">
+							<ul class="nav_bar list-unstyled list-inline">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">New Arrivals</a></li>
+								<li><a href="#">Offers</a></li>
+								<li><a href="#">Best Seller</a></li>
+								<li><a href="#">Shipping & Delivery</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<!-------------------start sidenav------------------->
+		<div id="mySidenav" class="sidenav">
+			<span href="#" class="closebtn">&times;</span>
+			<ul class="list-unstyled side_ul">
+				<li><a class="direct" href="#">Home</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id2" aria-expanded="false">Products Categories</a>
+					<ul class="mob_menu list-unstyled collapse" id="id2">
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id10" aria-expanded="false">Clothes</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id10">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id11" aria-expanded="false">Accessories</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id11">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id12" aria-expanded="false">Cosmetics</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id12">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id13" aria-expanded="false">Shoes</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id13">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id14" aria-expanded="false">Bags</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id14">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id15" aria-expanded="false">Perfumes</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id15">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id16" aria-expanded="false">Kids Games</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id16">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id17" aria-expanded="false">Handmades</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id17">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id18" aria-expanded="false">Featured Designs</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id18">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id19" aria-expanded="false">Exclusive Products</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id19">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item mob_pros" href="#" data-toggle="collapse" data-target="#id20" aria-expanded="false">Food & Beverage</a>
+							<ul class="list-unstyled mob_sub_list collapse" id="id20">
+								<li><a class="sublist_item" href="#">Product 1</a></li>
+								<li><a class="sublist_item" href="#">Product 2</a></li>
+								<li><a class="sublist_item" href="#">Product 3</a></li>
+								<li><a class="sublist_item" href="#">Product 4</a></li>
+								<li><a class="sublist_item" href="#">Product 5</a></li>
+							</ul>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Other</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">New Arrivals</a></li>
+				<li><a class="direct" href="#">Offers</a></li>
+				<li><a class="direct" href="#">Best Seller</a></li>
+				<li><a class="direct" href="#">Shipping & Delivery</a></li>
+				<li><a class="direct" href="#">About Us</a></li>
+				<li><a class="direct" href="#">Contact Us</a></li>
+			</ul>
+		</div>
+		<!-------------------end sidenav------------------->
+
+		<div class="our_content">
+			<div class="container custom">
+				<div class="row custom-1">
+					<div class="col-md-6 col-md-offset-3 custom-2">
+						<div class="mainslider owl-carousel">
+							<div class="slideitem">
+								<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+							</div>
+							<div class="slideitem">
+								<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+							</div>
+							<div class="slideitem">
+								<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+							</div>
+							<div class="slideitem">
+								<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+							</div>
+							<div class="slideitem">
+								<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+							</div>
+							<div class="slideitem">
+								<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 custom-3">
+						<div class="bans">
+							<div class="banner">
+								<a href="#">
+									<img src="images/banner-1.jpg" class="img-responsive" alt="banner">
+								</a>
+							</div>
+							<div class="banner">
+								<a href="#">
+									<img src="images/banner-2.jpg" class="img-responsive" alt="banner">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="products">
+			<div class="container">
+				<div class="heading">
+					<div class="he_title">Offers</div>
+					<a href="#" class="more">View All</a>
+				</div>
+				<div class="owl-carousel pro_slider owl-theme" id="pro_slider-1">
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-1.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-2.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-3.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-4.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-5.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-1.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="products">
+			<div class="container">
+				<div class="heading">
+					<div class="he_title">New Arrivals</div>
+					<a href="#" class="more">View All</a>
+				</div>
+				<div class="owl-carousel pro_slider owl-theme" id="pro_slider-2">
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-6.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-7.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-8.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-9.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-10.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-6.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="banners">
+			<div class="container">
+				<div class="banner">
+					<a href="#">
+						<img src="images/banner-3.jpg" class="img-responsive" alt="banner">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="products">
+			<div class="container">
+				<div class="heading">
+					<div class="he_title">Best Seller</div>
+					<a href="#" class="more">View All</a>
+				</div>
+				<div class="owl-carousel pro_slider owl-theme" id="pro_slider-3">
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-11.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-12.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-13.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-14.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-15.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-11.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									Product Name
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<a href="#" class="act" data-toggle="tooltip" data-placement="top" title="Watch">
+									<i class="fas fa-eye"></i>
+								</a>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="Wish List">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="feat one">
+							<div class="fe_photo">
+								<img src="images/feat-1.png" alt="feature_icon">
+							</div>
+							<div class="fe_name">original brands %100</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="feat two">
+							<div class="fe_photo">
+								<img src="images/feat-2.png" alt="feature_icon">
+							</div>
+							<div class="fe_name">0000 - 000 - 0000</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="feat three">
+							<div class="fe_photo">
+								<img src="images/feat-3.png" alt="feature_icon">
+							</div>
+							<div class="fe_name">Payment on Delivery</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="feat four">
+							<div class="fe_photo">
+								<img src="images/feat-4.png" alt="feature_icon">
+							</div>
+							<div class="fe_name">Replacement and Retrieval Policy</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#moh-1" aria-expanded="false">Information</h5>
+							<ul class="list-unstyled fast_ul collapse" id="moh-1">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Shipping & Delivery</a></li>
+								<li><a href="#">Privacy</a></li>
+								<li><a href="#">Terms of Use</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#moh-2" aria-expanded="false">Clients Service</h5>
+							<ul class="list-unstyled fast_ul collapse" id="moh-2">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Return Request</a></li>
+								<li><a href="#">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#moh-3" aria-expanded="false">Additions</h5>
+							<ul class="list-unstyled fast_ul collapse" id="moh-3">
+								<li><a href="#">Companies</a></li>
+								<li><a href="#">Gift Vouchers</a></li>
+								<li><a href="#">Commission System</a></li>
+								<li><a href="#">Special Offers</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#moh-4" aria-expanded="false">My Account</h5>
+							<ul class="list-unstyled fast_ul collapse" id="moh-4">
+								<li><a href="#">My Account</a></li>
+								<li><a href="#">My Requests</a></li>
+								<li><a href="#">Wish List</a></li>
+								<li><a href="#">Mailing List</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="connect_info">
+							<h5 class="title">Mailing List</h5>
+							<div class="join_intro">Subscribe to our mailing list to receive our new store</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter E-Mail">
+								<span class="changed"></span>
+								<button class="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+							</div>
+						</div>
+						<div class="social">
+							<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-youtube"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="copy_pay">
+					<div class="copy">
+						All Rights Reserved Smart Mix 2018 - Designed & Developed <a href="#">
+						<img src="images/ours.png"> TASWAK </a>
+					</div>
+					<div class="payment">
+						<a href="#">
+							<img src="images/pay.png" class="img-responsive" alt="payment">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-select.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html>

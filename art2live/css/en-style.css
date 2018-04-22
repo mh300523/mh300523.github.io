@@ -1,0 +1,81 @@
+header .mobile_nav .sidenav
+{
+    left: 0;
+}
+.lang > .dropdown-toggle
+{
+    padding-left: 19px;
+    padding-right: 16px;
+    text-align: left;
+}
+.lang > .dropdown-toggle > span 
+{
+    float: right;
+}
+header .social
+{
+    margin-right: 22px;
+}
+header .menu .direct .fa
+{
+    margin-left: 3px;
+}
+header .recomend .cart .fa span
+{
+    left: -8px;
+}
+header .mobile_nav .sidenav .closebtn {
+    right: 30px;
+}
+header .mobile_nav .list > span
+{
+    margin-left: 8px;
+}
+header .searchbox .search_icon
+{
+    right: 27px;
+}
+header .recomend .my_account > .fa,header .recomend .cart > .fa
+{
+    margin-right: 9px;
+}
+header .recomend .my_account
+{
+    margin-right: 11px;
+}
+header .recomend .cart
+{
+    margin-left: 10px;
+}
+header .main .dropdown-menu li > a
+{
+    margin-left: 15px;
+}
+header .down_nav .main .dir .fa
+{
+    margin-left: 3px;
+}
+.join .form-group .check
+{
+    right: 22px;
+}
+.footer_links li > a,.join h4
+{
+    font-size: 14px;
+}
+
+
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+    header .recomend .my_account
+    {
+        margin-right: 6px;
+    }
+    header .recomend .cart
+    {
+        margin-left: 6px;
+    }
+}

@@ -1,0 +1,194 @@
+body
+{
+	font-family: 'OpenSans';
+}
+header .mobile_nav .sidenav {
+	left: -290px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	left: 0;
+}
+header .mobile_nav .list > span
+{
+	left: 7px;
+	font-family: 'OpenSans-Bold';
+}
+.sidenav .closebtn {
+	right: 25px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+	padding-left: 70px;
+}
+.sidenav .mob_menu .mob_item
+{
+	font-family: 'OpenSans-Light';
+}
+.sidenav .direct.ar
+{
+	font-family: 'ITCHandelGothicArabicW23-Rg';
+}
+.sidenav .direct:after
+{
+	right: 35px;
+}
+header .our_mail
+{
+	margin-right: auto;
+	margin-left: 17px;
+}
+header .fa-phone,header .fa-envelope-o
+{
+	margin-right: 6px;
+}
+header .social
+{
+	padding-right: 13px;
+	border-right: 1px solid #585858;
+	direction: rtl;
+	margin-right: 18px;
+}
+header .lang .ar
+{
+	margin-left: 4px;
+}
+.nav_bar > li > a
+{
+	font-family: 'OpenSans-Semibold';
+}
+.search_icon
+{
+	right: 35px;
+}
+.heading
+{
+	font-family: 'OpenSans-Bold';
+}
+.sol .sol_title
+{
+	font-family: 'OpenSans-Bold';
+}
+.sol .more
+{
+	font-family: 'OpenSans-Italic';
+}
+.tst_detail .tst_title
+{
+	font-family: 'OpenSans-BoldItalic';
+}
+.tst_detail .tst_info
+{
+	font-family: 'OpenSans-Italic';
+}
+.foot_title
+{
+	font-family: 'OpenSans-Bold';
+}
+.join_us .form-group .check
+{
+	right: 7px;
+}
+.rights > a
+{
+	font-family: 'OpenSans-Bold';
+}
+
+/* start about */
+.who
+{
+	font-family: 'OpenSans-Semibold';
+}
+.who > span
+{
+	font-family: 'OpenSans';
+}
+.about_title
+{
+	font-family: 'OpenSans-Bold';
+}
+.feats_title
+{
+	font-family: 'OpenSans-Bold';
+}
+.feats.feature
+{
+	text-align: left;
+}
+.feats_detail
+{
+	margin-left: 25px;
+}
+.feats_info > ul
+{
+	padding-left: 18px;
+}
+.state_info
+{
+	font-family: 'OpenSans-Semibold';
+}
+/*end about */
+
+/*start careers */
+.cars .send_to
+{
+	font-family: 'OpenSans-Semibold';
+}
+#cv{
+	direction: ltr;
+}
+.show
+{
+	font-family: 'OpenSans-Bold';
+	right: 7px;
+}
+/*start careers */
+
+/*start clients */
+.navtabs > li > a
+{
+	font-family: 'OpenSans-Semibold';
+}
+/*end clients */
+
+/*start solution */
+.demos .de_title
+{
+	font-family: 'OpenSans-Bold';
+}
+.ils_head
+{
+	font-family: 'OpenSans-Bold';
+}
+.ils_feature .fe_name
+{
+	font-family: 'OpenSans-Bold';
+}
+.req_try
+{
+	font-family: 'OpenSans-Bold';
+}
+/*end solution */
+
+/*start contact */
+.inq_head
+{
+	font-family: 'OpenSans-Bold';
+}
+/*end contact */
+
+/*xs*/
+@media (max-width:767px)	
+{
+	header .mobile_nav .list
+	{
+		margin-left: 20px;
+	}
+	
+	/*start about */
+	.feats_detail
+	{
+		margin-left: 0;
+	}
+	/*end about */
+}

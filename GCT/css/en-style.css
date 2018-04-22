@@ -1,0 +1,160 @@
+.top_nav .links .nav > li:not(:first-child)
+{
+    margin-left: 25px;
+}
+.top_nav .links .dropdown .dropdown-toggle .fa-angle-down
+{
+    margin-left: 3px;
+}
+.communication .lang_social .lang
+{
+    margin-left: 35px;
+}
+.communication .lang_social .lang .ar
+{
+    margin-left: 8px;
+}
+.communication .lang_social,.communication .contact
+{
+    direction: rtl;
+}
+
+.communication .lang_social .social a
+{
+    margin-left: 15px;
+}
+.recomend
+{
+    text-align: right;
+}
+.recomend .fa-user-circle,.recomend .fa-shopping-cart
+{
+    margin-right: 8px;
+}
+.recomend .shopping
+{
+    margin-left: 5px;
+    padding-right: 0;
+}
+.recomend .my_account
+{
+    margin-right: 5px;
+}
+.down_nav .searchbar .searchbox .fa-search
+{
+    right: 0;
+}
+.products .pro .name h4
+{
+    margin-left: 29px;
+}
+.products .group-2 .pro_shop .detail
+{
+    margin-right: 35px;
+    margin-left: 33px;
+}
+.products .group-3 .pro_shop .detail
+{
+    padding-left: 44px;
+}
+.products .group-3 .pro_shop .detail .info
+{
+    margin-right: 53px;
+}
+.features .icon
+{
+    margin-left: 29px;
+    margin-right: 29px;
+}
+.join .form-group button
+{
+    right: 26px;
+}
+.footer .social
+{
+    direction: ltr;
+}
+.footer .social a
+{
+    margin-left: 22px;
+}
+.footer_links li a
+{
+    font-size: 11px;
+}
+.footer_links .title
+{
+    font-size: 14px;
+}
+.join h4
+{
+    font-size: 13px;
+}
+
+
+
+ @media (max-width: 1200px){
+    
+    .top_nav .links .nav > li:not(:first-child)
+     {
+         margin-left: 11px;
+     }
+     .products .group-2 .pro_shop .detail
+     {
+         margin-right: 0;
+         margin-left: 20px;
+     }
+}
+
+
+
+
+@media(max-width:991px)
+{
+    .communication .lang_social .lang
+    {
+        margin-left: 0;
+    }
+    .communication .lang_social .social a
+    {
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+    }
+    .navbar-toggle
+    {
+        float: left;
+    }
+    .navbar-toggle .fa-bars
+    {
+        margin-right: 5px;
+    }
+    .nav
+    {
+        margin-left: 23px;
+    }
+    .products .group-2 .pro_shop .detail .heading a
+    {
+        font-size: 16px;
+    }
+    .top_nav .links .nav > li:not(:first-child)
+    {
+        margin-left: 0;
+    }
+    .products .group-3 .pro_shop .detail .info
+    {
+        margin-right: 0;
+    }
+    .products .group-3 .pro_shop .detail
+    {
+        padding-left: 0;
+    }
+    .products .group-2 .pro_shop .detail
+    {
+        margin-left: 0;
+    }
+    .footer .social a
+    {
+        margin-right: 11px;
+        margin-left: 11px;
+    }
+}

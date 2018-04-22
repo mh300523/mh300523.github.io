@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'neosans Bold';
+    src: url('../fonts/NeoSansArabic-Bold.eot');
+    src: url('../fonts/NeoSansArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeoSansArabic-Bold.woff2') format('woff2'),
+        url('../fonts/NeoSansArabic-Bold.woff') format('woff'),
+        url('../fonts/NeoSansArabic-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'neosans';
+    src: url('../fonts/NeoSansArabic.eot');
+    src: url('../fonts/NeoSansArabic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeoSansArabic.woff2') format('woff2'),
+        url('../fonts/NeoSansArabic.woff') format('woff'),
+        url('../fonts/NeoSansArabic.ttf') format('truetype');
+}
+body
+{
+    font-family: 'neosans';
+}
+a:focus,button:focus,input:focus,a:hover
+{
+    outline: none;
+    text-decoration: none;
+}
+
+.modal-dialog
+{
+    margin: 50px auto;
+    width: 988px;
+}
+.modal-content
+{
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    background-image: url(../images/back.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.modal-header
+{
+    border-bottom: 0;
+    padding: 25px;
+}
+.modal-header .close
+{
+    font-size: 30px;
+    color: #28324e;
+    border: 1px solid #28324e;
+    padding: 0;
+    width: 38px;
+    height: 38px;
+    transition: 0.5s ease;
+}
+.modal-header .close:hover
+{
+    color: #ef8221;
+    border-color: #ef8221;
+}
+.modal-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 0;
+    margin: auto;
+}
+.modal-body .title
+{
+    font-size: 36px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(right,#dd5a25,#ef8221); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(right,#dd5a25,#ef8221); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(right,#dd5a25,#ef8221); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(right,#dd5a25,#ef8221); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(right,#dd5a25,#ef8221); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 30px 0;
+    padding: 0 15px;
+    line-height: 45px;
+    width: 50%;
+}
+.modal-body .go
+{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right,#dd5a25,#ef8221); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#dd5a25,#ef8221); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#dd5a25,#ef8221); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(right,#dd5a25,#ef8221); /* Standard syntax */
+    border: 0;
+    width: 231px;
+    height: 69px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+
+@media (max-width: 991px){
+    .modal-dialog 
+    {
+        width: auto;
+    }
+    .modal
+    {
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+    .modal-body .title
+    {
+        width: 100%;
+    }
+}
+  
+    

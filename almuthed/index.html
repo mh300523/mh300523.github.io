@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Al Muthed</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+		
+		<header>
+			<div class="top_nav">
+				<div class="container custom">
+					<div class="top_bar">
+						<div class="contact">
+							<div class="whats">
+								<i class="fab fa-whatsapp"></i> 0558 18008
+							</div>
+							<div class="our_mail">
+								<i class="far fa-envelope"></i> th.almuthed@gmail.com
+							</div>
+						</div>
+					</div>
+					<div class="down_bar">
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						
+						<div class="searchbox">
+							<input class="searchinput" id="search" placeholder="اكتب ما تبحث عنه هنا..." type="search">
+							<span class="changed"></span>
+							<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+						</div>
+						
+						<div class="recomend">
+							<div class="my_account dropdown">
+								<button class="re_btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-user"></i>
+									حسابي
+								</button>
+								<ul class="dropdown-menu reg_menu">
+									<li><a href="#">تسجيل الدخول</a></li>
+									<li><a href="#">تسجيل جديد</a></li>
+								</ul>
+							</div>
+
+							<div class="cart">
+								<button class="re_btn">
+									<i class="fas fa-shopping-cart"></i> SAR 0
+								</button>
+							</div>
+						</div>
+						
+						<div class="mobile_nav">
+							<div id="mySidenav" class="sidenav">
+								<span href="#" class="closebtn">&times;</span>
+								<ul class="list-unstyled">
+									<li><a class="direct" href="#">الرئيسية</a></li>
+									<li><a class="direct" href="#">أقمشة</a></li>
+									<li><a class="direct" href="#">بضائع مخفضة</a></li>
+									<li><a class="direct" href="#">أشمغة وغتر</a></li>
+									<li class="mob_cat">
+										<a class="direct" href="#">ملابس</a>
+										<ul class="mob_menu list-unstyled">
+											<li class="sub_cat">
+												<a class="mob_item" href="#">ملابس داخلية</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">ثياب جاهزة</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">ثياب منزلية</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">قمصان</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">تيشيرتات</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">بناطيل</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">بوكسرات</a>
+											</li>
+										</ul>
+									</li>
+									<li><a class="direct" href="#">طواقي وعقالات</a></li>
+									<li><a class="direct" href="#">اكسسوارات</a></li>
+									<li><a class="direct" href="#">أحذية</a></li>
+									<li><a class="direct" href="#">عطور</a></li>
+									<li><a class="direct" href="#">جوارب</a></li>
+									<li><a class="direct" href="#">مناشف</a></li>
+									<li><a class="direct" href="#">العناية الشخصية</a></li>
+								</ul>
+							</div>
+							<div class="mob_bar">
+								<button class="list" id="navbtn">
+									<i class="fas fa-bars"></i><span>القائمة الرئيسية</span> 
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="down_nav">
+				<div class="container">
+					<div class="main_links">
+						<ul class="nav_bar list-unstyled list-inline">
+							<li><a href="#">الرئيسية</a></li>
+							<li><a href="#">أقمشة</a></li>
+							<li><a href="#">بضائع مخفضة</a></li>
+							<li><a href="#">أشمغة وغتر</a></li>
+							<li class="dropdown dir">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ملابس</a>
+								<ul class="dropdown-menu pro_menu">
+									<li>
+										<a class="sub" href="#">ملابس داخلية</a>
+									</li>
+									<li>
+										<a class="sub" href="#">ثياب جاهزة</a>
+									</li>
+									<li>
+										<a class="sub" href="#">ثياب منزلية</a>
+									</li>
+									<li>
+										<a class="sub" href="#">قمصان</a>
+									</li>
+									<li>
+										<a class="sub" href="#">تيشيرتات</a>
+									</li>
+									<li>
+										<a class="sub" href="#">بناطيل</a>
+									</li>
+									<li>
+										<a class="sub" href="#">بوكسرات</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">طواقي وعقالات</a></li>
+							<li><a href="#">اكسسوارات</a></li>
+							<li><a href="#">أحذية</a></li>
+							<li><a href="#">عطور</a></li>
+							<li><a href="#">جوارب</a></li>
+							<li><a href="#">مناشف</a></li>
+							<li><a href="#">العناية الشخصية</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="features lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="feat">
+							<div class="f_icon hvr-radial-out">
+								<i class="fas fa-exchange-alt"></i>
+							</div>
+							<div class="detail">
+								نضمن استبدال واسترجاع المنتج وقيمة
+								المشتريات خلال ثلاثة أيام
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="feat">
+							<div class="f_icon hvr-radial-out">
+								<i class="fas fa-phone-volume"></i>
+							</div>
+							<div class="detail">
+								للتواصل مع الإدارة
+								<br>ساعات العمل من 5 م حتى 10 م
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="feat">
+							<div class="f_icon hvr-radial-out">
+								<i class="fas fa-truck"></i>
+							</div>
+							<div class="detail">
+								التوصيل والشحن لأي مكان
+								<br>نقوم بخدمتكم في جميع أنحاء المملكة
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="sl_ban">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-8 col-sm-push-4 custom">
+						<div class="mainslider owl-carousel">
+							<div class="slideitem">
+								<img class="img-responsive" src="images/slider.jpg">
+							</div>
+							<div class="slideitem">
+								<img class="img-responsive" src="images/slider.jpg">
+							</div>
+							<div class="slideitem">
+								<img class="img-responsive" src="images/slider.jpg">
+							</div>
+							<div class="slideitem">
+								<img class="img-responsive" src="images/slider.jpg">
+							</div>
+							<div class="slideitem">
+								<img class="img-responsive" src="images/slider.jpg">
+							</div>
+							<div class="slideitem">
+								<img class="img-responsive" src="images/slider.jpg">
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-4 col-sm-pull-8">
+						<div class="bans">
+							<div class="banner">
+								<a href="#">
+									<img src="images/banner-1.jpg" class="img-responsive" alt="banner">
+								</a>
+							</div>
+							
+							<div class="banner">
+								<a href="#">
+									<img src="images/banner-2.jpg" class="img-responsive" alt="banner">
+								</a>
+							</div>
+							
+							<div class="banner">
+								<a href="#">
+									<img src="images/banner-3.jpg" class="img-responsive" alt="banner">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="products">
+			<div class="container">
+				<div class="heading">
+					<div class="pros_title">العروض المميزة</div>
+					<a class="view_all" href="#">عرض الكل</a>
+				</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="discount">14%</div>
+						<div class="photo">
+							<img src="images/pro-1.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">شماغ اليشمك Y8</a> 
+							</div>
+							<div class="price">
+								<div class="current">155 SAR</div>
+								<div class="past">180 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">15%</div>
+						<div class="photo">
+							<img src="images/pro-2.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">شماغ اليشمك Y6</a> 
+							</div>
+							<div class="price">
+								<div class="current">155 SAR</div>
+								<div class="past">180 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">25%</div>
+						<div class="photo">
+							<img src="images/pro-3.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">حذاء نايك COURT ROYALE</a> 
+							</div>
+							<div class="price">
+								<div class="current">155 SAR</div>
+								<div class="past">180 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-4.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">حذاء نايك AIR RELENTLESS6</a> 
+							</div>
+							<div class="price">
+								<div class="current">155 SAR</div>
+								<div class="past">180 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="products">
+			<div class="container">
+				<div class="heading">
+					<div class="pros_title">أضيف مؤخراً</div>
+					<a class="view_all" href="#">عرض الكل</a>
+				</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-5.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">حذاء FASHION رجالي</a> 
+							</div>
+							<div class="price">
+								<div class="current">115 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-6.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">حذاء HFHW رجالي</a> 
+							</div>
+							<div class="price">
+								<div class="current">150 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-7.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">حذاء HFHW رجالي</a> 
+							</div>
+							<div class="price">
+								<div class="current">87 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-8.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">حذاء HFHW رجالي</a> 
+							</div>
+							<div class="price">
+								<div class="current">87 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="banners">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="banner">
+							<a href="#">
+								<img src="images/banner-4.jpg" class="img-responsive" alt="banner">
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="banner">
+							<a href="#">
+								<img src="images/banner-5.jpg" class="img-responsive" alt="banner">
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="banner">
+							<a href="#">
+								<img src="images/banner-6.jpg" class="img-responsive" alt="banner">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="products">
+			<div class="container">
+				<div class="heading">
+					<div class="pros_title">الأكثر مبيعاً</div>
+					<a class="view_all" href="#">عرض الكل</a>
+				</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-9.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">شماغ البسام بصمة 3</a> 
+							</div>
+							<div class="price">
+								<div class="current">145 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">52%</div>
+						<div class="photo">
+							<img src="images/pro-10.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">فانلة داخلية دائري - دروش VIP</a> 
+							</div>
+							<div class="price">
+								<div class="current">9 SAR</div>
+								<div class="past">20 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-11.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">شماغ البسام ختم أسود عادي</a> 
+							</div>
+							<div class="price">
+								<div class="current">55 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-12.jpg" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">شماغ البسام ختم أسود شلش</a> 
+							</div>
+							<div class="price">
+								<div class="current">55 SAR</div>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مقارنة">
+									<i class="fas fa-exchange-alt"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للمفضلة">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="features sm">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="feat">
+							<div class="f_icon hvr-radial-out">
+								<i class="fas fa-exchange-alt"></i>
+							</div>
+							<div class="detail">
+								نضمن استبدال واسترجاع المنتج وقيمة
+								المشتريات خلال ثلاثة أيام
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="feat">
+							<div class="f_icon hvr-radial-out">
+								<i class="fas fa-phone-volume"></i>
+							</div>
+							<div class="detail">
+								للتواصل مع الإدارة
+								<br>ساعات العمل من 5 م حتى 10 م
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="feat">
+							<div class="f_icon hvr-radial-out">
+								<i class="fas fa-truck"></i>
+							</div>
+							<div class="detail">
+								التوصيل والشحن لأي مكان
+								<br>نقوم بخدمتكم في جميع أنحاء المملكة
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="connect_info">
+							<h5 class="title">متجر المتحد</h5>
+							<div class="foot_intro">
+								هو أحد منافذ البيع لدى مؤسسة ذوق المتحد التجارية
+								المتخصصة في مجال المستلزمات الرجالية .. والتي نشأت في
+								مدينة عنيزة عام 1434 هـ على أيدي سعودية وتمتلك عدداً من
+								المتاجر التقليدية بالإضافة إلى خدمات التوزيع والبيع بالجملة
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title">معلومات</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">معلومات الشحن والتوصيل</a></li>
+								<li><a href="#">الخصوصية</a></li>
+								<li><a href="#">شروط الإستخدام</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title">خدمة العملاء</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">اتصل بنا</a></li>
+								<li><a href="#">إرجاع الطلب</a></li>
+								<li><a href="#">خريطة الموقع</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title">اضافات</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">الشركات</a></li>
+								<li><a href="#">قسائم الهدايا</a></li>
+								<li><a href="#">نظام العمولة</a></li>
+								<li><a href="#">العروض المميزة</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title">حسابي</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">حسابي</a></li>
+								<li><a href="#">طلباتي</a></li>
+								<li><a href="#">قائمة رغباتي</a></li>
+								<li><a href="#">القائمة البريدية</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="pay_part">
+					<div class="patner">
+						<a href="#">
+							<img src="images/maroof.png" class="img-responsive" alt="image">
+						</a>
+					</div>
+					<div class="payment">
+						<a href="#">
+							<img src="images/payment.png" class="img-responsive" alt="payment">
+						</a>
+					</div>
+					<div class="social">
+						<a href="#"><img src="images/snap.png" alt="snap_icon"></a>
+						<a href="#"><img src="images/insta.png" alt="instgram_icon"></a>
+						<a href="#"><img src="images/twt.png" alt="twitter_icon"></a>
+						<a href="#"><img src="images/face.png" alt="facebook_icon"></a>
+					</div>
+				</div>
+				<div class="copy_right">
+					<div class="copy">
+						© متجر المتحد (مؤسسة ذوق المتحد التجارية) 2018 
+					</div>
+					<div class="rights">
+						تصميم وتطوير <a class="ours" href="#"><img src="images/ours.png"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html> 

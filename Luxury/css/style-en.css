@@ -1,0 +1,110 @@
+header .mobile_nav .sidenav {
+	left: -290px;
+}
+header .mobile_nav .list > span
+{
+	left: 7px;
+}
+header .mobile_nav .sidenav .closebtn {
+	right: 20px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	left: 0;
+}
+header .lang .ar {
+    margin-right: 8px;
+}
+header .social
+{
+	margin-right: 15px;
+}
+.social > a
+{
+	margin-right: 4px;
+}
+header .main_bar
+{
+	margin-right: 22px;
+}
+header .searchbox .search_icon
+{
+    right: 21px;
+}
+header .searchbox .searchinput
+{
+    border-bottom-left-radius: 24px;
+	border-top-left-radius: 24px;
+}
+.mainslider2 .content_item
+{
+	direction: ltr;
+}
+.slider2 .down
+{
+	border-bottom-right-radius:50px ;
+	border-top-right-radius: 50px;
+}
+.slider2 .talk
+{
+	margin-right: 45px;
+}
+.slider2 .talk .more
+{
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+}
+.mainslider2 .owl-dots
+{
+    left: 0;
+}
+.join .form-group .check
+{
+	right: 9px;
+}
+footer .intro
+{
+	padding-right: 28px;
+}
+footer .contact_info > li > .fa
+{
+	margin-right: 15px;
+}
+
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+	header .main_bar > li
+	{
+		padding: 7px;
+	}
+	.main_bar > li > a
+	{
+		font-size: 12px;
+	}
+}
+
+
+
+
+@media(max-width:991px)
+{
+	.slider2 .talk
+	{
+		margin-right: 0;
+	}
+	footer .intro
+	{
+		padding-right: 0;
+	}
+	.slider2 .down
+	{
+		border-radius: 0;
+	}
+	footer .contact_info > li > .fa
+	{
+		margin-right: 0;
+	}
+}

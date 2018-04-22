@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+        <meta charset="utf-8">
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>مصاعد</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-ar.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+    </head>
+    <body>
+    
+    <header>
+    	<div class="top_nav">
+    		<div class="container">
+    			<div class="top_bar">
+    				<div class="first_side">
+    					<div class="mobile_nav">
+							<div id="mySidenav" class="sidenav">
+								<span href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+									<img src="images/close.png" alt="close">
+								</span>
+								<div class="logo">
+									<a href="#"><img class="img-responsive" src="images/side-logo.png" alt="logo"></a>
+								</div>
+								
+								<!-- start of menu for large size-->
+								
+								<ul class="list-unstyled links">
+									<li><a class="direct" href="#">الرئيسية</a></li>
+									<li class="dropdown expand">
+									  <a href="#" class="dropdown-toggle direct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">من نحن</a>
+									  <ul class="dropdown-menu drop_menu">
+										<li><a href="#">القهوة</a></li>
+										<li><a href="#">مكس باودر</a></li>
+										<li><a href="#">صوص</a></li>
+										<li><a href="#">النكهات</a></li>
+										<li><a href="#">شاي</a></li>
+										<li><a href="#">سموزي</a></li>
+									  </ul>
+									</li>
+									<li class="dropdown expand">
+									  <a href="#" class="dropdown-toggle direct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">منتجاتنا</a>
+									  <ul class="dropdown-menu drop_menu">
+										<li><a href="#">القهوة</a></li>
+										<li><a href="#">مكس باودر</a></li>
+										<li><a href="#">صوص</a></li>
+										<li><a href="#">النكهات</a></li>
+										<li><a href="#">شاي</a></li>
+										<li><a href="#">سموزي</a></li>
+									  </ul>
+									</li>
+									<li class="dropdown expand">
+									  <a href="#" class="dropdown-toggle direct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">مشاريعنا</a>
+									  <ul class="dropdown-menu drop_menu">
+										<li><a href="#">القهوة</a></li>
+										<li><a href="#">مكس باودر</a></li>
+										<li><a href="#">صوص</a></li>
+										<li><a href="#">النكهات</a></li>
+										<li><a href="#">شاي</a></li>
+										<li><a href="#">سموزي</a></li>
+									  </ul>
+									</li>
+									<li class="expand">
+									  <a href="#" class="direct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">خدماتنا</a>
+									  <ul class="dropdown-menu drop_menu">
+										<li><a href="#">صيانة</a></li>
+										<li><a href="#">تركيب</a></li>
+										<li><a href="#">قطع غيار</a></li>
+										<li><a href="#">ما بعد البيع</a></li>
+										<li><a href="#">استشارات هندسية</a></li>
+										<li class="dropdown sub_expand">
+										  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">حلول متكاملة</a>
+										  <ul class="dropdown-menu sub">
+											<li><a href="#">مصاعد خارجية</a></li>
+											<li><a href="#">أبراج حديدية</a></li>
+											<li class="dropdown sub_expand2">
+											  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+											  متعدد المداخل</a>
+											  <ul class="dropdown-menu sub2">
+												<li><a href="#">مدخلين متقابلين</a></li>
+												<li><a href="#">مدخلين متجاورين</a></li>
+												<li><a href="#">ثلاث مداخل</a></li>
+											  </ul>
+											</li>
+										  </ul>
+										</li>
+									  </ul>
+									</li>
+									<li class="dropdown expand">
+									  <a href="#" class="dropdown-toggle direct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">اطلب</a>
+									  <ul class="dropdown-menu drop_menu">
+										<li><a href="#">القهوة</a></li>
+										<li><a href="#">مكس باودر</a></li>
+										<li><a href="#">صوص</a></li>
+										<li><a href="#">النكهات</a></li>
+										<li><a href="#">شاي</a></li>
+										<li><a href="#">سموزي</a></li>
+									  </ul>
+									</li>
+									<li class="dropdown expand">
+									  <a href="#" class="dropdown-toggle direct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">معرضنا</a>
+									  <ul class="dropdown-menu drop_menu">
+										<li><a href="#">القهوة</a></li>
+										<li><a href="#">مكس باودر</a></li>
+										<li><a href="#">صوص</a></li>
+										<li><a href="#">النكهات</a></li>
+										<li><a href="#">شاي</a></li>
+										<li><a href="#">سموزي</a></li>
+									  </ul>
+									</li>
+									<li><a class="direct" href="#">عروض</a></li>
+									<li><a class="direct" href="#">التوظيف</a></li>
+									<li><a class="direct" href="#">اتصل بنا</a></li>
+								</ul>
+								
+								<!-- end of menu for large size-->
+								
+								
+								<!-- start of menu for small size-->
+								
+								<ul class="list-unstyled links_sm">
+									<li><a class="dir" href="#">الرئيسية</a></li>
+									<li class="mob_cat">
+										<a class="dir" href="#">من نحن</a>
+										<ul class="mob_menu list-unstyled">
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+										</ul>
+									</li>
+									<li class="mob_cat">
+										<a class="dir" href="#">منتجاتنا</a>
+										<ul class="mob_menu list-unstyled">
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+										</ul>
+									</li>
+									<li class="mob_cat">
+										<a class="dir" href="#">مشاريعنا</a>
+										<ul class="mob_menu list-unstyled">
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+										</ul>
+									</li>
+									<li class="mob_cat">
+										<a class="dir" href="#">خدماتنا</a>
+										<ul class="mob_menu list-unstyled">
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">صيانة</a>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">تركيب</a>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">قطع غيار</a>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">ما بعد البيع</a>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">استشارات هندسية</a>
+                                        </li>
+                                        <li class="sub_cat sub1">
+                                            <a class="mob_item" href="#">حلول متكاملة</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">مصاعد خارجية</a></li>
+                                               <li><a class="sub_cat_item" href="#">أبراج حديدية</a></li>
+                                               <li class="sub2">
+                                               		<a class="sub_cat_item" href="#">متعدد المداخل</a>
+                                               		<ul class="list-unstyled sub_cat_menu2">
+													   <li><a class="sub_cat_item2" href="#">مدخلين متقابلين</a></li>
+													   <li><a class="sub_cat_item2" href="#">مدخلين متجاورين</a></li>
+													   <li><a class="sub_cat_item2" href="#">ثلاث مداخل</a></li>
+													</ul>
+                                               </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+									</li>
+									<li class="mob_cat">
+										<a class="dir" href="#">اطلب</a>
+										<ul class="mob_menu list-unstyled">
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+										</ul>
+									</li>
+									<li class="mob_cat">
+										<a class="dir" href="#">معرضنا</a>
+										<ul class="mob_menu list-unstyled">
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+											<li class="sub_cat">
+												<a class="mob_item" href="#">مصاعد</a>
+											</li>
+										</ul>
+									</li>
+									<li><a class="dir" href="#">عروض</a></li>
+									<li><a class="dir" href="#">التوظيف</a></li>
+									<li><a class="dir" href="#">اتصل بنا</a></li>
+								</ul>
+								
+								
+								<!-- end of menu for small size-->
+								
+								<div class="search_lang">
+									<div class="search_modal">
+										<button class="search" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+										<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+										  <div class="modal-dialog modal-sm" role="document">
+											<div class="modal-content">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">
+												   <img src="images/modal-close.png"></span>
+													   </button>
+												<div class="searchbox">
+												  <input class="searchinput" id="search" placeholder="كلمة البحث" type="search">
+													<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+												</div>
+											</div>
+										  </div>
+										</div>
+									</div>
+									<div class="lang">
+									   <a class="en" href="index-en.html">EN</a>
+									</div>
+									
+									<div class="contact">
+										<i class="fa fa-phone" aria-hidden="true"></i>920006053
+									</div>
+								</div>
+								
+								
+							</div>
+							<div class="mob_bar">
+								<button id="navbtn" class="list">
+									<img src="images/bar.png" alt="bar"> 
+								</button>
+							</div>
+						</div>
+   						<div class="logo_lg">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+    				</div>
+    				<div class="second_side">
+    					<div class="contact">
+    						<i class="fa fa-phone" aria-hidden="true"></i>920006053
+    					</div>
+    					<div class="search_modal">
+    						<button class="search" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    
+							<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+							  <div class="modal-dialog modal-sm" role="document">
+								<div class="modal-content">
+							  		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">
+									   <img src="images/modal-close.png"></span>
+										   </button>
+									<div class="searchbox">
+									  <input class="searchinput" id="search" placeholder="كلمة البحث" type="search">
+										<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+									</div>
+								</div>
+							  </div>
+							</div>
+    					</div>
+    					<div class="lang">
+						   <a class="en" href="index-en.html">EN</a>
+						</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </header>
+    
+    
+    
+    <!--slider-->
+    <div class="slider">
+		<div class="mainslider owl-carousel">
+			  <div class="slideitem"> <img class="img-responsive" src="images/slider.jpg"></div>
+			  <div class="slideitem"><img class="img-responsive" src="images/slider.jpg"> </div>
+			  <div class="slideitem"><img class="img-responsive" src="images/slider.jpg">  </div>
+			  <div class="slideitem"><img class="img-responsive" src="images/slider.jpg">  </div>
+		</div>
+    </div>
+    <!--end slider-->
+    
+    
+    
+    
+    <div class="about">
+    	<div class="container">
+    		<div class="content">
+				<div class="info">
+					<div class="about_us">
+						<div class="heading">
+							<h3>مصاعد الجزيرة</h3>
+						</div>
+						<div class="detail">
+							<div class="present">
+								هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوي المقروء لصفحة ما سيلهي القارئ عن الترطيز علي  الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقراها.
+							</div>
+							<a href="#" class="more">اقرأ المزيد</a>
+						</div>
+					</div>
+					<div class="features">
+						<div class="feature">
+							<div class="photo">
+								<a href="#">
+									<img class="img-responsive" src="images/form-1.png" alt="work-1">
+								</a>
+							</div>
+							<div class="name">
+								<a href="#">خدمات الصيانة</a>
+							</div>
+						</div>
+
+						<div class="feature">
+							<div class="photo">
+								<a href="#">
+									<img class="img-responsive" src="images/form-2.png" alt="work-1">
+								</a>
+							</div>
+							<div class="name">
+								<a href="#">خدمات التركيب</a>
+							</div>
+						</div>
+
+						<div class="feature">
+							<div class="photo">
+								<a href="#">
+									<img class="img-responsive" src="images/form-3.png" alt="work-1">
+								</a>
+							</div>
+							<div class="name">
+								<a href="#">خدمات ما بعد البيع</a>
+							</div>
+						</div>
+
+						<div class="feature">
+							<div class="photo">
+								<a href="#">
+									<img class="img-responsive" src="images/form-4.png" alt="work-1">
+								</a>
+							</div>
+							<div class="name">
+								<a href="#">إستشارات هندسية</a>
+							</div>
+						</div>
+
+						<div class="feature">
+							<div class="photo">
+								<a href="#">
+									<img class="img-responsive" src="images/form-5.png" alt="work-1">
+								</a>
+							</div>
+							<div class="name">
+								<a href="#">قطع الغيار</a>
+							</div>
+						</div>
+
+						<div class="feature">
+							<div class="photo">
+								<a href="#">
+									<img class="img-responsive" src="images/form-6.png" alt="work-1">
+								</a>
+							</div>
+							<div class="name">
+								<a href="#">حلول متكاملة</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="frame">
+					<a href="https://www.youtube.com/watch?v=djlx7xdwlpI" data-fancybox>
+					  <img src="images/video.jpg" alt="video" class="img-responsive">
+					</a>
+				</div>
+    		</div>
+    	</div>
+    </div>
+    
+    
+    <div class="banner">
+    	<div class="over"></div>
+    	<div class="container">
+    		<div class="ban">
+				<div class="detail">
+					<a href="#">السلالم والمشايات الكهربائية</a>
+				</div>
+   			</div>
+    	</div>
+    </div>
+    
+    
+    
+    <div class="gallery">
+    	<div class="container">
+    		<h4 class="title">معرضنا</h4>
+    		<div class="gal">
+				<div class="pro">
+					<div class="photo">
+						<img src="images/pro-1.png" alt="gallery" class="img-responsive">
+						<div class="overlay">
+						   <a href="images/pro-1.png" data-caption="image 1" data-fancybox="image" class="add_to">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+						   </a>
+						</div>
+					</div>
+					<h3 class="name">الأبواب</h3>
+					<div class="view">
+						<a href="images/pro-1.png" data-caption="image 1" data-fancybox="image">
+						   <img src="images/pro-1.png" class="img-responsive">
+						</a>
+					</div>
+				</div>
+   		
+   				<div class="pro">
+					<div class="photo">
+						<img src="images/pro-2.png" alt="gallery" class="img-responsive">
+						<div class="overlay">
+						   <a href="images/pro-2.png" data-caption="image 2" data-fancybox="image" class="add_to">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+						   </a>
+						</div>
+					</div>
+					<h3 class="name">لوحات الطلب</h3>
+					<div class="view">
+						<a href="images/pro-2.png" data-caption="image 2" data-fancybox="image">
+						   <img src="images/pro-2.png" class="img-responsive">
+						</a>
+					</div>
+				</div>
+   		
+   		
+   				<div class="pro">
+					<div class="photo">
+						<img src="images/pro-3.png" alt="gallery" class="img-responsive">
+						<div class="overlay">
+						   <a href="images/pro-3.png" data-caption="image 3" data-fancybox="image" class="add_to">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+						   </a>
+						</div>
+					</div>
+					<h3 class="name">المكائن</h3>
+					<div class="view">
+						<a href="images/pro-3.png" data-caption="image 3" data-fancybox="image">
+						   <img src="images/pro-3.png" class="img-responsive">
+						</a>
+					</div>
+				</div>
+   		
+   				<div class="pro">
+					<div class="photo">
+						<img src="images/pro-4.png" alt="gallery" class="img-responsive">
+						<div class="overlay">
+						   <a href="images/pro-4.png" data-caption="image 4" data-fancybox="image" class="add_to">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+						   </a>
+						</div>
+					</div>
+					<h3 class="name">لوحات التحكم</h3>
+					<div class="view">
+						<a href="images/pro-4.png" data-caption="image 4" data-fancybox="image">
+						   <img src="images/pro-4.png" class="img-responsive">
+						</a>
+					</div>
+				</div>
+   		
+   		
+   				<div class="pro">
+					<div class="photo">
+						<img src="images/pro-5.png" alt="gallery" class="img-responsive">
+						<div class="overlay">
+						   <a href="images/pro-5.png" data-caption="image 5" data-fancybox="image" class="add_to">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+						   </a>
+						</div>
+					</div>
+					<h3 class="name">الكبائن</h3>
+					<div class="view">
+						<a href="images/pro-5.png" data-caption="image 5" data-fancybox="image">
+						   <img src="images/pro-5.png" class="img-responsive">
+						</a>
+					</div>
+				</div>
+   		
+   				<div class="pro">
+					<div class="photo">
+						<img src="images/pro-6.png" alt="gallery" class="img-responsive">
+						<div class="overlay">
+						   <a href="images/pro-6.png" data-caption="image 6" data-fancybox="image" class="add_to">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+						   </a>
+						</div>
+					</div>
+					<h3 class="name">قطع الغيار</h3>
+					<div class="view">
+						<a href="images/pro-6.png" data-caption="image 6" data-fancybox="image">
+						   <img src="images/pro-6.png" class="img-responsive">
+						</a>
+					</div>
+				</div>
+    		</div>
+    	</div>
+    </div>
+    
+    
+    
+    
+    <div class="order">
+    	<div class="container">
+    		<div class="heading">
+    			<h4>اطلب الآن</h4>
+    		</div>
+    		<div class="orders">
+    			<div class="request">
+    				<a href="#">عرض سعر</a>
+    			</div>
+    			
+    			<div class="request">
+    				<a href="#">عقد تركيب</a>
+    			</div>
+    			
+    			<div class="request">
+    				<a href="#">عقد صيانة</a>
+    			</div>
+    			
+    			<div class="request">
+    				<a href="#">استيراد كامل</a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    
+    
+    
+    
+    <div class="join_us">
+    	<div class="container">
+    		<div class="join">
+    			<div class="pic">
+    				<img src="images/envelope.png" alt="envelope">
+    			</div>
+    			<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="ادخل بريدك الإلكتروني للإشتراك في القائمة البريدية">
+					 <button class="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+				 </div>
+    		</div>
+    	</div>
+    </div>
+    
+    
+    <footer>
+    	<div class="footer_links">
+    		<div class="container">
+				<div class="footer_social">
+					<div class="logo">
+						<a href="#"><img class="img-responsive" src="images/side-logo.png" alt="logo"></a>
+					</div>
+					<div class="footer_nav">
+						<ul class="list-unstyled list-inline">
+							<li><a class="nk" href="#">الرئيسية</a></li>
+							<li><a class="nk" href="#">من نحن</a></li>
+							<li><a class="nk" href="#">منتجاتنا</a></li>
+							<li><a class="nk" href="#">مشاريعنا</a></li>
+							<li><a class="nk" href="#">خدماتنا</a></li>
+							<li><a class="nk" href="#">اطلب</a></li>
+							<li><a class="nk" href="#">معرضنا</a></li>
+							<li><a class="nk" href="#">عروض</a></li>
+							<li><a class="nk" href="#">التوظيف</a></li>
+							<li><a class="nk" href="#">اتصل بنا</a></li>
+						</ul>
+					</div>
+					<div class="social">
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+					</div>
+				</div>
+    		</div>
+    	</div>
+    	<div id="map" style="width: 100%; height: 233px;"></div>
+    	<div class="copyright">
+    		<div class="container">
+    			<div class="own_develop">
+					<div class="own">
+						&copy;جميع الحقوق محفوظة شركة الجزيرة للمصاعد 2017
+					</div>
+   					<div class="develop">
+   						تصميم وتطوير <a href="#">مؤسسة تسوق</a>
+   					</div>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+    
+   		<script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script type="text/javascript">
+            $("[data-fancybox]").fancybox({
+            });
+        </script>
+        <script src="js/plug.js"></script>
+    </body>
+</html>

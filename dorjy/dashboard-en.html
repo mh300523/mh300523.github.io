@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Dashboard</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-en.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+
+		<!--------------------------- start header ----------------------------->
+		<header>
+			<div class="top_nav">
+				<div class="container custom">
+					<div class="top_bar">
+						<div class="searchbox">
+							<input class="searchinput" id="search" placeholder="Search" type="search">
+							<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+						</div>
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						
+						<div class="recomend_cats">
+							<div class="dropdown drop_cats">
+								<a class="main_drop dropdown-toggle" role="button" data-toggle="dropdown"> 
+									Product Sections <i class="fas fa-chevron-down"></i></a>
+								<ul class="dropdown-menu pro_menu">
+									<li class="dropdown-submenu dropdown">
+										<a class="test dropdown-toggle" tabindex="-1" href="#" role="button" data-toggle="dropdown">Men</a>
+										<ul class="dropdown-menu drop_submenu">
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Stockings</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shorts</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Slacks</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Vests</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shammagh</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu dropdown">
+										<a class="test dropdown-toggle" tabindex="-1" href="#" role="button" data-toggle="dropdown">Kids</a>
+										<ul class="dropdown-menu drop_submenu">
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Stockings</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shorts</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Slacks</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Vests</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shammagh</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+
+							<div class="cart">
+								<a class="re_btn" href="#">
+									<i class="fas fa-shopping-cart"></i>
+									<span>0</span>
+								</a>
+							</div>
+
+							<div class="my_account dropdown">
+								<button class="re_btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<i class="far fa-user"></i>
+								</button>
+								<ul class="dropdown-menu reg_menu">
+									<li><a href="#">Account Data</a></li>
+									<li><a href="#">Titles</a></li>
+									<li><a href="#">Requests</a></li>
+									<li><a href="#">Portfolio</a></li>
+									<li><a href="#">Log Out</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="lang">
+					<a href="dashboard.html">
+						<span class="la_lg">ع</span>
+						<span class="la_sm">عربي</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<!--------------------------- end header ----------------------------->
+		
+		<div class="our_dashboards">
+			<div class="container">
+				<div class="dashboards">
+					<div class="dash_title">My Account</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="acc_info">
+								<div class="acc_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">My Account</div>
+								<ul class="list-unstyled collapse" id="id10">
+									<li><a href="#">Account Information</a></li>
+									<li><a href="#">Headlines</a></li>
+									<li><a href="#">Requests</a></li>
+									<li><a href="#">Newsletter</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="form_title">Account Data</div>
+							<form class="contact_info">
+								<div class="row">
+									<div class="col-md-8">
+										<div class="form-group">
+											<label class="lab" for="exampleInputName">First Name</label>
+											<input type="text" class="form-control" id="exampleInputNmae1" placeholder="First Name" required>
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="form-group">
+											<label class="lab" for="exampleInputName">Last Name</label>
+											<input type="text" class="form-control" id="exampleInputNmae1" placeholder="Last Name" required>
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="form-group">
+											<label class="lab" for="exampleInputMail">E-Mail</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" placeholder="user@gmail.com" required>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="change_password">
+											<a href="#">Change Password</a>
+										</div>
+									</div>
+								</div>
+								
+								<div class="send">
+									<a href="#" class="send_to hvr-sweep-to-left" role="button" type="submit">
+										Save Changes
+									</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--------------------------- start footer ----------------------------->
+		<footer>
+			<div class="container">
+				<div class="inside_footer">
+					<div class="row">
+						<div class="col-md-4">
+							<h5 class="title">Informatin</h5>
+							<div class="fast_links">
+								<ul class="list-unstyled">
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Shipping & Delivery</a></li>
+									<li><a href="#">Metrics Table</a></li>
+								</ul>
+								<ul class="list-unstyled">
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Return Request</a></li>
+									<li><a href="#">Terms of Use</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5 class="title">Product Sections</h5>
+							<div class="fast_links">
+								<ul class="list-unstyled">
+									<li><a href="#">Men's socks</a></li>
+									<li><a href="#">Men's Shorts</a></li>
+									<li><a href="#">Men's Slacks</a></li>
+									<li><a href="#">Men's Vests</a></li>
+									<li><a href="#">Shammagh</a></li>
+								</ul>
+								<ul class="list-unstyled">
+									<li><a href="#">Kids socks</a></li>
+									<li><a href="#">Kids Shorts</a></li>
+									<li><a href="#">Kids Slacks</a></li>
+									<li><a href="#">Kids Vests</a></li>
+									<li><a href="#">Kids Clothes</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5 class="title">Follow Us</h5>
+							<div class="social">
+								<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-youtube"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</div>
+							<div class="payment">
+								<a href="#">
+									<img src="images/pay.png" alt="payment" class="img-responsive">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copy_rights">
+					<div class="copy">© Dorjy Store 2018</div>
+					<div class="rights">
+						Designed & Developed  <a href="#" class="ours"><img src="images/ours.png"> TASWAK</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--------------------------- end footer ----------------------------->
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		<script src="js/plug.js"></script>
+	</body>
+</html> 

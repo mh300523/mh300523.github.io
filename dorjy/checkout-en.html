@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Check Out</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-select.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-en.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+
+		<!--------------------------- start header ----------------------------->
+		<header>
+			<div class="top_nav">
+				<div class="container custom">
+					<div class="top_bar">
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						<div class="searchbox">
+							<input class="searchinput" id="search" placeholder="Search" type="search">
+							<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+						</div>
+						<div class="recomend_cats">
+							<div class="dropdown drop_cats">
+								<a class="main_drop dropdown-toggle" role="button" data-toggle="dropdown"> 
+									Product Sections <i class="fas fa-chevron-down"></i></a>
+								<ul class="dropdown-menu pro_menu">
+									<li class="dropdown-submenu dropdown">
+										<a class="test dropdown-toggle" tabindex="-1" href="#" role="button" data-toggle="dropdown">Men</a>
+										<ul class="dropdown-menu drop_submenu">
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Stockings</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shorts</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Slacks</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Vests</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shammagh</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu dropdown">
+										<a class="test dropdown-toggle" tabindex="-1" href="#" role="button" data-toggle="dropdown">Kids</a>
+										<ul class="dropdown-menu drop_submenu">
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Stockings</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shorts</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Slacks</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Vests</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shammagh</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+
+							<div class="cart">
+								<a class="re_btn" href="#">
+									<i class="fas fa-shopping-cart"></i>
+									<span>1</span>
+								</a>
+							</div>
+
+							<div class="my_account dropdown">
+								<button class="re_btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<i class="far fa-user"></i>
+								</button>
+								<ul class="dropdown-menu reg_menu">
+									<li><a href="#">Account Data</a></li>
+									<li><a href="#">Titles</a></li>
+									<li><a href="#">Requests</a></li>
+									<li><a href="#">Portfolio</a></li>
+									<li><a href="#">Log Out</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="lang">
+					<a href="checkout.html">
+						<span class="la_lg">ع</span>
+						<span class="la_sm">عربي</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<!--------------------------- end header ----------------------------->
+		
+		<div class="checking_outs">
+			<div class="container">
+				<div class="alerting">
+					<div class="al_icon"><i class="fas fa-exclamation-circle"></i></div>
+					<div class="al_detail">Please note that charities are donated from the store's earnings</div>
+				</div>
+				<div class="page_title">End Request</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="cell_title">
+							<div class="cell_icon"><i class="fas fa-home"></i></div>
+							<div class="cell_name">Delivery Data</div>
+						</div>
+						<form class="shiped_data">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="lab" for="exampleInputName">First Name</label>
+										<input type="text" class="form-control" id="exampleInputNmae1" placeholder="" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="lab" for="exampleInputName">Last Nmae</label>
+										<input type="text" class="form-control" id="exampleInputNmae1" placeholder="" required>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="lab" for="exampleInputName">Phone Number</label>
+										<input type="text" class="form-control" id="exampleInputNmae1" placeholder="" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<label class="lab" for="exampleInputName">Select Your Location</label>
+									<div id="map" style="width: 100%; height: 137px;"></div>
+								</div>
+								<div class="col-md-6">
+									<div class="notes">
+										<label class="lab">Notes On Request</label>
+										<textarea class="note" rows="6" placeholder=""></textarea>
+									</div>
+								</div>
+							</div>
+						</form>
+						<div class="taking-dis">
+							<div class="coupons">
+								<div class="cell_title">
+									<div class="cell_icon"><i class="fas fa-percent"></i></div>
+									<div class="cell_name">Promo Code</div>
+								</div>
+								<label class="lab" for="exampleInputName">Enter Promo Code</label>
+								<div class="form-group">
+									<input type="text" class="form-control" id="exampleInputNmae1" placeholder="" required>
+									<button class="implement">Applay</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="cell_title">
+							<div class="cell_icon"><i class="fas fa-truck"></i></div>
+							<div class="cell_name">Shipping Method</div>
+						</div>
+						<div class="shiped_way">
+							<label class="req-selec">
+								<input type="radio" checked name="radio-3">
+								<span class="mine_selec"></span>
+								Normal Shipping (10 SAR)
+							</label>
+						</div>
+
+						<div class="cell_title">
+							<div class="cell_icon"><i class="fas fa-credit-card"></i></div>
+							<div class="cell_name">Payment Method</div>
+						</div>
+						<div class="pay_way">
+							<label class="req-selec">
+								<input type="radio" name="radio-4">
+								<span class="mine_selec"></span>
+								Bank transfer
+								<ul class="list-unstyled">
+									<li>Bank Name: Ahli Saudi</li>
+									<li>Account Number: 0000000000000x</li>
+									<li> Account Name: Dorjy Store</li>
+								</ul>
+							</label>
+							<label class="req-selec">
+								<input type="radio" name="radio-4">
+								<span class="mine_selec"></span>
+								Credit card
+							</label>
+							<label class="req-selec">
+								<input type="radio" name="radio-4">
+								<span class="mine_selec"></span>
+								Paiement when recieving
+							</label>
+						</div>
+
+						<div class="cell_title">
+							<div class="cell_icon"><i class="fas fa-shopping-cart"></i></div>
+							<div class="cell_name">Order Details</div>
+						</div>
+
+						<div class="req_end">
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr class="table_head">
+											<th>Product Name</th>
+											<th>Quantity</th>
+											<th>Total</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="first_row">
+											<td>Men drawer</td>
+											<td>
+												<div class="counts">
+													<button class="counters" onClick="add()">
+														<i class="fas fa-plus-circle"></i>
+													</button>
+													<div id="counting">3</div>
+													<button class="counters" onClick="cut()">
+														<i class="fas fa-minus-circle"></i>
+													</button>
+												</div>
+											</td>
+											<td>
+												<div class="duty">600 SAR</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<div class="pak_type">
+							<div class="pa_tytitle">3 packages were charged with a 5% discount on the drawer value</div>
+							<label class="lab" for="exampleInputName">Use Portfolio Funds</label>
+							<div class="form-group">
+								<input type="text" class="form-control" id="exampleInputNmae1" placeholder="Amount to be pull" required>
+								<button class="implement">Applay</button>
+							</div>
+						</div>
+
+						<div class="request_data">
+							<ul class="alling list-unstyled">
+								<li class="req_head">Total</li>
+								<li class="req_head">After Discount</li>
+								<li class="req_head">Shipping Cost</li>
+								<li class="req_head tot_req">Total Order</li>
+							</ul>
+							<ul class="alling list-unstyled">
+								<li class="req_infor">600 SAR</li>
+								<li class="req_infor">570 SAR</li>
+								<li class="req_infor">0 SAR</li>
+								<li class="req_infor tot_req">570 SAR</li>
+							</ul>
+						</div>
+
+						<div class="end_request">
+							<a href="#" class="hvr-sweep-to-left">End Request</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!--------------------------- start footer ----------------------------->
+		<footer>
+			<div class="container">
+				<div class="inside_footer">
+					<div class="row">
+						<div class="col-md-4">
+							<h5 class="title">Informatin</h5>
+							<div class="fast_links">
+								<ul class="list-unstyled">
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Shipping & Delivery</a></li>
+									<li><a href="#">Metrics Table</a></li>
+								</ul>
+								<ul class="list-unstyled">
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Return Request</a></li>
+									<li><a href="#">Terms of Use</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5 class="title">Product Sections</h5>
+							<div class="fast_links">
+								<ul class="list-unstyled">
+									<li><a href="#">Men's socks</a></li>
+									<li><a href="#">Men's Shorts</a></li>
+									<li><a href="#">Men's Slacks</a></li>
+									<li><a href="#">Men's Venila</a></li>
+									<li><a href="#">Shammagh</a></li>
+								</ul>
+								<ul class="list-unstyled">
+									<li><a href="#">Kids socks</a></li>
+									<li><a href="#">Kids Shorts</a></li>
+									<li><a href="#">Kids Slacks</a></li>
+									<li><a href="#">Kids Venila</a></li>
+									<li><a href="#">Kids Clothes</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5 class="title">Follow Us</h5>
+							<div class="social">
+								<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-youtube"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</div>
+							<div class="payment">
+								<a href="#">
+									<img src="images/pay.png" alt="payment" class="img-responsive">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copy_rights">
+					<div class="copy">© Dorjy Store 2018</div>
+					<div class="rights">
+						Designed & Developed  <a href="#" class="ours"><img src="images/ours.png"> TASWAK</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--------------------------- end footer ----------------------------->
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/bootstrap-select.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		<script src="js/plug.js"></script>
+	</body>
+</html>

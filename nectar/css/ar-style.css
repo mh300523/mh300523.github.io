@@ -1,0 +1,94 @@
+header .list-inline
+{
+    margin-right: 0;
+}
+.top_nav .top_bar .mobile_nav .sidenav .closebtn
+{
+    left: 20px;
+}
+.top_nav .top_bar .links
+{
+    margin-right: 10px;
+}
+.top_nav .top_bar .links .link
+{
+    margin-left: 21px;
+}
+.top_nav .top_bar .links .link .fa-angle-down
+{
+    margin-right: 3px;
+}
+.top_nav .top_bar .lang_social .social
+{
+    margin-left: 32px;
+}
+.top_nav .top_bar .lang_social .social > a:not(:last-child)
+{
+    margin-left: 20px;
+}
+.top_nav .top_bar .lang_social .lang .ar
+{
+    margin-left: 7px;
+}
+header .down_bar .searchbox .searchinput
+{
+    padding-right: 25px;
+}
+header .down_bar .searchbox .fa-search
+{
+    left: 24px;
+}
+header .down_bar .recomend .shopping .cart
+{
+    margin-right: 26px;
+}
+header .down_bar .recomend .my_account .fa-user-circle,header .down_bar .recomend .shopping .fa-shopping-cart
+{
+    margin-left: 7px;
+}
+header .down_bar .recomend .my_account .dropdown-menu
+{
+    right: auto;
+}
+header .down_nav .main .navigation > ul > li:last-child .dir
+{
+    padding-left: 0
+}
+.top_nav .top_bar .mobile_nav .sidenav {
+    right: 0;
+}
+.pro .info .price .current
+{
+    margin-right: 8px;
+}
+.pro .add_to .fa-shopping-cart
+{
+    margin-left: 6px;
+}
+.join .form-group .check
+{
+    left: 26px;
+}
+.footer .social > a
+{
+    margin-right: 16px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:991px)
+{
+    .top_nav .top_bar .mobile_nav .sidenav .open .dropdown-menu >li
+    {
+        margin-right: 40px;
+    }
+    .top_nav .top_bar .logo
+    {
+        margin-right: 20px;
+    }
+}

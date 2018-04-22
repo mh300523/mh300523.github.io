@@ -1,0 +1,93 @@
+header .mobile_nav .sidenav {
+	right: -290px;
+}
+header .mobile_nav .list > span
+{
+	right: 7px;
+}
+header .mobile_nav .sidenav .closebtn {
+	left: 20px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	right: 0;
+}
+header .lang .ar {
+    margin-left: 8px;
+}
+header .social
+{
+	margin-left: 15px;
+}
+.social > a
+{
+	margin-left: 4px;
+}
+header .main_bar
+{
+	margin-left: 22px;
+}
+header .searchbox .search_icon
+{
+    left: 21px;
+}
+header .searchbox .searchinput
+{
+    border-bottom-right-radius: 24px;
+	border-top-right-radius: 24px;
+}
+.slider2 .down
+{
+	border-bottom-left-radius:50px ;
+	border-top-left-radius: 50px;
+}
+.slider2 .talk
+{
+	margin-left: 45px;
+}
+.slider2 .talk .more
+{
+	border-top-left-radius: 18px;
+	border-bottom-left-radius: 18px;
+}
+.mainslider2 .owl-dots
+{
+    right: 0;
+}
+.join .form-group .check
+{
+	left: 9px;
+}
+footer .intro
+{
+	padding-left: 28px;
+}
+footer .contact_info > li > .fa
+{
+	margin-left: 15px;
+}
+
+
+
+
+
+
+@media(max-width:991px)
+{
+	.slider2 .talk
+	{
+		margin-left: 0;
+	}
+	footer .intro
+	{
+		padding-left: 0;
+	}
+	.slider2 .down
+	{
+		border-radius: 0;
+	}
+	footer .contact_info > li > .fa
+	{
+		margin-left: 0;
+	}
+}

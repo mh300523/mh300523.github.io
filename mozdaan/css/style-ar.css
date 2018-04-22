@@ -1,0 +1,78 @@
+.coins .bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    right: auto;
+    left: 6px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: right;
+}
+.coins .bootstrap-select>.dropdown-toggle
+{
+    direction: rtl;
+}
+header .contact
+{
+    direction: ltr;
+    margin-right: 15px;
+}
+header .contact img
+{
+    margin-right: 6px
+}
+header .social
+{
+    margin-left: 8px;
+}
+.categories .bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    display: none;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	left: 19px;
+}
+header .my_account > button img
+{
+    margin-left: 8px;
+}
+header .recomend .shopping
+{
+    margin-right: 21px;
+}
+header .recomend .shopping img
+{
+    margin-left: 8px;
+}
+header .recomend .shopping .fa
+{
+    margin-right: 5px;
+}
+header .my_account .dropdown-menu
+{
+    right: auto;
+}
+header .mobile_nav .list > span
+{
+    margin-right: 8px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+    left: 30px;
+}
+.main .navigation_bar > ul > li > a.active:after
+{
+	right: 0;
+}
+.bans .banner:not(:last-child)
+{
+	margin-left: 10px;
+}
+.products .pro .detail .share
+{
+	margin-right: 7px;
+}
+.products .pro .price .past:after
+{
+	right: -8px;
+}

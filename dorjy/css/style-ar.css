@@ -1,0 +1,280 @@
+
+header .search_icon
+{
+	left: 22px;
+}
+header .part_now
+{
+	margin-right: 12px;
+}
+header .lang
+{
+	left: 0;
+}
+header .lang
+{
+	border-bottom-right-radius: 18px;
+	border-top-right-radius: 18px;
+}
+.banner .our_cats > ul:first-child
+{
+	border-left: 1px solid #b8b6b6;
+}
+.buy_steps .st_num
+{
+	right: 0;
+}
+.steps_intro,.buy_content .filling
+{
+	left: 50%;
+}
+.our_offers .past
+{
+	margin-left: 9px;
+}
+.join .form-group .check
+{
+	left: 7px;
+}
+.fast_links > ul:first-child
+{
+	margin-left: 42px;
+}
+
+/*start sign up page*/
+.your_signing .lab:after
+{
+	left: -7px;
+}
+/*end sign up page*/
+/*start dashbord page*/
+.recomend_cats .dropdown-submenu:after
+{
+	content: '\f053';
+	left: 21px;
+}
+.dropdown-submenu .drop_submenu{
+	right: 53%;
+}
+.recomend_cats .cart
+{
+	margin-right: 24px;
+	margin-left: 7px;
+}
+.recomend_cats .re_btn > span
+{
+	right: -3px;
+}
+.acc_title:after
+{
+	left: 33px;
+}
+.dashboards .send
+{
+	text-align: right;
+}
+/*end dashbord page*/
+/*start create adrawer page*/
+.pack_info
+{
+	margin-left: auto;
+	margin-right: 24px;
+}
+.total_costs > .costs
+{
+	margin-right: 9px;
+}
+.changed:before
+{
+	right: 32px;
+}
+.over_mod .close
+{
+	left: 50%;
+}
+/*end create adrawer page*/
+
+/*start single page*/
+.sing_price .past
+{
+	margin-left: 8px;
+}
+.our_singles .sing_price
+{
+	text-align: right;
+}
+/*end single page*/
+
+/*start view cart page*/
+.table .td_name
+{
+	margin-right: 11px;
+}
+.table .cancel
+{
+	text-align: left;
+}
+.table .duty
+{
+	text-align: right;
+}
+.coupons .implement,.reg_now .subing,.pak_type .implement
+{
+	left: 5px;
+}
+.dispk
+{
+	text-align: left;
+	padding-left: 30px;
+}
+.request_data
+{
+	margin-left: 65px;
+}
+.request_data .req_head
+{
+	margin-left: 102px;
+}
+.end_request 
+{
+	text-align: left;
+}
+/*end view cart page*/
+
+/*start category page*/
+
+.our_sections .cat_title:after
+{
+	left: 33px;
+}
+.categories .labs
+{
+	margin-left: 8px;
+}
+.categories .bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+	text-align: right;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	left: 23px;
+}
+.categories.categs-1
+{
+	margin-left: 16px;
+}
+/*end category page*/
+
+/*start checkout page*/
+.req_end .table > tbody > tr > td
+{
+	padding-right: 0;
+}
+/*end checkout page*/
+
+/*md*/
+@media (min-width:992px) and (max-width:1199px){
+	header .lang
+	{
+		border-radius: 20px;
+		left: 50%;
+		right: auto;
+	}
+	.fast_links > ul:first-child
+	{
+		margin-left: 40px;
+	}
+}
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)
+{
+	header .lang
+	{
+		border-radius: 20px;
+		left: 50%;
+		right: auto;
+	}
+	.fast_links > ul:first-child
+	{
+		margin-left: 0;
+	}
+	/*start dashbord page*/
+	.dashboards .send
+	{
+		text-align: center;
+	}
+	/*end dashbord page*/
+	
+	/*start create adrawer page*/
+	.pack_info
+	{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	/*end create adrawer page*/
+	
+	/*srart single page*/
+	.our_singles .sing_price
+	{
+		text-align: center;
+	}
+	/*end single page*/
+}
+
+/*xs*/
+@media (max-width:767px)	
+{
+	header .lang
+	{
+		border-radius: 20px;
+		left: 50%;
+		right: auto;
+	}
+	.fast_links > ul:first-child
+	{
+		margin-left: 0;
+	}
+	/*start dashbord page*/
+	.dashboards .send
+	{
+		text-align: center;
+	}
+	/*end dashbord page*/
+	
+	/*start create adrawer page*/
+	.pack_info
+	{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	/*end create adrawer page*/
+	
+	/*srart single page*/
+	.our_singles .sing_price
+	{
+		text-align: center;
+	}
+	/*end single page*/
+	
+	/*start view cart page*/
+	.request_data .req_head
+	{
+		margin-left: 45px;
+	}
+	.end_request 
+	{
+		text-align: center;
+	}
+	.dispk
+	{
+		text-align: center;
+		padding-left: 0;
+	}
+	.request_data
+	{
+		margin-left: 0;
+	}
+	/*end view cart page*/
+	
+}

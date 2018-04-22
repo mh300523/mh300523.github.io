@@ -1,0 +1,107 @@
+body
+{
+    font-family: 'OpenSans';
+}
+header .mobile_nav .sidenav {
+	left: -290px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	left: 0;
+}
+header .mobile_nav .list > span
+{
+	left: 7px;
+	font-family: 'OpenSans-Bold';
+}
+header .mobile_nav .sidenav .closebtn {
+	right: 20px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+    padding-left: 70px;
+}
+.sidenav .mob_menu .mob_item
+{
+	font-family: 'OpenSans-Light';
+}
+header .search_icon
+{
+	right: 20px;
+}
+header .searchbox
+{
+	margin-right: 20px;
+}
+header .lang .ar
+{
+	margin-right: 9px;
+}
+header .nav_bar > li > a
+{
+	font-family: 'OpenSans-Semibold';
+}
+.recomend .re_btn
+{
+	font-family: 'OpenSans-Semibold';
+}
+.recomend .my_account
+{
+	margin-right: 14px;
+}
+header .recomend .fa-user-circle
+{
+	margin-right: 7px;
+}
+header .recomend .fa-shopping-cart
+{
+	margin-right: 10px;
+}
+.recomend .cart > .re_btn > span
+{
+	left: 8px;
+}
+.heading
+{
+	font-family: 'OpenSans-Semibold';
+}
+.pro .info .price .current,.pro .info .price .past
+{
+	font-family: 'OpenSans-Bold';
+}
+.join .join_tit
+{
+	font-family: 'OpenSans-Bold';
+}
+.join .form-group .check
+{
+	right: 19px;
+}
+footer .title
+{
+	font-family: 'OpenSans-Semibold';
+}
+.copy_right > a
+{
+	font-family: 'OpenSans-Bold';
+}
+
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)
+{
+	header .recomend
+	{
+		margin-left: auto;
+	}
+}
+
+
+/*xs*/
+@media (max-width:767px)	
+{
+	header .searchbox
+	{
+		margin-right: 0;
+	}
+}

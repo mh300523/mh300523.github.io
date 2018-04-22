@@ -1,0 +1,161 @@
+.header,.down_nav .recomend .btn-group button,.down_nav .recomend button,.more button
+{
+    text-transform: uppercase;
+}
+.links .dropdown li
+{
+    text-transform: lowercase;
+}
+.top_nav .lang,.top_nav .social,.left_side
+{
+    float: right;
+}
+.top_nav .links
+{
+    float: left;
+}
+.top_nav .links ul > li > a
+{
+    margin-right: 20px;
+}
+.top_nav .links
+{
+    margin-left: 15px;
+}
+.caret
+{
+    margin-left: 2px;
+}
+.top_nav .lang a:first-child
+{
+    margin-left: 8px; 
+}
+.top_nav .social span a
+{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.top_nav .lang
+{
+    margin-left: 33px;
+    margin-right: 20px;
+}
+.down_nav .recomend button .fa
+{
+    margin-right: 10px;
+}
+.down_nav .recomend button .fa-shopping-cart span
+{
+    left: 14px;
+}
+.down_nav .logo
+{
+    padding-left: 50px;
+}
+.down_nav .searchbar
+{
+    padding-left: 24px;
+}
+.down_nav .searchbar button
+{
+    right: 20px;
+}
+.main .nav > li > a
+{
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.main .nav > li:last-child a
+{
+    margin-right: 0px;
+}
+
+.pro .info .price .current,.pro .info .price .past
+{
+    float: right;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.photo
+{
+    margin-left: 0;
+    margin-right: 13px;
+    float: left;
+}
+.join .form-group button
+{
+    right: 20px;
+}
+.features .thumbnail h3
+{
+    font-family: 'neosans Bold';
+    font-size: 16px;
+    color: #58585a;
+    text-transform: capitalize;
+}
+.features .thumbnail h4
+{
+     font-family: 'neosans';
+    font-size: 12px;
+    color: #58585a;
+    line-height: 1.2;
+}
+.features .detail
+{
+    float: left;
+}
+.dropdown-menu > li 
+{
+    padding-left: 10px;
+}
+.recomend
+{
+    text-align: right;
+}
+
+
+
+
+
+
+
+@media(max-width:991px)
+{
+     .top_nav .lang, .top_nav .social
+    {
+        float: none;
+    }
+    .down_nav .logo
+    {
+        padding-left: 0;
+    }
+    .down_nav .recomend button
+    {
+        margin-left: 19px;
+    }
+     .navbar-nav > li
+    {
+        padding-left: 12px;
+    }
+    .recomend
+    {
+        text-align: center;
+    }
+    .left_side
+    {
+        float: none;
+    }
+    .top_nav .lang a:first-child 
+    
+     {
+        margin-left: 0px;
+     }
+    .navbar-nav > li {
+        float: none;
+     }
+    .top_nav .lang
+    {
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+}

@@ -1,0 +1,126 @@
+header .lang .ar {
+    margin-right: 8px;
+}
+header .top_links
+{
+	margin-right: 26px;
+}
+header .mobile_nav .sidenav {
+	left: -290px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	left: 0;
+}
+header .mobile_nav .list > span
+{
+	left: 7px;
+}
+header .mobile_nav .sidenav .closebtn {
+	right: 20px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: left;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	right: 16px;
+}
+header .search_cat .searchbox
+{
+	border-left: 1px solid #e6e6e6;
+}
+header .search_icon
+{
+    right: 7px;
+}
+header .recomend .fa-user-circle,header .recomend .fa-shopping-basket
+{
+	margin-right: 8px;
+}
+header .my_account
+{
+	margin-right: 13px;
+}
+header .shopping > .fa
+{
+	margin-right: 8px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+    padding-left: 70px;
+}
+.sidenav .sub_cat_menu 
+{
+    padding-left: 50px;
+}
+.down_nav .title > .fa
+{
+	margin-right: 16px;
+}
+.down_nav .demo .sub:after
+{
+	content: "\f105";
+	right: 17px;
+}
+.demo .sub_list
+{
+	left: 258px;
+}
+header .nav_bar
+{
+	margin-left: 12px;
+}
+header .social > a
+{
+	margin-left: 4px;
+}
+.content .col-md-offset-3
+{
+	margin-left: 23.7%;
+}
+.prod .name
+{
+	text-align: right;
+}
+.pro .price .current
+{
+	margin-left: 6px;
+}
+.join .form-group .check
+{
+	right: 5px;
+}
+.join .subscribe
+{
+	line-height: 21px;
+	font-size: 13px;
+}
+
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+	.demo .sub_list
+	{
+		left: 205px;
+	}
+	.content .col-md-offset-3 {
+    margin-left: 23%;
+	}
+	header .nav_bar > li > a
+	{
+		font-size: 13px;
+	}
+}
+
+
+@media(max-width:991px)
+{
+	.content .col-md-offset-3
+	{
+		margin-left: 0;
+	}
+}

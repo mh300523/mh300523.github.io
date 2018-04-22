@@ -1,0 +1,25 @@
+.owl-carousel .img-responsive
+{
+    width: 100%;
+}
+.fa-angle-right
+{
+    position: absolute;
+    bottom: 50%;
+    left: 97%;
+    padding: 5px 10px;
+    background-color: #ffffff;
+}
+.fa-angle-left
+{
+    position: absolute;
+    bottom: 50%;
+    margin-left: -5px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+}
+img:hover
+{
+    box-shadow: 0px 0px 12px 3px #aaa;
+     transition: all 0.3s ease-in-out
+}

@@ -1,0 +1,202 @@
+
+
+
+/*------------------------------------- start description-section --------------------------------------*/
+.description-section{
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.description-txt{
+    font-size: 17px;
+    color: #3f3f3f;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.description-txt-b{
+    font-size: 18px;
+    color: #3f3f3f;
+    font-family: ITC_BOLD;
+    line-height: 35px;
+}
+.description-txt-b::before{
+    content: url(../pic/start-cot.png);
+    margin-left: 10px;
+}
+.description-txt-b::after{
+    content: url(../pic/end-cot.png);
+    margin-right: 10px;
+}
+.img-div{
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.img-div > img{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.img-div > img:hover{
+    transform: scale(1.2,1.2);
+}
+/*xs*/
+@media (max-width:767px){
+    .description-section{
+        padding-top: 30px;
+    }
+    .h-txt-r{
+        text-align: center;
+    }
+    .description-txt{
+        text-align: center;
+    }
+    .description-txt-b{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+/*------------------------------------- end description-section ----------------------------------------*/
+
+/*------------------------------------- start vision-section -------------------------------------------*/
+.vision-section{
+    overflow: hidden;
+    background-image: url(../pic/vision-bg.png);
+    background-size: 980px 120px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.vision-content{
+    height: 120px;
+    padding-top: 40px;
+}
+
+.head-block{
+    display: inline-block;
+    font-size: 28px;
+    color: #fff;
+    font-family: ITC_BOLD;
+}
+.head-block > i{
+    font-size: 24px;
+    color: #ef69b5;
+    margin-right: 20px;
+}
+.content-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.content-block > p{
+    font-size: 24px;
+    color: #fff;
+    margin: 0px;
+    margin-right: 20px;
+    line-height: 37px;
+}
+/*md*/
+@media (min-width:992px) and (max-width:1199px){
+    .vision-section{
+        background-size: 780px 120px;
+    }
+    .content-block > p{
+        font-size: 20px;
+    }
+}
+/*sm*/
+@media (min-width:768px) and (max-width:991px){
+    .vision-section{
+        background-size: 720px 120px;
+    }
+    .content-block > p{
+        font-size: 15px;
+    }
+}
+/*xs*/
+@media (max-width:767px){
+    .vision-section{
+        background: none;
+        background-color: #D03D96;
+        text-align: center;
+    }
+    .vision-content{
+        height: auto;
+        padding: 30px 0px;
+    }
+    .head-block{
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .head-block > i{
+        display: none;
+    }
+    .content-block > p{
+        margin-right: 0px;
+    }
+}
+/*------------------------------------- end vision-section ---------------------------------------------*/
+
+/*------------------------------------- start message-section -------------------------------------------*/
+.message-section{
+    overflow: hidden;
+    background-image: url(../pic/message-bg.png);
+    background-size: 1270px 145px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.message-content{
+    height: 145px;
+    padding-top: 35px;
+}
+
+/*md*/
+@media (min-width:992px) and (max-width:1199px){
+    .message-section{
+        background-size: 975px 145px;
+    }
+}
+/*sm*/
+@media (min-width:768px) and (max-width:991px){
+    .message-section{
+        background-size: 880px 145px;
+    }
+}
+/*xs*/
+@media (max-width:767px){
+    .message-section{
+        background: none;
+        background-color: #9F227D;
+        text-align: center;
+    }
+    .message-content{
+        height: auto;
+        padding: 30px 0px;
+    }
+}
+/*------------------------------------- end message-section ---------------------------------------------*/
+
+/*------------------------------------- start organizers-section ---------------------------------------*/
+.organizers-section{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.organizers-h{
+    color: #3f3f3f;
+    font-size: 20px;
+    font-family: ITC_BOLD;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.organizer-a{
+    display: inline-block;
+    margin: 0px 15px;
+    margin-bottom: 15px;
+}
+/*xs*/
+@media (max-width:767px){
+    .organizers-section{
+        padding: 60px 0px;
+    }
+}
+/*------------------------------------- end organizers-section -------------------------------------------*/

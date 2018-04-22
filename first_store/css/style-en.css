@@ -1,0 +1,155 @@
+header .lang-bar > a:first-child
+{
+	margin-right: 9px;
+}
+header .top_bar
+{
+	padding-left: 30px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+	text-align: left;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	right: 18px;
+}
+header .search_cat .searchbox
+{
+	border-left: 1px solid #ebebeb;
+}
+header .search_icon
+{
+	right: 17px;
+}
+.recomend .re_btn .ic
+{
+	margin-right: 5px;
+}
+.down_bar .cating
+{
+	margin-right: 20px;
+}
+.down_bar .c_title .fa-bars
+{
+	margin-right: 9px;
+}
+.down_bar .c_title:after
+{
+	right: 25px;
+}
+.mob_bar #navbtn
+{
+	text-align: left;
+	background-image: -webkit-linear-gradient(left,#ec6a36,#fab04d); /* For Chrome and Safari */
+	background-image:    -moz-linear-gradient(left,#ec6a36,#fab04d); /* For old Fx (3.6 to 15) */
+	background-image:     -ms-linear-gradient(left,#ec6a36,#fab04d); /* For pre-releases of IE 10*/
+	background-image:      -o-linear-gradient(left,#ec6a36,#fab04d); /* For old Opera (11.1 to 12.0) */
+	background-image:         linear-gradient(left,#ec6a36,#fab04d);
+}
+.sidenav.over_mob
+{
+	left: 0;
+}
+.sidenav
+{
+	left: -290px;
+}
+.side_ul .mob_pros:after
+{
+	right: 0;
+}
+.sidenav .closebtn
+{
+	right: 20px;
+}
+.sidenav .mob_menu .mob_item
+{
+	margin-left: 60px;
+}
+.pro .discount
+{
+	left: 11px;
+}
+.heading:after
+{
+	left: 0;
+}
+.heading.two:after
+{
+	width: 82px;
+}
+.pro_slider .owl-nav .owl-next
+{
+	right: 10px;
+}
+.pro_slider .owl-nav .owl-prev
+{
+	right: 31px;
+}
+.feat .fe_photo
+{
+	margin-right: 12px;
+}
+.changed
+{
+	left: 0;
+	background-image: -webkit-linear-gradient(left,#ec6a36,#fab04d); /* For Chrome and Safari */
+	background-image:    -moz-linear-gradient(left,#ec6a36,#fab04d); /* For old Fx (3.6 to 15) */
+	background-image:     -ms-linear-gradient(left,#ec6a36,#fab04d); /* For pre-releases of IE 10*/
+	background-image:      -o-linear-gradient(left,#ec6a36,#fab04d); /* For old Opera (11.1 to 12.0) */
+	background-image:         linear-gradient(left,#ec6a36,#fab04d);
+}
+.connect_info .form-group .check
+{
+	right: 10px;
+}
+footer .payment
+{
+	margin-left: auto;
+	margin-right: 20px;
+}
+footer .social > a
+{
+	margin-left: 6px;
+}
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)
+{
+	header .top_bar
+	{
+		padding-left: 0;
+	}
+	.feat .fe_photo
+	{
+		margin-right: 0;
+	}
+	.fast_links .sm_title:after
+	{
+		right: 20px;
+	}
+}
+
+
+/*xs*/
+@media (max-width:767px)	
+{
+	header .top_bar
+	{
+		padding-left: 0;
+	}
+	.feat .fe_photo
+	{
+		margin-right: 0;
+	}
+	.fast_links .sm_title:after
+	{
+		right: 20px;
+	}
+	footer .payment
+	{
+		margin-right: 0;
+		margin-left: 0;
+	}
+}

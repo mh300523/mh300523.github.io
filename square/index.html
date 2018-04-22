@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>square</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/ar-style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+    </head>
+    <body>
+    
+    
+    <header>
+        <div class="top_nav">
+            <div class="container custom">
+                <div class="top_bar">
+                  <div class="mobile_nav">
+                        <div id="mySidenav" class="sidenav">
+                            <span href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</span>
+                            <ul class="list-unstyled">
+                                <li><a class="direct" href="#">الرئيسية</a></li>
+                                <li><a class="direct" href="#">أضيف مؤخرا</a></li>
+                                <li><a class="direct" href="#">العروض المميزة</a></li>
+                                <li><a class="direct" href="#">بنوك الطاقة</a></li>
+                                <li><a class="direct" href="#">كيابل</a></li>
+                                <li><a class="direct" href="#">أجهزه كهربائية</a></li>
+                                <li><a class="direct" href="#">جوالات</a></li>
+                                <li><a class="direct" href="#">أجهزة رياضية</a></li>
+                                <li><a class="direct" href="#">اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                        <button class="list" onclick="openNav()">
+                            <i class="fa fa-bars"></i><span>القائمة الرئيسية</span> 
+                        </button>
+                    </div>
+                    <div class="logo">
+                        <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="lang">
+                       <a class="ar" href="index.html" data-toggle="tooltip" data-placement="bottom" title="عربي"><img src="images/lang-ar.png"></a>
+                       <a class="en" href="index-en.html" data-toggle="tooltip" data-placement="bottom" title="English" ><img src="images/lang-en.png"></a>
+                   </div>
+                </div>
+                <div class="down_bar">
+                    <div class="searchbox">
+                        <input class="searchinput" id="search" placeholder="كلمة البحث" type="search">
+                        <button class="fa fa-search fa-fw" type="submit"></button>
+                    </div>
+                    <div class="logo">
+                        <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="recomend">
+                        <div class="my_account">
+                          <button class="awoseme">
+                           <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            تسجيل الدخول
+                          </button>
+                        </div>
+                        <div class="shopping">
+                           <button class="cart awoseme">
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               0 سلمة - SAR 0
+                           </button>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+        <div class="down_nav">
+                <div class="container">
+                   <div class="main">
+                        <ul class="list-inline list-unstyled">
+                            <li><a class="dir" href="#">الرئيسية</a></li>
+                            <li><a class="dir" href="#">أضيف مؤخرا</a></li>
+                            <li><a class="dir" href="#">العروض المميزة</a></li>
+                            <li><a class="dir" href="#">بنوك الطاقة</a></li>
+                            <li><a class="dir" href="#">كيابل</a></li>
+                            <li><a class="dir" href="#">أجهزه كهربائية</a></li>
+                            <li><a class="dir" href="#">جوالات</a></li>
+                            <li><a class="dir" href="#">أجهزة رياضية</a></li>
+                            <li><a class="dir" href="#">اتصل بنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </header>
+    
+    
+    
+    <!--slider-->
+    <div class="slider">
+        <div class="container">
+            <div class="mainslider owl-carousel">
+                  <div class="slideitem"> <img class="img-responsive" src="images/slider.jpg"></div>
+                  <div class="slideitem"><img class="img-responsive" src="images/slider.jpg"> </div>
+                  <div class="slideitem"><img class="img-responsive" src="images/slider.jpg">  </div>
+                  <div class="slideitem"><img class="img-responsive" src="images/slider.jpg">  </div>
+            </div>
+        </div>
+    </div>
+    <!--end slider-->
+  
+    <div class="banners">
+        <div class="container">
+            <div class="bans">
+                <div class="cell">
+                    <a href="#"><img class="img-responsive" src="images/pro-1.png"></a>
+                    <a href="#" class="name">بنوك الطاقة</a>
+                </div>
+                <div class="cell">
+                    <a href="#"><img class="img-responsive" src="images/pro-2.png"></a>
+                    <a href="#" class="name">كبايل</a>
+                </div>
+                <div class="cell">
+                    <a href="#"><img class="img-responsive" src="images/pro-3.png"></a>
+                    <a href="#" class="name">أجهزة كهربائية</a>
+                </div>
+                <div class="cell">
+                    <a href="#"><img class="img-responsive" src="images/pro-4.png"></a>
+                    <a href="#" class="name">جوالات</a>
+                </div>
+                <div class="cell">
+                    <a href="#"><img class="img-responsive" src="images/pro-5.png"></a>
+                    <a href="#" class="name">أجهزة رياضية</a>
+                </div>
+                <div class="cell">
+                    <a href="#"><img class="img-responsive" src="images/pro-6.png"></a>
+                    <a href="#" class="name">العروض المميزة</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="latest">
+        <div class="container">
+           <div class="products">
+                <div class="heading">
+                    <h3>أضيف مؤخرا</h3>
+                </div>
+                <div class="items">
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-7.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                8600 SAR
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي  العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-8.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                1200 SAR
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-9.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                <div class="current">850 SAR</div>
+                                <div class="past">999 SAR</div>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-10.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                <div class="current">280 SAR</div>
+                                <div class="past">420 SAR</div>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-11.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                <div class="current">80 SAR</div>
+                                <div class="past">110 SAR</div>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="special_offers">
+        <div class="container">
+           <div class="products">
+                <div class="heading">
+                    <h3>العروض المميزة</h3>
+                </div>
+                <div class="items">
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-12.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                <div class="current">900 SAR</div>
+                                <div class="past">1000 SAR</div>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-13.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                <div class="current">900 SAR</div>
+                                <div class="past">1000 SAR</div>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-14.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                               <div class="current">900 SAR</div>
+                                <div class="past">1000 SAR</div>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-15.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                <div class="current">900 SAR</div>
+                                <div class="past">1000 SAR</div>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="pro">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/pro-16.png">
+                        </div>
+                        <div class="info">
+                            <h4>اسم المنتج</h4>
+                            <div class="price">
+                                <div class="current">900 SAR</div>
+                                <div class="past">1000 SAR</div>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="shop do" data-toggle="tooltip" data-placement="top" title="أضف إلي العربة">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="heart do" data-toggle="tooltip" data-placement="top" title="أضف إلي قائمة الرغبات">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button class="share do" data-toggle="tooltip" data-placement="top" title="مشاركة">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+       <div class="container">
+           <div class="row">
+            <footer>
+                <div class="services">
+                    <div class="serv">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/ship.png" alt="car">
+                        </div>
+                        <div class="detail">
+                            <h5>الشحن المجاني</h5>لجميع الطلبات اكثر من 1000 ريال
+                        </div>
+                    </div>
+                    
+                    <div class="serv">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/replace.png" alt="hand">
+                        </div>
+                        <div class="detail">
+                            <h5>سياسة الإستبدال والإسترجاع</h5>إستبدال وإسترجاع الطلب خلال 14 يوم
+                        </div>
+                    </div>
+                    
+                    <div class="serv">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/phone.png" alt="phone">
+                        </div>
+                        <div class="detail">
+                            <h5>0000 - 000 - 0000</h5>مواعيد العمل 08:00 - 17:00
+                        </div>
+                    </div>
+                    
+                    <div class="serv">
+                        <div class="photo">
+                            <img class="img-responsive" src="images/support.png" alt="phone">
+                        </div>
+                        <div class="detail">
+                            <h5>دعم فني 24/7</h5>نلبي طلبك في الحال
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer_links">
+                    
+                    <ul class="list-unstyled">
+                        <li class="title">معلومات</li>
+                        <li><a href="#">من نحن</a></li>
+                        <li><a href="#">معلومات الشحن والتوصيل</a></li>
+                        <li><a href="#">الخصوصية</a></li>
+                        <li><a href="#">شروط الإستخدام</a></li>
+                    </ul>
+
+
+                    <ul class="list-unstyled">
+                        <li class="title">خدمة العملاء</li>
+                        <li><a href="#">اتصل بنا</a></li>
+                        <li><a href="#">إرجاع الطلب</a></li>
+                        <li><a href="#">خريطة الموقع</a></li>
+                    </ul>
+
+
+                    <ul class="list-unstyled">
+                        <li class="title">اضافات</li>
+                        <li><a href="#">الشركات</a></li>
+                        <li><a href="#">قسائم الهدايا</a></li>
+                        <li><a href="#">نظام العمولة</a></li>
+                        <li><a href="#">العروض المميزه</a></li>
+                    </ul>
+
+
+                    <ul class="list-unstyled">
+                        <li class="title">حسابي</li>
+                        <li><a href="#">حسابي</a></li>
+                        <li><a href="#">طلباتي</a></li>
+                        <li><a href="#">قائمة رغباتي</a></li>
+                        <li><a href="#">القائمة البريديه</a></li>
+                    </ul>
+                    
+                    
+                    <div class="join">
+                       <h3 class="title">القائمة البريدية</h3>
+                        <h4>اشترك في القائمة البريدية ليصلك آخر العروض</h4>
+                         <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ادخل البريد الإلكتروني">
+                             <button class="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+                         </div>
+                    </div>
+                </div>
+                
+                <div class="payment">
+                    <a href="#"><img class="img-responsive" src="images/pay.png" alt="payment"></a>
+                </div>
+                
+                <div class="social">
+                  <div class="font">
+                    <a href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="font">
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="font">
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="font">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+                
+                <div class="copyright">
+                    جميع الحقوق محفوظه &copy; متجر سكوير 2017 - تصميم وتطوير<a href="#"> مؤسسة تسوق </a> 
+                </div>
+            </footer>
+            </div>
+        </div>
+    
+   
+  
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/plug.js"></script>
+    </body>
+</html>

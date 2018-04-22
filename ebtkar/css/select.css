@@ -1,0 +1,47 @@
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn)
+{
+    min-width: 400px;
+}
+.categories .btn-default:hover,.open > .dropdown-toggle.btn-default:hover
+{
+    background-color: transparent;
+    border-color: aqua;
+}
+.categories .btn-default:focus
+{
+    border-color: aqua;
+}
+.categories .bootstrap-select .dropdown-toggle:focus
+
+{
+    outline: none !important;
+    background-color: transparent;
+}
+.categories .btn-default:active,.btn-group.open .dropdown-toggle
+{
+    background-color: transparent;
+    box-shadow: none;
+    border-color: aqua;
+}
+.categories .dropdown-menu > li > a:focus
+{
+    outline: none !important;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    color: aqua;
+    font-size: 20px;
+    text-align: right;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    display: none;
+}
+.bootstrap-select>.dropdown-toggle:after {
+    content: '\f107';
+    font-family: 'fontawesome';
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}

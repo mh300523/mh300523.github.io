@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>View Cart</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-ar.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+
+		<!--------------------------- start header ----------------------------->
+		<header>
+			<div class="top_nav">
+				<div class="container custom">
+					<div class="top_bar">
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						<div class="searchbox">
+							<input class="searchinput" id="search" placeholder="البحث" type="search">
+							<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+						</div>
+						<div class="recomend_cats">
+							<div class="dropdown drop_cats">
+								<a class="main_drop dropdown-toggle" role="button" data-toggle="dropdown"> أقسام المنتجات <i class="fas fa-chevron-down"></i></a>
+								<ul class="dropdown-menu pro_menu">
+									<li class="dropdown-submenu dropdown">
+										<a class="test dropdown-toggle" tabindex="-1" href="#" role="button" data-toggle="dropdown">رجال</a>
+										<ul class="dropdown-menu drop_submenu">
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">جوارب</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">سراويل داخلية</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">سراويل</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">فنايل</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">أشمغة</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu dropdown">
+										<a class="test dropdown-toggle" tabindex="-1" href="#" role="button" data-toggle="dropdown">أطفال</a>
+										<ul class="dropdown-menu drop_submenu">
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">جوارب</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">سراويل داخلية</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">سراويل</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">فنايل</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">أشمغة</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+
+							<div class="cart">
+								<a class="re_btn" href="#">
+									<i class="fas fa-shopping-cart"></i>
+									<span>0</span>
+								</a>
+							</div>
+
+							<div class="my_account dropdown">
+								<button class="re_btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<i class="far fa-user"></i>
+								</button>
+								<ul class="dropdown-menu reg_menu">
+									<li><a href="#">بيانات الحساب</a></li>
+									<li><a href="#">العناوين</a></li>
+									<li><a href="#">الطلبات</a></li>
+									<li><a href="#">المحفظة</a></li>
+									<li><a href="#">تسجيل الخروج</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="lang">
+					<a href="view_cart-en.html">
+						<span class="la_lg">EN</span>
+						<span class="la_sm">English</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<!--------------------------- end header ----------------------------->
+		
+		<div class="viewing_carts">
+			<div class="container">
+				<div class="viewings">
+					<div class="view_title">عربة التسوق</div>
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr class="table_head">
+									<th>اسم المنتج</th>
+									<th></th>
+									<th>سعر الوحده</th>
+									<th>الكمية</th>
+									<th>الاجمالي</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="first_row">
+									<td>درج للرجال</td>
+									<td>
+										<a href="#" class="edit">تعديل</a>
+									</td>
+									<td>
+										<div class="duty">200 SAR</div>
+									</td>
+									<td>
+										<div class="counts">
+											<button class="counters" onClick="add()">
+												<i class="fas fa-plus-circle"></i>
+											</button>
+											<div id="counting">3</div>
+											<button class="counters" onClick="cut()">
+												<i class="fas fa-minus-circle"></i>
+											</button>
+										</div>
+									</td>
+									<td>
+										<div class="duty">600 SAR</div>
+									</td>
+									<td class="cancel">
+										<button class="canceled">
+											<i class="fas fa-times-circle"></i>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					
+					<div class="coupons">
+						<label class="lab" for="exampleInputName">ادخل كود كوبون التخفيض</label>
+						<div class="form-group">
+							<input type="text" class="form-control" id="exampleInputNmae1" placeholder="" required>
+							<button class="implement">تطبيق</button>
+						</div>
+					</div>
+					
+					<div class="dispk">
+						<div class="pa_tytitle">تم الإشتراك بباقة 3 شحنات بخصم %5 من قيمة الدرج</div>
+					</div>
+					
+					<div class="request_data">
+						<ul class="alling list-unstyled">
+							<li class="req_head">الإجمالي</li>
+							<li class="req_head">الإجمالي بعد الخصم</li>
+							<li class="req_head">تكلفة الشحن</li>
+							<li class="req_head tot_req">إجمالي الطلب</li>
+						</ul>
+						<ul class="alling list-unstyled">
+							<li class="req_infor">600 SAR</li>
+							<li class="req_infor">570 SAR</li>
+							<li class="req_infor">0 SAR</li>
+							<li class="req_infor tot_req">570 SAR</li>
+						</ul>
+					</div>
+					
+					<div class="end_request">
+						<a href="#" class="hvr-sweep-to-left">إنهاء الطلب</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<!--------------------------- start footer ----------------------------->
+		<footer>
+			<div class="container">
+				<div class="inside_footer">
+					<div class="row">
+						<div class="col-md-4">
+							<h5 class="title">معلومات</h5>
+							<div class="fast_links">
+								<ul class="list-unstyled">
+									<li><a href="#">من نحن</a></li>
+									<li><a href="#">معلومات الشحن والتوصيل</a></li>
+									<li><a href="#">جدول المقاييس</a></li>
+								</ul>
+								<ul class="list-unstyled">
+									<li><a href="#">اتصل بنا</a></li>
+									<li><a href="#">ارجاع الطلب</a></li>
+									<li><a href="#">شروط الإستخدام</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5 class="title">أقسام المنتجات</h5>
+							<div class="fast_links">
+								<ul class="list-unstyled">
+									<li><a href="#">جوارب رجال</a></li>
+									<li><a href="#">سراويل داخلية رجال</a></li>
+									<li><a href="#">سراويل رجال</a></li>
+									<li><a href="#">فنايل رجال</a></li>
+									<li><a href="#">أشمغة</a></li>
+								</ul>
+								<ul class="list-unstyled">
+									<li><a href="#">جوارب أطفال</a></li>
+									<li><a href="#">سراويل داخلية أطفال</a></li>
+									<li><a href="#">سراويل أطفال</a></li>
+									<li><a href="#">فنايل أطفال</a></li>
+									<li><a href="#">ثياب أطفال</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5 class="title">تابعونا</h5>
+							<div class="social">
+								<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-youtube"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</div>
+							<div class="payment">
+								<a href="#">
+									<img src="images/pay.png" alt="payment" class="img-responsive">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copy_rights">
+					<div class="copy">© متجر درجي  2018</div>
+					<div class="rights">
+						تصميم وتطوير <a href="#" class="ours"><img src="images/ours.png"> تسوق</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--------------------------- end footer ----------------------------->
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		<script src="js/plug.js"></script>
+	</body>
+</html> 

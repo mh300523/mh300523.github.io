@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Create Drawer</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-en.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+
+		<!--------------------------- start header ----------------------------->
+		<header>
+			<div class="top_nav">
+				<div class="container custom">
+					<div class="top_bar">
+						<div class="searchbox">
+							<input class="searchinput" id="search" placeholder="Search" type="search">
+							<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+						</div>
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						<div class="recomend_cats">
+							<div class="dropdown drop_cats">
+								<a class="main_drop dropdown-toggle" role="button" data-toggle="dropdown"> 
+									Product Sections <i class="fas fa-chevron-down"></i></a>
+								<ul class="dropdown-menu pro_menu">
+									<li class="dropdown-submenu dropdown">
+										<a class="test dropdown-toggle" tabindex="-1" href="#" role="button" data-toggle="dropdown">Men</a>
+										<ul class="dropdown-menu drop_submenu">
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Stockings</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shorts</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Slacks</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Vests</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shammagh</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu dropdown">
+										<a class="test dropdown-toggle" tabindex="-1" href="#" role="button" data-toggle="dropdown">Kids</a>
+										<ul class="dropdown-menu drop_submenu">
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Stockings</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shorts</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Slacks</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Vests</a>
+											</li>
+											<li class="sub_item">
+												<a class="test-2" tabindex="-1" href="#">Shammagh</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+
+							<div class="cart">
+								<a class="re_btn" href="#">
+									<i class="fas fa-shopping-cart"></i>
+									<span>0</span>
+								</a>
+							</div>
+
+							<div class="my_account dropdown">
+								<button class="re_btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<i class="far fa-user"></i>
+								</button>
+								<ul class="dropdown-menu reg_menu">
+									<li><a href="#">Account Data</a></li>
+									<li><a href="#">Titles</a></li>
+									<li><a href="#">Requests</a></li>
+									<li><a href="#">Portfolio</a></li>
+									<li><a href="#">Log Out</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="lang">
+					<a href="create_adrawer-2.html">
+						<span class="la_lg">ع</span>
+						<span class="la_sm">عربي</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<!--------------------------- end header ----------------------------->
+
+
+		<div class="create_adrawer kid">
+			<div class="container">
+				<div class="ours_pcks">
+					<div class="sp_packages">
+						<div class="pack_img">
+							<img src="images/pack.png" alt="star" class="img-responsive">
+						</div>
+						<div class="pack_info">
+							Subscribe Dorjy packages that save <span class="sp_m">5%</span> or <span class="sp_m">10%</span> of drawer value
+						</div>
+						<div class="pack_lin">
+							<button class="pack_mod" data-toggle="modal" data-target="#modal-1">Click for More</button>
+						</div>
+					</div>
+				</div>
+				<div class="creating_steps">
+					<div class="dr_title">Fill your drawer for men</div>
+					<ul class="list-unstyled navtabs">
+						<li class="active" id="step_1">
+							<a href="#category1" role="tab" data-toggle="tab" aria-expanded="false">
+								<span class="select_mark"></span>
+								<div class="li_photo">
+									<img class="img-1" src="images/st-1.png" alt="steps_icon">
+									<img class="img-2" src="images/st+1.png" alt="steps_icon">
+								</div>
+								<div class="li_name">Select a Stocking Kit</div>
+							</a>
+						</li>
+						<li class="disabled" id="step_2">
+							<a href="#category2" role="tab" data-toggle="tab" ariaexpanded="false">
+								<div class="li_photo">
+									<img class="img-1" src="images/st-2.png" alt="steps_icon">
+									<img class="img-2" src="images/st+2.png" alt="steps_icon">
+								</div>
+								<div class="li_name">Select a Set of Shorts</div>
+							</a>
+						</li>
+						<li class="disabled" id="step_3">
+							<a href="#category3" role="tab" data-toggle="tab" aria-expanded="false">
+								<div class="li_photo">
+									<img class="img-1" src="images/st-3.png" alt="steps_icon">
+									<img class="img-2" src="images/st+3.png" alt="steps_icon">
+								</div>
+								<div class="li_name">Select a Set of Slacks</div>
+							</a>
+						</li>
+						<li class="disabled" id="step_4">
+							<a href="#category4" role="tab" data-toggle="tab" aria-expanded="false">
+								<div class="li_photo">
+									<img class="img-1" src="images/st-4.png" alt="steps_icon">
+									<img class="img-2" src="images/st+4.png" alt="steps_icon">
+								</div>
+								<div class="li_name">Choose a Vests kit</div>
+							</a>
+						</li>
+						<li class="disabled" id="step_5">
+							<a href="#category5" role="tab" data-toggle="tab" aria-expanded="false">
+								<div class="li_photo">
+									<img class="img-1" src="images/st-8.png" alt="steps_icon">
+									<img class="img-2" src="images/st+8.png" alt="steps_icon">
+								</div>
+								<div class="li_name">
+									Select Shammag or Open Option
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-content">
+					<form class="step_contents tab-pane fade in active" id="category1">
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-1" id="ch1">
+												<label for="ch1" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-12.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-1" id="ch2">
+												<label for="ch2" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-13.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-1" id="ch3">
+												<label for="ch3" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-14.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-1" id="ch4">
+												<label for="ch4" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-15.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-1" id="ch5">
+												<label for="ch5" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-16.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-1" id="ch6">
+												<label for="ch6" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro finished">
+									<div class="pro_photo">
+										<img src="images/pro-17.png" alt="product" class="img-responsive">
+										<div class="overlay">
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											نفذت الكمية
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-18.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-1" id="ch7">
+												<label for="ch7" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+
+					<form class="step_contents tab-pane fade" id="category2">
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-2" id="ch8">
+												<label for="ch8" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-2" id="ch9">
+												<label for="ch9" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-2" id="ch10">
+												<label for="ch10" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-2" id="ch11">
+												<label for="ch11" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-2" id="ch12">
+												<label for="ch12" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-2" id="ch13">
+												<label for="ch13" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro finished">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											نفذت الكمية
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-2" id="ch14">
+												<label for="ch14" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+
+					<form class="step_contents tab-pane fade" id="category3">
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-3" id="ch15">
+												<label for="ch15" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-3" id="ch16">
+												<label for="ch16" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-3" id="ch17">
+												<label for="ch17" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-3" id="ch18">
+												<label for="ch18" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-3" id="ch19">
+												<label for="ch19" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-3" id="ch20">
+												<label for="ch20" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro finished">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											نفذت الكمية
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-11.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-3" id="ch21">
+												<label for="ch21" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+
+					<form class="step_contents tab-pane fade" id="category4">
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-27.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-4" id="ch22">
+												<label for="ch22" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-28.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-4" id="ch23">
+												<label for="ch23" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-29.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-4" id="ch24">
+												<label for="ch24" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-30.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-4" id="ch25">
+												<label for="ch25" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-31.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-4" id="ch26">
+												<label for="ch26" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-32.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-4" id="ch27">
+												<label for="ch27" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-33.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-4" id="ch37">
+												<label for="ch37" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-34.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-4" id="ch28">
+												<label for="ch28" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+
+					<form class="step_contents tab-pane fade" id="category5">
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-41.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-5" id="ch29">
+												<label for="ch29" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-42.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-5" id="ch30">
+												<label for="ch30" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-48.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-5" id="ch31">
+												<label for="ch31" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-43.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-5" id="ch32">
+												<label for="ch32" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-44.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-5" id="ch33">
+												<label for="ch33" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-45.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-5" id="ch34">
+												<label for="ch34" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-46.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-5" id="ch36">
+												<label for="ch36" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="pro">
+									<div class="pro_photo">
+										<img src="images/pro-47.png" alt="product" class="img-responsive">
+										<div class="overlay">
+											<div class="actions">
+												<input type="radio" name="choice-5" id="ch35">
+												<label for="ch35" class="act">Add  To Drawer</label>
+											</div>
+										</div>
+									</div>
+									<div class="pro_info">
+										<div class="pro_name">
+											<a href="#">Product Name</a>
+										</div>
+										<div class="price">
+											<span class="current">20 SAR</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="your_costs">
+					<div class="total_costs">
+						Total Cost Of Drawer : <div class="costs">200 SAR</div>
+					</div>
+					<div class="updating">
+						<button class="up_btn hvr-sweep-to-left" id="re_up">Update Drawer</button>
+						<button class="draw_btn hvr-sweep-to-left" data-toggle="modal" data-target="#modal-2">Add Drawer To Shopping Cart</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--------------- start modal 1 ---------------->
+		<div class="modal fade over_mod" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true"><img src="images/closing.png"></span>
+			</button>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="chgs_packs">
+						<div class="charge-pack">
+							<div class="chg_title">Package 3 shipments discount 5%</div>
+							<div class="chg_info">
+								Subscribe now in 3 packages
+								Every 4 months of your class that you filled out and get
+								5% discount on the full value of the subscription
+							</div>
+							<a href="#" class="chg_3_sub hvr-sweep-to-left">Subscribe now</a>
+						</div>
+
+						<div class="charge-pack">
+							<div class="chg_title">Package 6 shipments discount 10%</div>
+							<div class="chg_info">
+								Subscribe now in a package of 6 shipments
+								Every two months of your grade that you filled out and get
+								10% discount on the full value of the subscription
+							</div>
+							<a href="#" class="chg_6_sub hvr-sweep-to-left">Subscribe now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------------- end modal 1--------------->
+
+
+		<!--------------- start modal 2 ---------------->
+		<div class="modal fade over_mod" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="top_part">
+						<div class="complete_mark">
+							<i class="fas fa-check"></i>
+						</div>
+						<div class="complete_talk">Drawer Added To The Shopping Cart</div>
+					</div>
+					<div class="down_part">
+						<a href="#" class="going_btn hvr-sweep-to-left">Go To Shopping Cart</a>
+						<a href="index-en.html" class="continue_btn hvr-sweep-to-left">Send On Shopping</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------------- end modal 2 ---------------->
+
+
+
+		<!--------------------------- start footer ----------------------------->
+		<footer>
+			<div class="container">
+				<div class="inside_footer">
+					<div class="row">
+						<div class="col-md-4">
+							<h5 class="title">Informatin</h5>
+							<div class="fast_links">
+								<ul class="list-unstyled">
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Shipping & Delivery</a></li>
+									<li><a href="#">Metrics Table</a></li>
+								</ul>
+								<ul class="list-unstyled">
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Return Request</a></li>
+									<li><a href="#">Terms of Use</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5 class="title">Product Sections</h5>
+							<div class="fast_links">
+								<ul class="list-unstyled">
+									<li><a href="#">Men's socks</a></li>
+									<li><a href="#">Men's Shorts</a></li>
+									<li><a href="#">Men's Slacks</a></li>
+									<li><a href="#">Men's Vests</a></li>
+									<li><a href="#">Shammagh</a></li>
+								</ul>
+								<ul class="list-unstyled">
+									<li><a href="#">Kids socks</a></li>
+									<li><a href="#">Kids Shorts</a></li>
+									<li><a href="#">Kids Slacks</a></li>
+									<li><a href="#">Kids Vests</a></li>
+									<li><a href="#">Kids Clothes</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5 class="title">Follow Us</h5>
+							<div class="social">
+								<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-youtube"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</div>
+							<div class="payment">
+								<a href="#">
+									<img src="images/pay.png" alt="payment" class="img-responsive">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copy_rights">
+					<div class="copy">© Dorjy Store 2018</div>
+					<div class="rights">
+						Designed & Developed  <a href="#" class="ours"><img src="images/ours.png"> TASWAK</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--------------------------- end footer ----------------------------->
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		<script src="js/plug.js"></script>
+	</body>
+</html> 

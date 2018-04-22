@@ -1,0 +1,174 @@
+.search_icon
+{
+	right: 20px;
+}
+.searchbox
+{
+	margin-left: auto;
+}
+.gm-style .gm-style-iw
+{
+	left: 12px!important;
+}
+.gm-style-iw + div 
+{
+	left: -22px !important;
+}
+.lang
+{
+	margin-left: 16px;
+}
+.lang > a:first-child
+{
+	margin-right: 3px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+	padding-left: 70px;
+}
+.sidenav.over_mob
+{
+	left: 0;
+}
+.sidenav {
+	left: -290px;
+}
+header .mobile_nav .list > span
+{
+	left: 7px;
+}
+.sidenav .closebtn {
+	right: 20px;
+}
+header .nav_bar > li
+{
+	padding: 16px 6px;
+}
+header .nav_bar > li > a
+{
+	font-size: 15px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+	text-align: left;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	right: 33px;
+}
+.lab
+{
+	margin-left: 20px;
+	margin-right: 9px;
+}
+.loc_photo
+{
+	margin-right: 10px;
+}
+.ar_loc
+{
+	display: none;
+}
+.sale_icon
+{
+	margin-left: 10px;
+}
+.lat_acts .lat_act
+{
+	margin-right: 2px;
+}
+.new_name > a
+{
+	font-size: 18px;
+}
+.new_detail
+{
+	font-size: 16px;
+}
+footer .foot_info
+{
+	margin-right: auto;
+	margin-left: 50px;
+}
+footer .con_icon
+{
+	margin-right: 14px;
+}
+.copy_left .ours
+{
+	margin-left: 3px;
+}
+
+
+/*md*/
+@media (min-width:992px) and (max-width:1199px){
+	.searchbox
+	{
+		margin-left: 0;
+	}
+}
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)
+{
+	.sale_icon
+	{
+		margin-left: 0;
+	}
+	.searchbox
+	{
+		margin-left: 0;
+	}
+	.lang > a:first-child
+	{
+		margin-right: 10px;
+	}
+	.acc_1:after
+	{
+		right: 33px;
+	}
+	.acc_1
+	{
+		text-align: left;
+	}
+	footer .foot_info
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	footer .con_icon
+	{
+		margin-right: 0;
+	}
+}
+
+
+/*xs*/
+@media (max-width:767px)	
+{
+	.sale_icon
+	{
+		margin-left: 0;
+	}
+	.lang > a:first-child
+	{
+		margin-right: 10px;
+	}
+	.acc_1:after
+	{
+		right: 33px;
+	}
+	.acc_1
+	{
+		text-align: left;
+	}
+	footer .foot_info
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	footer .con_icon
+	{
+		margin-right: 0;
+	}
+}

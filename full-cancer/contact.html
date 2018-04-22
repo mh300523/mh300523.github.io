@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Contacts</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+    </head>
+    <body>
+    
+    
+     <!-- start navbar section -->
+    <section class="navbar-section scrolled-nav">
+        <div class="container">
+            <div class="navbar-content">
+                <button class="xs-navbar-btn visible-xs fromTop">
+                    <img src="pic/bar-reversed.png"/>
+                </button>
+                <div class="logo-div">
+                    <a href="#"><img class="fromTop" src="images/logo-3.png"></a>
+                </div>
+                
+                <div class="elements-div">
+                    <ul class="menu-ul">
+                        <li><a href="#" data-text="الرئيسية" class="menu-animation">
+                            الرئيسية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="عن الحملة" class="menu-animation">
+                                عن الحملة
+                            </a>
+                            <ul class="sub-menu">
+                                <li><a href="#" data-text="حملة 2016">
+                                    حملة 2016
+                                    </a>
+                                </li>
+                                <li><a href="#" data-text="حملة 2016">
+                                    حملة 2016
+                                    </a>
+                                </li>
+                                <li><a href="#" data-text="حملة 2016">
+                                    حملة 2016
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" data-text="نطاق الحملة" class="menu-animation">
+                                نطاق الحملة
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="الجهات المشاركة" class="menu-animation">
+                                الجهات المشاركة
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="الأنشطة التوعوية" class="menu-animation">
+                                الأنشطة التوعوية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="المركز الإعلامي" class="menu-animation">
+                                المركز الإعلامي
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="تواصل معنا" class="menu-animation">
+                                تواصل معنا
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="main-search-btn menu-animation"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <button class="main-search-btn xs-search-btn visible-xs fromTop"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <div id="xs-navbar-id" class="xs-navbar visible-xs">
+        <div class="xs-navbar-content">
+            <img id="xs-menu-close" src="pic/search-close.png"/>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li class="xs-sub-menu">
+                  <a > عن الحملة <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <ul>
+                    <li><a href="#">حملة 2016</a></li>
+                    <li><a href="#">حملة 2016</a></li>
+                    <li><a href="#">حملة 2016</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">نطاق الحملة</a></li>
+                <li><a href="#">الجهات المشاركة</a></li>
+                <li><a href="#">الأنشطة التوعوية</a></li>
+                <li><a href="#">المركز الإعلامى</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end navbar section -->
+    
+    <!-- start search layer -->
+    <div class="search-layer">
+        <button class="close-btn"><img src="images/search-close.png"></button>
+        <form class="main-search-form">
+            <input type="search" placeholder="كلمة البحث">
+            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </div>
+    <!-- end search layer -->
+	
+	
+	<div class="our_contacts">
+		<div class="container">
+			<div class="contact_title">
+				يسعدنا دائما تواصلكم ومشاركتنا الأنشطة التوعوية
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="contact_data">
+						<div class="form-group same fromRight">
+							<label class="lab" for="exampleInputName">الإسم بالكامل</label>
+							<input type="text" class="form-control" id="exampleInputNmae" placeholder="" required>
+						</div>
+
+						<div class="form-group same fromRight">
+							<label class="lab" for="exampleInputNuumber">رقم الجوال</label>
+							<input type="text" class="form-control" id="exampleInputNumber" placeholder="" required>
+						</div>
+
+						<div class="form-group fromRight">
+							<label class="lab" for="exampleInputEmail1">البريد الإلكتروني</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="" required>
+					   </div>
+
+					   <div class="notes fromRight">
+							<label class="lab">نص الرسالة</label>
+							<textarea class="note" rows="5"></textarea>
+						</div>
+
+						<div class="send_to fromRight">
+							<button class="send hovicon effect-3 sub-a" type="submit">إرسال</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="connect_info">
+						<ul class="list-unstyled">
+							<li class="place fromLeft">
+								<div class="symbol"><i class="fa fa-home" aria-hidden="true"></i></div>
+								<div class="detail">
+									مستشفي الملك فيصل التخصصي ومركز الأبحاث <br> <span>الرياض </span>: 11211 - <span>ص.ب</span> : 3354 - بريد داخلي : 03
+								</div>
+							</li>
+							<li class="phone_num fromLeft">
+								<div class="symbol"><i class="fa fa-phone" aria-hidden="true"></i></div>
+								<div class="detail">
+									<span>الرقم الرئيسي</span> : 4647272-11-966+ <br> <span>تحويلة </span>: 31907 "إلغاء رقم مسئول الحملة"
+								</div>
+							</li>
+							<li class="fromLeft">
+								<i class="fa fa fa-mobile" aria-hidden="true"></i>
+								966-504399441+
+							</li>
+							<li class="mail fromLeft">
+								<i class="fa fa-envelope-o" aria-hidden="true"></i>gcccp@kfshrc.edu.sa
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- start footer section -->
+    <section class="footer-section">
+        <div class="container">
+            <div class="row footer-content fromBottom">
+                <div class="col-sm-3 col-md-3 col-lg-4">
+                    <a href="#">
+                        <img class="footer-logo" src="images/logo-footer.png">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-5">
+                    <ul class="footer-menu menu1">
+                        <li><a href="#">الرئيسية</a></li>
+                        <li><a href="#">عن الحملة</a></li>
+                        <li><a href="#">نطاق الحملة</a></li>
+                    </ul>
+                    <ul class="footer-menu menu2">
+                        <li><a href="#">الجهات المشاركة</a></li>
+                        <li><a href="#">الفعاليات</a></li>
+                        <li><a href="#">الفيديوهات التوعوية</a></li>
+                    </ul>
+                    <ul class="footer-menu menu3">
+                        <li><a href="#">الأخبار</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="social-div">
+                        <a href="#"><img src="images/social1.png"></a>
+                        <a href="#"><img src="images/social2.png"></a>
+                        <a href="#"><img src="images/social3.png"></a>
+                        <a href="#"><img src="images/social4.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRights fromBottom">
+                <p>جميع الحقوق محفوظة © الحملة الخليجية للتوعية بالسرطان 2018</p>
+                <a href="#"><img src="images/tasawk.png"></a>
+            </div>
+        </div>
+    </section>
+    <!-- end footer setion -->
+  
+ 
+		<script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scrollreveal.js"></script>
+        <script src="js/jquery-easing.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script type="text/javascript">
+            $("[data-fancybox]").fancybox({
+            });
+        </script>
+        <script src="js/plug.js"></script>
+    </body>
+</html>

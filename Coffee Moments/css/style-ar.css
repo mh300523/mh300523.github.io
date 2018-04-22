@@ -1,0 +1,85 @@
+header .top_link .link
+{
+    margin-left: 16px;
+}
+header .link .fa
+{
+	margin-left: 7px;
+}
+header .link .fa-angle-down
+{
+	margin-right: 3px;
+}
+header .lang .ar
+{
+	margin-left: 10px;
+}
+header .shop .fa
+{
+	margin-left: 7px;
+}
+header .bottom_bar .shop
+{
+	margin-right: 5px;
+}
+header .main > ul > li > a .fa {
+    margin-right: 3px;
+}
+header .menu .direct .fa
+{
+	margin-right: 3px;
+}
+.scroll
+{
+	margin-left: 10px;
+}
+.pro .info .price .past
+{
+	margin-left: 13px;
+}
+.pro .add_to > .fa
+{
+	margin-left: 7px;
+}
+.about .feature .explain
+{
+	margin-right: 30px;
+}
+header .mobile_nav .list > span
+{
+    margin-right: 8px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+    left: 30px;
+}
+.brands .part .brand
+{
+	margin: 17px 15px;
+}
+.join .form-group .check
+{
+    left: 22px;
+}
+footer .footer_links
+{
+	right: 20%;
+}
+
+
+
+@media(max-width:991px)
+{
+	.about .feature .explain
+	{
+		margin-right: 0;
+	}
+	header .bottom_bar .shop
+	{
+		margin-right: 0;
+	}
+	header .top_link .link
+	{
+		margin: 0 8px;
+	}
+}

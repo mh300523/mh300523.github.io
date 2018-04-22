@@ -1,0 +1,140 @@
+.top_nav
+{
+    direction: ltr;
+}
+.top_nav .lang,.top_nav .social
+{
+     margin-right: 25px;
+}
+.lang a,.top_nav .social span
+{
+    margin-right: 12px;
+}
+.searchbox
+{
+   padding-right: 28px;
+}
+.fa-search
+{
+    left: 0px;
+    padding-left: 34px;
+    padding-right: 18px;
+}
+
+.recomend
+{
+    float: left;
+}
+.recomend .btn-group
+{
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.recomend button .fa-user-circle
+{
+    margin-left: 6px;
+}
+.recomend .btn-group .dropdown-menu
+{
+    right: auto;
+}
+
+.main .nav > li 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.main .nav > li:first-child a
+{
+    padding-right: 0px;
+}
+.main .nav > li:last-child a
+{
+    margin-left: 0px;
+}
+.main .dropdown .dropdown-menu
+{
+    right: -30px;
+}
+.pro .add_to .fa-shopping-cart
+{
+    margin-left: 6px;
+}
+.join .form-group button
+{
+    left: 19px;
+}
+.copyright
+{
+    float: right;
+}
+.footer .social 
+{
+    float: left;
+    direction: ltr;
+}
+.footer .social  span
+{
+    margin-right: 14px;
+}
+.recomend .shopping
+{
+    padding-left: 0;
+    padding-right: 2px;;
+}
+
+
+
+
+
+
+@media(max-width:991px)
+{
+    .top_nav .lang
+    {
+        margin: auto;
+        display: table;
+        margin-bottom: 20px;
+    }
+    .top_nav .social
+    {
+         margin-right: 0px;
+    }
+    .logo img
+    {
+        margin: auto;
+    }
+   .recomend
+    {
+        float: none;
+    }
+    .recomend .btn-group
+    {
+        padding: 0;
+    }
+    .recomend .btn-group .dropdown-menu
+    {
+        left: auto;
+    }
+    .navbar-toggle
+    {
+        margin-right: 20px;
+        
+    }
+     .main ul
+    {
+        float: right;
+    }
+    .copyright
+    {
+        float: none;
+    }
+    .footer .social  
+    {
+        float: none;
+    }
+    .recomend .btn-group .dropdown-menu
+    {
+        right: auto;
+    }
+}

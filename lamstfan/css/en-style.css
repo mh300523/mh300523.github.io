@@ -1,0 +1,152 @@
+.top_nav
+{
+    direction: rtl;
+}
+.top_nav .lang,.top_nav .social
+{
+     margin-left: 25px;
+}
+.lang a,.top_nav .social span
+{
+    margin-left: 12px;
+}
+.searchbox
+{
+   padding-left: 28px;
+}
+.fa-search
+{
+    right: 0px;
+    padding-right: 34px;
+    padding-left: 18px;
+}
+.recomend
+{
+    float: right;
+}
+.recomend button
+{
+    padding-left: 0;
+}
+.recomend .btn-group
+{
+    padding-right: 19px;
+    padding-left: 19px;
+}
+.recomend button .fa-user-circle
+{
+    margin-right: 6px;
+}
+.recomend .btn-group .dropdown-menu
+{
+    left: auto;
+}
+
+.main .nav > li 
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main .nav > li > a
+{
+    font-size: 12px;
+}
+.main .nav > li:first-child a
+{
+    padding-left: 0px;
+}
+.main .nav > li:last-child a
+{
+    margin-right: 0px;
+}
+.main .dropdown .dropdown-menu
+{
+    left: -30px;
+    width: 245px;
+}
+.pro .add_to .fa-shopping-cart
+{
+    margin-left: 6px;
+}
+.join .form-group button
+{
+    right: 19px;
+}
+.copyright
+{
+    float: left;
+}
+.footer .social 
+{
+    float: right;
+    direction: ltr;
+}
+.footer .social  span
+{
+    margin-left: 14px;
+}
+.recomend .shopping
+{
+    padding-right: 0;
+    padding-left: 2px;;
+}
+
+
+
+
+
+
+@media(max-width:991px)
+{
+    .top_nav .lang
+    {
+        margin: auto;
+        display: table;
+        margin-bottom: 20px;
+    }
+    .top_nav .social
+    {
+         margin-left: 0px;
+    }
+    .logo img
+    {
+        margin: auto;
+    }
+   .recomend
+    {
+        float: none;
+    }
+    .recomend .btn-group
+    {
+        padding: 0;
+    }
+    .recomend .btn-group .dropdown-menu
+    {
+        right: auto;
+    }
+    .navbar-toggle
+    {
+        margin-left: 20px;
+        
+    }
+    .main .nav > li > a
+    {
+        font-size: 16px;
+    }
+     .main ul
+    {
+        float: left;
+    }
+    .copyright
+    {
+        float: none;
+    }
+    .footer .social  
+    {
+        float: none;
+    }
+    .recomend .btn-group .dropdown-menu
+    {
+        left: auto;
+    }
+}

@@ -1,0 +1,230 @@
+.top_nav .lang
+{
+     margin-right: 10px;
+}
+.top_nav .links
+{
+    margin-left: 10px;
+}
+.top_nav .links
+{
+    float: left;
+}
+.top_nav .links .dropdown ul > li
+{
+    margin-right: 0;
+}
+.top_nav .links ul > li 
+{
+    margin-right: 17px;
+    padding-left: 0;
+}
+.lang a
+{
+    margin-left: 5px;
+}
+.links .dropdown-menu
+{
+    left: 4px;
+}
+.links .dropdown-menu a
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.links .dropdown .fa-angle-down
+{
+    margin-left: 5px;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: left;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    left: auto;
+    right: 25px;
+}
+.categories .btn
+{
+    border-right: 1px solid #f0f0f0;
+    padding-left: 30px;
+}
+.bootstrap-select.btn-group .dropdown-menu
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.searchbox
+{
+   padding-left: 28px;
+}
+.fa-search
+{
+    right: 25px;
+}
+.recomend
+{
+    float: right;
+}
+.recomend .btn-group
+{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.recomend button
+{
+    font-size: 12px;
+}
+.recomend button .fa-user-circle,.recomend button .fa-shopping-cart
+{
+    margin-right: 8px;
+}
+.recomend .btn-group .dropdown-menu
+{
+    left: -23px;
+}
+.recomend .btn-group .dropdown-menu > li > a
+{
+    margin-right: 50px;
+}
+.main ul
+{
+    margin-left: 10px;
+}
+.main .nav > li > a
+{
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.main .nav > li:last-child a
+{
+    margin-right: 0px;
+}
+.offer
+{
+    direction: rtl;
+}
+.pro .add_to .fa-shopping-cart
+{
+    margin-right: 6px;
+}
+.join .form-group button
+{
+    right: 19px;
+}
+.copyright
+{
+    float: left;
+}
+.social 
+{
+    float: right;
+}
+.social span
+{
+    margin-left: 14px;
+}
+.recomend .shopping
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.footer_links .title
+{
+    font-size: 13px;
+}
+.footer_links li a
+{
+    font-size: 11px;
+}
+.join h4,.join .form-group .form-control
+{
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width: 1200px){
+    
+    .recomend .btn-group
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .recomend .btn-group .dropdown-menu
+    {
+        left: -25px;
+    }
+    .recomend button
+    {
+        font-size: 10px;
+    }
+    .recomend button .fa-user-circle,.recomend button .fa-shopping-cart
+    {
+        margin-left: 0px;
+        margin-right: 3px;
+    }
+}
+@media(max-width:991px)
+{
+    .top_nav .lang
+    {
+        margin: auto;
+    }
+    .logo img
+    {
+        margin: auto;
+    }
+    .container > .navbar-header {
+        margin: 0 -15px;
+    }
+    .navbar-toggle
+    {
+        margin-left: 15px;
+    }
+    .main .nav > li > a
+    {
+        padding-left: 9px;
+    }
+    .categories .btn
+    {
+        border: 0;
+    }
+   .recomend
+    {
+        float: none;
+    }
+    .recomend .btn-group
+    {
+        padding: 0;
+    }
+    .recomend button
+    {
+        font-size: 14px;
+    }
+    .recomend .btn-group .dropdown-menu
+    {
+        right: auto;
+    }
+  
+     .main ul
+    {
+        float: left;
+        margin-left: 25px;
+    }
+    .copyright
+    {
+        float: none;
+    }
+    .social 
+    {
+        float: none;
+    }
+    .recomend .btn-group .dropdown-menu
+    {
+        left: auto;
+    }
+}

@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Power Store</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+		
+		<header>
+			<div class="top_nav">
+				<div class="container">
+					<div class="top_bar">
+						<div class="logo lg">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						<div class="searchbox lg">
+							<input class="searchinput" id="search" placeholder="البحث" type="search">
+							<span class="changed"></span>
+							<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+						</div>
+						<div class="search_sm">
+							<button class="search_btn" data-toggle="modal" data-target=".bs-example-modal-sm">
+								<i class="fas fa-search"></i>
+							</button>
+						</div>
+						<div class="log_sign">
+							<div class="log_in">
+								<a href="#">تسجيل الدخول</a>
+							</div>
+							<div class="sign_up">
+								<a href="#">تسجيل جديد</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="down_nav">
+				<div class="container">
+					<div class="down_bar">
+						<div class="logo sm">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						<div class="main_links">
+							<ul class="nav_bar list-unstyled list-inline">
+								<li><a href="#">الرئيسية</a></li>
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">شواحن متنقلة</a></li>
+								<li><a href="#">كيابل</a></li>
+								<li><a href="#">ملحقات سيارة</a></li>
+								<li><a href="#">افياش جدارية</a></li>
+								<li><a href="#">سماعات</a></li>
+								<li><a href="#">ستاندات</a></li>
+								<li><a href="#">كفرات ومسكات</a></li>
+								<li><a href="#">مقتنيات ذكية</a></li>
+							</ul>
+						</div>
+						<div class="recomend">
+							<div class="my_account dropdown">
+								<button class="re_btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-user-circle"></i>
+									<span>حسابي</span>
+									<i class="fas fa-chevron-down"></i>
+								</button>
+								<ul class="dropdown-menu reg_menu">
+									<li><a href="#">تسجيل الدخول</a></li>
+									<li><a href="#">تسجيل جديد</a></li>
+								</ul>
+							</div>
+
+							<div class="cart">
+								<button class="re_btn">
+									<i class="fas fa-shopping-cart"></i> <span>عربة التسوق</span>
+								</button>
+							</div>
+							
+							<div class="mob_bar">
+								<button class="list" id="navbtn">
+									<i class="fas fa-bars"></i> 
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		
+		<!--------------- start search modal ---------------->
+		<div class="modal fade bs-example-modal-sm over_mod" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true"><img src="images/search-close.png"></span>
+			</button>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="searchbox">
+						<input class="searchinput" id="search" placeholder="البحث" type="search">
+						<span class="changed"></span>
+						<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------------- end search modal ---------------->
+		
+		<!-------------------start sidenav------------------->
+		<div id="mySidenav" class="sidenav">
+			<span href="#" class="closebtn">&times;</span>
+			<div class="logo">
+				<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+			</div>
+			<ul class="list-unstyled side_ul">
+				<li><a class="direct" href="#">الرئيسية</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id1" aria-expanded="false">شواحن متنقلة</a>
+					<ul class="mob_menu list-unstyled collapse" id="id1">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">وصل حديثا</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ملابس وفساتين</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">إكسسوارات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ساعات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">شنط</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">أحذية</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">مكياج</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">العروض المميزة</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">كيابل</a></li>
+				<li><a class="direct" href="#">ملحقات سيارة</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id2" aria-expanded="false">أفياش جدارية</a>
+					<ul class="mob_menu list-unstyled collapse" id="id2">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">وصل حديثا</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ملابس وفساتين</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">إكسسوارات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ساعات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">شنط</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">أحذية</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">مكياج</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">العروض المميزة</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">سماعات</a></li>
+				<li><a class="direct" href="#">ستاندات</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id3" aria-expanded="false">كفرات وماسكات</a>
+					<ul class="mob_menu list-unstyled collapse" id="id3">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">وصل حديثا</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ملابس وفساتين</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">إكسسوارات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ساعات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">شنط</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">أحذية</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">مكياج</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">العروض المميزة</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">مقتنيات ذكية</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_acc" href="#" data-toggle="collapse" data-target="#id4" aria-expanded="false">حسابي</a>
+					<ul class="mob_menu list-unstyled collapse" id="id4">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">تسجيل دخول</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">تسجيل جديد</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">من نحن</a></li>
+			</ul>
+		</div>
+		<!-------------------end sidenav------------------->
+		
+		<div class="slider">
+			<div class="mainslider owl-carousel">
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="our_features">
+			<div class="container">
+				<div class="features">
+
+					<div class="feature">
+						<div class="fe_icon">
+							<i class="fas fa-truck"></i>
+						</div>
+						<div class="fe_detail">
+							<span class="de_title">الشحن والتوصيل لجميع مناطق</span>
+							المملكة ودول الخليج
+						</div>
+					</div>
+
+					<div class="feature">
+						<div class="fe_icon">
+							<i class="fas fa-undo"></i>
+						</div>
+						<div class="fe_detail">
+							<span class="de_title">استرجاع واستبدال</span>
+							خلال فترة 14 يوم
+						</div>
+					</div>
+					
+					<div class="feature">
+						<div class="fe_icon">
+							<i class="fas fa-credit-card"></i>
+						</div>
+						<div class="fe_detail">
+							<span class="de_title">طرق دفع متعددة وندعم</span>
+							الدفع عند الإستلام
+						</div>
+					</div>
+					
+					<div class="feature">
+						<div class="fe_icon">
+							<i class="fas fa-headphones"></i>
+						</div>
+						<div class="fe_detail">
+							<span class="de_title">خدمة العملاء</span>
+							من الساعه 9 صباحا حتى 9 مساء
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="our_main_cats">
+			<div class="container">
+				<div class="cats_title">الأقســام الرئيسيــة</div>
+				<div class="main_cats">
+					<div class="main_cat">
+						<div class="cat_photo">
+							<a href="#"><img class="img-1" src="images/c-1.png" alt="icon"></a>
+							<a href="#"><img class="img-2" src="images/c+1.png" alt="icon"></a>
+						</div>
+						<div class="cat_name">
+							<a href="#">شواحن متنقلة</a>
+						</div>
+					</div>
+					<div class="main_cat">
+						<div class="cat_photo">
+							<a href="#"><img class="img-1" src="images/c-2.png" alt="icon"></a>
+							<a href="#"><img class="img-2" src="images/c+2.png" alt="icon"></a>
+						</div>
+						<div class="cat_name">
+							<a href="#">كيابل</a>
+						</div>
+					</div>
+					<div class="main_cat">
+						<div class="cat_photo">
+							<a href="#"><img class="img-1" src="images/c-3.png" alt="icon"></a>
+							<a href="#"><img class="img-2" src="images/c+3.png" alt="icon"></a>
+						</div>
+						<div class="cat_name">
+							<a href="#">ملحقات سيارة</a>
+						</div>
+					</div>
+					<div class="main_cat">
+						<div class="cat_photo">
+							<a href="#"><img class="img-1" src="images/c-4.png" alt="icon"></a>
+							<a href="#"><img class="img-2" src="images/c+4.png" alt="icon"></a>
+						</div>
+						<div class="cat_name">
+							<a href="#">أفياش جدارية</a>
+						</div>
+					</div>
+					<div class="main_cat">
+						<div class="cat_photo">
+							<a href="#"><img class="img-1" src="images/c-5.png" alt="icon"></a>
+							<a href="#"><img class="img-2" src="images/c+5.png" alt="icon"></a>
+						</div>
+						<div class="cat_name">
+							<a href="#">سماعات</a>
+						</div>
+					</div>
+					<div class="main_cat">
+						<div class="cat_photo">
+							<a href="#"><img class="img-1" src="images/c-6.png" alt="icon"></a>
+							<a href="#"><img class="img-2" src="images/c+6.png" alt="icon"></a>
+						</div>
+						<div class="cat_name">
+							<a href="#">ستاندات</a>
+						</div>
+					</div>
+					<div class="main_cat">
+						<div class="cat_photo">
+							<a href="#"><img class="img-1" src="images/c-7.png" alt="icon"></a>
+							<a href="#"><img class="img-2" src="images/c+7.png" alt="icon"></a>
+						</div>
+						<div class="cat_name">
+							<a href="#">كفرات ومسكات</a>
+						</div>
+					</div>
+					<div class="main_cat">
+						<div class="cat_photo">
+							<a href="#"><img class="img-1" src="images/c-8.png" alt="icon"></a>
+							<a href="#"><img class="img-2" src="images/c+8.png" alt="icon"></a>
+						</div>
+						<div class="cat_name">
+							<a href="#">مقتنيات ذكية</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="products">
+			<div class="container">
+				<div class="heading">
+					<div class="pros_title">العروض المميزة</div>
+					<a class="view_all" href="#">عرض الكل</a>
+				</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-1.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									راف باور بطارية بسعة
+									6700 مللي امبير - RP-PB17
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-2.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									ابل كفر سيلكون للايفون
+									<br>
+									بلس 7
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-3.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									بيلكن شاحن جداري بقوه 45 واط
+										بمنفذ usb-c مع كيبل usb-c
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-4.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									راف باور شاحن سيارة بقوة
+									24 واط ومدخلين يو اس بي
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-5.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									بوب سوكيت مسكة جوال
+									المونيوم
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-1.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									راف باور بطارية بسعة
+									6700 مللي امبير - RP-PB17
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="banners">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="banner">
+							<a href="#">
+								<img src="images/banner-1.jpg" class="img-responsive" alt="banner">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6">
+						<div class="banner">
+							<a href="#">
+								<img src="images/banner-2.jpg" class="img-responsive" alt="banner">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="products">
+			<div class="container">
+				<div class="heading">
+					<div class="pros_title">شوهد مؤخراً</div>
+					<a class="view_all" href="#">عرض الكل</a>
+				</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-6.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									راف باور بطارية بسعة
+									6700 مللي امبير - RP-PB17
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-7.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									ابل كفر سيلكون للايفون
+									<br>
+									بلس 7
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-8.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									بيلكن شاحن جداري بقوه 45 واط
+									بمنفذ usb-c مع كيبل usb-c
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-9.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									راف باور شاحن سيارة بقوة
+									24 واط ومدخلين يو اس بي
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">20%</div>
+						<div class="photo">
+							<img src="images/pro-10.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									بوب سوكيت مسكة جوال
+									المونيوم
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="photo">
+							<img src="images/pro-6.png" class="img-responsive">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								<a href="#">
+									راف باور بطارية بسعة
+									6700 مللي امبير - RP-PB17
+								</a> 
+							</div>
+							<div class="rate">
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span class="active"><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span class="current">150 SAR</span>
+								<span class="past">250 SAR</span>
+							</div>
+							<div class="actions">
+								<button class="act" data-toggle="tooltip" data-placement="top" title="مشاهدة">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button class="act add_cart" data-toggle="tooltip" data-placement="top" title="اضف للعربة">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+								<button class="act" data-toggle="tooltip" data-placement="top" title="اعجاب">
+									<i class="fas fa-thumbs-up"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="our_brands">
+			<div class="container">
+				<div class="owl-carousel brand_slider owl-theme">
+					<div class="item brand">
+						<div class="br_photo">
+							<img src="images/br-1.png" class="img-responsive" alt="brand">
+						</div>
+					</div>
+					<div class="item brand">
+						<div class="br_photo">
+							<img src="images/br-2.png" class="img-responsive" alt="brand">
+						</div>
+					</div>
+					<div class="item brand">
+						<div class="br_photo">
+							<img src="images/br-3.png" class="img-responsive" alt="brand">
+						</div>
+					</div>
+					<div class="item brand">
+						<div class="br_photo">
+							<img src="images/br-4.png" class="img-responsive" alt="brand">
+						</div>
+					</div>
+					<div class="item brand">
+						<div class="br_photo">
+							<img src="images/br-5.png" class="img-responsive" alt="brand">
+						</div>
+					</div>
+					<div class="item brand">
+						<div class="br_photo">
+							<img src="images/br-6.png" class="img-responsive" alt="brand">
+						</div>
+					</div>
+					<div class="item brand">
+						<div class="br_photo">
+							<img src="images/br-1.png" class="img-responsive" alt="brand">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">معلومات</h5>
+							<ul class="list-unstyled collapse" id="id10">
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">معلومات الشحن والتوصيل</a></li>
+								<li><a href="#">الخصوصية</a></li>
+								<li><a href="#">شروط الإستخدام</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id11" aria-expanded="false">اضافات</h5>
+							<ul class="list-unstyled collapse" id="id11">
+								<li><a href="#">الشركات</a></li>
+								<li><a href="#">قسائم الهدايا</a></li>
+								<li><a href="#">نظام العمولة</a></li>
+								<li><a href="#">العروض المميزة</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id12" aria-expanded="false">حسابي</h5>
+							<ul class="list-unstyled collapse" id="id12">
+								<li><a href="#">حسابي</a></li>
+								<li><a href="#">طلباتي</a></li>
+								<li><a href="#">قائمة رغباتي</a></li>
+								<li><a href="#">القائمة البريدية</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id13" aria-expanded="false">معلومات التواصل</h5>
+							<ul class="list-unstyled collapse" id="id13">
+								<li>
+									<span class="con_icon"><i class="fas fa-map-marker-alt"></i></span>
+									<span class="con_way">الرياض - السعودية</span>
+								</li>
+								<li>
+									<span class="con_icon"><i class="fas fa-mobile-alt"></i></span>
+									<span class="con_way">0000 - 000 - 0000</span>
+								</li>
+								<li>
+									<span class="con_icon"><i class="fas fa-envelope"></i></span>
+									<span class="con_way">info@powerstore.com</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="connect_info">
+							<h5 class="title">القائمة البريدية</h5>
+							<div class="join_intro">اشترك في القائمة البريدية ليصلك جديد متجرنا</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="ادخل بريدك الإلكتروني">
+								<span class="changed"></span>
+								<button class="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copy_social">
+					<div class="copy">
+						&copy; باور ستور Power Store 2018 - تصميم وتطوير <a href="#"><img src="images/ours.png"> </a>
+					</div>
+					<div class="payment">
+						<a href="#">
+							<img src="images/pay.png" class="img-responsive" alt="payment">
+						</a>
+					</div>
+					<div class="social">
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html>

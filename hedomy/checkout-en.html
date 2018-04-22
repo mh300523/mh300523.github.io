@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+        <meta charset="utf-8">
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>hudomy</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-en.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+    </head>
+    <body>
+    <div class="over_click"></div>
+    <header>
+    	<div class="top_nav">
+    		<div class="container custom">
+    			<div class="top_bar">
+					<div class="coins">
+						<select class="selectpicker">
+							 <option selected>Al Madina</option>
+							  <option>Maka</option>
+							  <option>Riyadh</option>
+							  <option>Alhamam</option>
+						</select>
+					</div>
+					<div class="lang">
+						<a class="ar" href="checkout.html" data-toggle="tooltip" data-placement="bottom" title="عربي" ><img src="images/lang-ar.png"></a>
+						<a class="en" href="checkout-en.html" data-toggle="tooltip" data-placement="bottom" title="English" ><img src="images/lang-en.png"></a>
+					</div>
+    			</div>
+    			
+    			<div class="down_bar">
+    				<div class="logo">
+                        <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="mobile_nav">
+                        <div id="mySidenav" class="sidenav">
+                            <span href="#" class="closebtn">&times;</span>
+                            <ul class="list-unstyled">
+                                <li><a class="direct" href="#">main</a></li>
+                                <li class="mob_cat">
+                                	<a class="direct" href="#">all categories</a>
+                                	<ul class="mob_menu list-unstyled">
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">Men Wear</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">Women Wear</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">Wear Kids</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">Accessories</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">shoes</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">Perfumes</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">Health & Beauty</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">Games & Gifts</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">Other Categories</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">product 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">product 5</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mob_cat">
+                                	<a class="direct" href="#">My Account</a>
+                                	<ul class="mob_menu list-unstyled">
+                                        <li class="sub_cat"><a class="mob_item" href="#">Log In</a></li>
+                                        <li class="sub_cat"><a class="mob_item" href="#">Sign Up</a></li> 
+									</ul>      
+                                </li>
+                                <li><a class="direct" href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="mob_bar">
+                            <button class="list" id="navbtn">
+                                <i class="fa fa-bars"></i><span>Main Menu</span> 
+                            </button>
+                        </div>
+                    </div>
+                    <div class="trade">
+						<div class="search_cat">
+							<div class="categories">
+								<select class="selectpicker">
+									<option selected disabled>All Categories<i class="fa fa-angle-down" aria-hidden="true"></i></option>
+								   <option>Category 1</option>
+								   <option>Category 2</option>
+								   <option>Category 3</option>
+								</select>
+							</div>
+							<div class="searchbox">
+							  <input class="searchinput" id="search" placeholder="Search" type="search">
+								<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</div>
+						</div>
+                  		<div class="searchbox2">
+						  <input class="searchinput" id="search" placeholder="Search With Trader Name" type="search">
+							<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+                   		<button class="replace">Traders Search</button>
+                   		<button class="replace2">products Search</button>
+                    </div>
+                    <div class="recomend">
+						<div class="my_account">
+						  <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						   <i class="fa fa-user-circle" aria-hidden="true"></i>
+							My Account<i class="fa fa-angle-down" aria-hidden="true"></i>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li><a href="#">Log In</a></li>
+							<li><a href="#">Sign Up</a></li>
+						  </ul>
+						</div>
+						<div class="cart">
+							 <button class="shopping">
+								 <i class="fa fa-shopping-basket" aria-hidden="true"><span>0</span></i>SAR 0
+							</button>
+						</div>
+					</div>
+    			</div>
+    		</div>
+    	</div>
+    	
+    	<div class="down_nav">
+    		<div class="container">
+    			<div class="main">
+    				<div class="cat_feat">
+						<div class="cat">
+							<div class="title">
+								<i class="fa fa-bars" aria-hidden="true"></i>All Categories
+							</div>
+							<div class="demo">
+								<ul class="list-unstyled">
+									<li>
+										<a class="sub" href="#">Men Wear</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">Women Wear</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">Kids Wear</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">Accessories</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">shoes</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">Perfumes</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">Health & Beauty</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">Games & Gifts</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">Other Categories</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">product 1</a></li>
+										   <li><a class="sub_item" href="#">product 2</a></li>
+										   <li><a class="sub_item" href="#">product 3</a></li>
+										   <li><a class="sub_item" href="#">product 4</a></li>
+										   <li><a class="sub_item" href="#">product 5</a></li>
+									   </ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="features">
+							<div class="feature">
+								<div class="photo">
+									<img src="images/icon-1.png" alt="icon">
+								</div>
+								<div class="detail">
+									High quality products
+								</div>
+							</div>
+
+							<div class="feature">
+								<div class="photo">
+									<img src="images/icon-2.png" alt="icon">
+								</div>
+								<div class="detail">
+									Electronic payment services
+								</div>
+							</div>
+
+							<div class="feature">
+								<div class="photo">
+									<img src="images/icon-3.png" alt="icon">
+								</div>
+								<div class="detail">
+									Fast shipping in two working days
+								</div>
+							</div>   									
+						</div>
+    				
+    				</div>
+    				
+    				<div class="contact_us">
+    					<button class="contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </header>
+    
+   <div class="end_request">
+   		<div class="container">
+   			<h2 class="title">End Request</h2>
+   			<div class="step1">
+   				<div class="move">
+   					<span>Step 1</span> : Account & Bill Details  
+   				</div>
+   				<div class="info">
+   					<div class="row">
+   						<div class="col-md-6">
+   							<div class="form-group">
+								<label class="lab" for="exampleInputName">First Name</label>
+								<input type="text" class="form-control" id="exampleInputNmae" placeholder="" required>
+							</div>
+   						</div>
+   						<div class="col-md-6">
+   							<div class="form-group">
+								<label class="lab" for="exampleInputName">Phone Number</label>
+								<input type="text" class="form-control" id="exampleInputNmae" placeholder="" required>
+							</div>
+   						</div>
+   					</div>
+   				</div>
+   				<div class="map">
+   					<h2>Select your location on the map</h2>
+   					<div id="map" style="width: 100%; height: 190px;"></div>
+   				</div>
+   			</div>
+   			<div class="step2">
+   				<div class="move">
+   					<span>Step 2</span> : Payment Method
+   				</div>
+   				<h2 class="way">Please select preferred payment method</h2>
+   				<form class="choose">
+   					<label class="choosen">Sadad
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">PayPal
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">Master Card
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">Visa
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+  					<label class="choosen">Payment on Delivery
+					  <input type="radio" checked="checked" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+   				</form>
+   			</div>
+   			<div class="step3">
+   				<div class="move">
+   					<span>Step 3</span> : Shipping Method
+   				</div>
+   				<h2 class="way">Please choose preferred shipping method</h2>
+   				<form class="choose">
+   					<label class="choosen">DHL
+					  <input type="radio" checked="checked" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">Aramex
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">Express
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+   				</form>
+   				<div class="notes">
+   					<h2 class="write">Type any notes with the request</h2>
+   					<textarea class="note" rows="6"></textarea>
+   				</div>
+   			</div>
+   			<div class="requsts">
+   				<div class="tots">
+   					<div class="tot tot1">
+						<h6 class="name">Total Orders</h6>
+						<h6 class="cost">2000 SAR</h6>
+   					</div>
+   					<div class="tot tot2">
+						<h6 class="name">DHL Shipping Cost</h6>
+						<h6 class="cost">35 SAR</h6>
+   					</div>
+   					<div class="tot tot3">
+						<h6 class="name">Final Total</h6>
+						<h6 class="cost">2035 SAR</h6>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="cond">
+   				<label class="approv"> I have read and agree to the terms of use
+				  <input type="checkbox" checked="checked">
+				  <span class="checkmark"></span>
+				</label>
+  				<button class="terminate">
+  					 End Request<i class="fa fa-arrow-right" aria-hidden="true"></i> 
+  				</button>   			
+  			</div>
+   		</div>
+   </div>
+  
+ 
+	<footer>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">Information</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Shipping & Delivery</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Terms Of Use</a></li>
+						</ul>
+					</div>
+    			</div>
+    			<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">Customer Service</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Return Request</a></li>
+							<li><a href="#">Site Map</a></li>
+						</ul>
+					</div>
+    			</div>
+    			<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">Additions</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">Companies</a></li>
+							<li><a href="#">Gift Vouchers</a></li>
+							<li><a href="#">Commission System</a></li>
+							<li><a href="#">Special offers</a></li>
+						</ul>
+					</div>
+    			</div>
+    			<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">My Account</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">My Account</a></li>
+							<li><a href="#">Requests</a></li>
+							<li><a href="#">Wish List</a></li>
+							<li><a href="#">Mailing List</a></li>
+						</ul>
+					</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="join">
+					   <h5 class="title">Mailing List</h5>
+						<h4>Join our mailing list to receive our offers and news </h4>
+						 <div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter E-mail">
+							 <button class="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+						 </div>
+					</div>
+    			</div>
+    		</div>
+    		<div class="pay">
+				<a href="#"><img src="images/pay.png" alt="pay" class="img-responsive"></a>
+			</div>
+			<div class="copy_social">
+				<div class="copy_right">
+					Copyright &copy; Reserved Hudomy 2017 Designed & Developed by : <a href="#">TASWAK</a>
+				</div>
+				<div class="social">
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+			</div>
+    	</div>
+    </footer>
+  
+ 
+		<script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/plug.js"></script>
+    </body>
+</html>

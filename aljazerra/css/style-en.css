@@ -1,0 +1,159 @@
+header .mobile_nav .sidenav {
+    left: -300px;
+}
+header .mobile_nav
+{
+	margin-right: 25px;
+}
+header .contact .fa
+{
+	margin-right: 8px;
+}
+header .search_icon
+{
+	right: 40px;
+}
+header .search
+{
+	margin-left: 30px;
+	margin-right: 12px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+	right: 26px;
+}
+header .sidenav .links .expand > a:after
+{
+	content: "\f105";
+	right: 0;
+}
+header .sidenav .links .sub_expand > a:after
+{
+	content: "\f105";
+	right: 0;
+}
+header .sidenav .links .sub_expand2 > a:after
+{
+	content: "\f105";
+	right: 0;
+}
+header .mobile_nav .sidenav.over
+{
+	left: 0;
+}
+header .sidenav .links .drop_menu
+{
+	left: 273px;
+}
+header .sidenav .links .sub
+{
+	left: 246px;
+}
+header .sidenav .links .sub2
+{
+	left: 246px;
+}
+.about .name > a
+{
+	font-size: 14px;
+}
+.order .request > a
+{
+	font-size: 15px;
+}
+footer .own, footer .develop, footer .develop > a
+{
+	font-size: 14px;
+}
+.about .heading h3:after 
+{
+    left: 0;
+}
+.about .photo
+{
+	margin-right: 30px;
+}
+.banner .detail
+{
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+.banner .detail:before
+{
+	left: 0;
+}
+.join .form-group .check
+{
+	right: 37px;
+}
+.join .form-group
+{
+	margin-left: 35px;
+}
+
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+	header .sidenav .links .sub
+	{
+		left: 196px;
+	}
+	header .sidenav .links .sub2
+	{
+		left: 196px;
+	}
+	.about .info {
+		margin-right: 40px;
+	}
+	header .drop_menu > li > a,header .sub > li > a,header .sub2 > li > a
+	{
+		font-size: 13px;
+	}
+}
+
+
+
+
+@media(max-width:991px)
+{
+	header .mob_cat .mob_menu {
+		padding-left: 30px;
+	}
+	header .links_sm .sub_cat_menu {
+		padding-left: 40px;
+	}
+	header .links_sm .sub_cat_menu2 {
+		padding-left: 40px;
+	}
+	header .mob_cat:after,header .sub1:after,header .sub2:after
+	{
+		right: 0;
+	}
+	header .search
+	{
+		margin-left: 0;
+		margin-right: 0px;
+	}
+	header .mobile_nav
+	{
+		margin-right: 0;
+	}
+	.about .heading h3:after
+	{
+		left: auto;
+	}
+	.about .photo
+	{
+		margin-right: 0;
+	}
+	.join .form-group
+	{
+		margin-left: 0;
+	}
+	.join .form-group .check
+	{
+		right: 28px;
+	}
+}

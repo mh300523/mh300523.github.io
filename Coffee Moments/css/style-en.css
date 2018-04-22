@@ -1,0 +1,86 @@
+header .top_link .link
+{
+    margin-right: 16px;
+}
+header .link .fa
+{
+	margin-right: 7px;
+}
+header .link .fa-angle-down
+{
+	margin-left: 3px;
+}
+header .main > ul > li > a .fa {
+    margin-left: 3px;
+}
+header .menu .direct .fa
+{
+	margin-left: 3px;
+}
+header .lang .ar
+{
+	margin-right: 10px;
+}
+header .shop .fa
+{
+	margin-right: 7px;
+}
+header .bottom_bar .shop
+{
+	margin-left: 5px;
+}
+.scroll
+{
+	margin-right: 10px;
+}
+.pro .info .price .past
+{
+	margin-right: 13px;
+}
+.about .feature .explain
+{
+	margin-left: 30px;
+}
+header .mobile_nav .list > span
+{
+    margin-left: 8px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+    right: 30px;
+}
+.brands .part .brand
+{
+	margin: 17px 15px;
+}
+.join .form-group .check
+{
+    right: 22px;
+}
+footer
+{
+	background-color: #412e27;
+	background-image: url(../images/footer_back-en.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	position: relative;
+}
+
+
+
+@media(max-width:991px)
+{
+	.about .feature .explain
+	{
+		margin-left: 0;
+	}
+	header .bottom_bar .shop
+	{
+		margin-left: 0;
+	}
+	header .top_link .link
+	{
+		margin: 0 8px;
+	}
+}

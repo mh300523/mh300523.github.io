@@ -1,0 +1,105 @@
+header .contact > img
+{
+    margin-right: 7px;
+}
+header .top_bar .lang
+{
+    margin-right: 28px;
+}
+header .top_bar .lang .ar
+{
+    margin-left: 10px;
+}
+header .contact
+{
+    direction: ltr;
+}
+header .down_nav .main > ul > li:last-child
+{
+    padding-left: 0;
+}
+header .searchbox .search_icon
+{
+    left: 7px;
+}
+header .searchbox
+{
+    margin-left: 15px;
+}
+header .social > a
+{
+    margin-right: 9px;
+}
+header .mobile_nav .list > span
+{
+    margin-right: 8px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+    left: 30px;
+}
+header .link > .dropdown-toggle > span
+{
+    margin-right: 3px;
+}
+.heading h3:after 
+{
+    right: 0;
+}
+.pro .new
+{
+    margin-right: 12px;
+}
+.pro .act
+{
+    margin-right: 8px;
+}
+.pro .cart > .fa
+{
+    margin-left: 3px;
+}
+.pro_slider .owl-item
+{
+    margin-left: 22px;
+}
+.bans .banner:first-child
+{
+    margin-left: 30px;
+}
+.join .form-group .check
+{
+    margin-right: 10px;
+}
+footer .payment
+{
+    direction: ltr;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px)
+{
+    header .top_bar .lang
+    {
+        margin-right: 0;
+    }
+    header .searchbox
+    {
+        margin-left: 0;
+    }
+    .bans .banner:first-child
+    {
+        margin-left: 0;
+    }
+    .join .form-group .check
+    {
+        margin-right: 0;
+    }
+}

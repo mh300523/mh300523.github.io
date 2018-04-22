@@ -1,0 +1,244 @@
+header .mobile_nav .sidenav {
+	right: -290px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	right: 0;
+}
+header .mobile_nav .list > span
+{
+	right: 7px;
+}
+header .mobile_nav .sidenav .closebtn {
+	left: 20px;
+}
+.coins .bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    right: auto;
+    left: 0;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: right;
+}
+.coins .bootstrap-select>.dropdown-toggle
+{
+    direction: rtl;
+}
+header .lang
+{
+	margin-right: 22px;
+}
+header .lang .ar
+{
+	margin-left: 8px;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	left: 16px;
+}
+header .search_cat .searchbox
+{
+	border-right: 1px solid #e6e6e6;
+}
+header .search_icon
+{
+    left: 7px;
+}
+header .my_account .dropdown-menu
+{
+    right: -13px;
+}
+header .my_account
+{
+	margin-left: 13px;
+}
+header .cart
+{
+	margin-right: 13px;
+}
+header .recomend .fa-user-circle,header .recomend .fa-shopping-basket
+{
+	margin-left: 8px;
+}
+header .cart .shopping .fa span
+{
+    right: -7px;
+}
+header .trade .replace,header .trade .replace2
+{
+	left: 0;
+}
+.down_nav .title > .fa
+{
+	margin-left: 12px;
+}
+.down_nav .demo .sub:after
+{
+	content: "\f104";
+	left: 30px;
+}
+.demo .sub_list
+{
+	right: 263px;
+}
+header .feature
+{
+	margin-right: 32px;
+}
+header .feature .detail
+{
+	margin-right: 10px;
+}
+header .contact_us
+{
+	float: left;
+}
+header .contact > .fa
+{
+	margin-left: 6px;
+}
+.join .form-group .check
+{
+    left: 22px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+    padding-right: 70px;
+}
+.sidenav .sub_cat_menu 
+{
+    padding-right: 50px;
+}
+
+
+
+
+/* start end_request */
+
+.end_request .move:before
+{
+	right: 0;
+}
+.choosen
+{
+	padding-right: 26px;
+	margin-right: 35px;
+}
+.checkmark
+{
+	right: 0;
+}
+.end_request .tot .cost
+{
+	text-align: right;
+}
+.approv
+{
+	padding-right: 26px;
+}
+.approv .checkmark:after {
+	left: 1px;
+}
+.cond .terminate > .fa
+{
+	margin-right: 10px;
+}
+/* end end_request */
+
+
+
+
+
+/* start merchants-search-results */
+.prod .photo
+{
+	margin-left: 17px;
+}
+/* end merchants-search-results */
+
+
+
+/* start packages */
+.packages .choose > .fa
+{
+	margin-right: 10px;
+}
+.tally .heading:after {
+    left: 30px;
+}
+.pack_body .column:not(:last-child)
+{
+	border-left: 1px solid #e5e5e5;
+}
+/* end packages */
+
+
+/* start merchants */
+.profile .photo
+{
+	margin-left: 17px;
+}
+.profile .place > .fa
+{
+	margin-left: 10px;
+}
+.latest_orders .heading:before
+{
+	right: 0;
+}
+.count .element > .fa
+{
+	margin-left: 8px;
+}
+.count .number
+{
+	margin-right: 30px;
+	margin-left: 6px;
+}
+/* start merchants */
+
+
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+	.demo .sub_list
+	{
+		right: 210px;
+	}
+}
+
+
+
+
+
+@media(max-width:991px)
+{
+	header .lang
+	{
+		margin-right: 0;
+	}
+	
+	
+	/* start merchants-search-results */
+	.prod .photo
+	{
+		margin-left: 0;
+	}
+	/* end merchants-search-results */
+	
+	
+	/* start merchants */
+	
+	.profile .photo
+	{
+		margin-left: 0;
+	}
+	.count .number
+	{
+		margin-right: 0;
+	}
+	/* end merchants */
+}

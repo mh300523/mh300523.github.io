@@ -1,0 +1,75 @@
+body{font-family:gesstwo}
+
+.nav > li:last-child > a{font-family: roboto}
+
+.navbar-nav, .categories i{float: left}
+.nav > li > a{margin-right: 50px;margin-left: 0}
+
+.categories h2{float: right}
+.categories i{float: left}
+.categories-menu li > a{padding-right:  30px;padding-left: 0}
+
+.search input{padding-right: 24px}
+.links{padding-left: 0;}
+.links i{margin-left: 10px;margin-right: 0}
+.links a:last-child{margin:0 15px 0 10px}
+.cart button i{margin-left: 15px;margin-right: 0}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{text-align: right}
+.bootstrap-select.btn-group .dropdown-toggle .caret{left:12px;right: auto}
+.btn-group.bootstrap-select::after {left: -5px; right: auto}
+
+.main-carousel .owl-prev, .main-carousel .owl-next{left: 0}
+.cart{width: 151px}
+
+.new-arrivals .head h2, .offers .head h2, .best-selling .head h2{float: right}
+
+.slider2 .owl-nav, .best-slider .owl-nav{left: 50px;right: auto}
+.slider2 .owl-prev, .slider2 .owl-next, .best-slider .owl-prev, .best-slider .owl-next{margin-right: 0;margin-left: 0}
+
+.slider2 .owl-prev, .best-slider .owl-prev{left: 0; position: absolute;}
+.slider2 .owl-next, .best-slider .owl-next{left: -40px; position: absolute;}
+
+.links a, .cart button{font-size: 12px}
+
+.subscribe input{font-size: 11px; padding: 0 10px;}
+
+.subscribe p{font-size: 14px}
+
+
+@media (max-width:1199px) and (min-width:992px)
+{
+    .nav > li > a{margin-right: 35px;margin-left: 0}
+    .cart{width:100%}
+    
+    .slider2 .owl-nav, .best-slider .owl-nav{left: 40px;right: auto}
+    .slider2 .owl-prev, .slider2 .owl-next, .best-slider .owl-prev, .best-slider .owl-next{
+        margin-right: 15px;margin-left: 0}
+    
+    .slider2 .owl-prev, .best-slider .owl-prev{left: -10px}
+    
+
+}
+
+@media(max-width:991px) and (min-width:768px)
+{
+    .nav > li > a{margin: 0 20px}
+    
+}
+
+@media (max-width:767px)
+{
+    .logo{padding-right: 50px;padding-left: 0}
+    .navbar-header{left: 20px;right: auto}
+}
+
+@media(max-width:600px)
+{
+    .side a:first-child{margin-left: 10px;margin-right: 0}
+}
+
+@media(max-width:400px)
+{
+    .links a:last-child{margin-left: 0}
+    .side a:first-child{margin-left:0}
+}

@@ -1,0 +1,184 @@
+.top_nav .side2 li.log_in,.top_nav .side2 li.coins
+{
+    padding-left: 0;
+    padding-right: 30px;
+}
+.top_nav .side1 .social a
+{
+    margin-right: 20px;
+    margin-left: 0;
+}
+.top_nav .side1 .social 
+{
+    margin-right: 14px;
+}
+.top_nav .side1 .lang a
+{
+    margin-left: 8px;
+}
+.bootstrap-select>.dropdown-toggle:after
+{
+    right: 5px;
+}
+.coins .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn)
+{
+    max-width: 62px;
+}
+.coins .dropdown-menu > li > a
+{
+    padding-right: 40px;
+}
+.down_nav .down_bar .nav > li:not(:last-child)
+{
+    margin-right: 32px;
+}
+.search
+{
+    margin-right: 30px;
+}
+.search .fa-search,.cart_shopping .fa-shopping-cart
+{
+    margin-right: 8px;
+}
+.cart_shopping a .fa-shopping-cart span
+{
+    left: 10px;
+}
+.searchinput
+{
+    padding-left: 20px;
+}
+
+.modal .searchbox .fa-search
+{
+    right: 20px;
+}
+.about .work .info
+{
+    margin-left: 17px;
+}
+.pro .info .price
+{
+    direction: ltr;
+}
+.pro .info .price .current
+{
+    margin-right: 11px;
+}
+.footer_links li a
+{
+    font-size: 12px;
+}
+.footer_links .about_us p
+{
+    font-size: 13px;
+    word-spacing: 1px;
+}
+.footer_links li a .fa-caret-right
+{
+    margin-right: 18px;
+}
+.join .form-group button
+{
+    right: 25px;
+}
+.footer .social a
+{
+    margin-left: 22px;
+}
+.footer_links .title
+{
+    font-size: 14px;
+}
+.footer_links .title:after
+{
+    left: 0;
+}
+.join h4
+{
+    font-size: 13px;
+}
+
+/*shopping online*/
+.products .categories ul li a
+{
+    margin-left: 29px;
+}
+.products .items .tabs a:not(:first-child)
+{
+    margin-left: 11px;
+}
+.electric .heading .bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    right: 25px;
+    left: auto;
+}
+
+
+
+
+ @media (max-width: 1200px){
+    
+     .down_nav .down_bar .nav > li:not(:last-child)
+     {
+         margin-right: 17px;
+     }
+     .search
+     {
+         margin-right: 12px;
+     }
+}
+@media(max-width:991px)
+{
+    .top_nav .side1 .social
+    {
+        margin-right: 0;
+    }
+    .top_nav .side1 .social a
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .top_nav .side2 li.log_in, .top_nav .side2 li.coins
+    {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+      .navbar-toggle
+    {
+        float: left;
+    }
+    .navbar-toggle .fa-bars
+    {
+        margin-right: 8px;
+    }
+    .recomend .btn-group .dropdown-menu
+    {
+        right: auto;
+    }
+     .nav
+    {
+        margin-left: 25px;
+    }
+    .down_nav .down_bar .nav > li
+    {
+        margin-bottom: 10px;
+    }
+    .search
+    {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .about .work .info
+    {
+        margin-left: 0;
+    }
+    .cart-search .log a .fa-user-circle
+    {
+        margin-right: 8px;
+    }
+    .cart-search .log a .fa-user-circle
+    {
+        margin-left: 8px;
+    }
+}

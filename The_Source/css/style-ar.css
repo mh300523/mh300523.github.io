@@ -1,0 +1,101 @@
+header .lang .ar {
+    margin-left: 8px;
+}
+header .mobile_nav .sidenav {
+	right: -290px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	right: 0;
+}
+header .mobile_nav .list > span
+{
+	right: 7px;
+}
+header .mobile_nav .sidenav .closebtn {
+	left: 20px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: right;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	left: 16px;
+}
+header .search_cat .searchbox
+{
+	border-right: 1px solid #e6e6e6;
+}
+header .search_icon
+{
+    left: 7px;
+}
+header .recomend .fa-user-circle,header .recomend .fa-shopping-basket
+{
+	margin-left: 8px;
+}
+header .cart .shopping .fa span
+{
+    right: -7px;
+}
+header .my_account
+{
+	margin-left: 13px;
+}
+header .cart
+{
+	margin-right: 13px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+    padding-right: 70px;
+}
+.sidenav .sub_cat_menu 
+{
+    padding-right: 50px;
+}
+.down_nav .title > .fa
+{
+	margin-left: 12px;
+}
+.down_nav .demo .sub:after
+{
+	content: "\f104";
+	left: 18px;
+}
+.demo .sub_list
+{
+	right: 255px;
+}
+header .nav_bar
+{
+	margin-right: 16px;
+}
+.pro .info .price .past
+{
+	margin-left: 8px;
+}
+.join .form-group .check
+{
+	left: 6px;
+}
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+	.demo .sub_list
+	{
+		right: 205px;
+	}
+}
+
+
+@media(max-width:991px)
+{
+	.join .form-group .check
+	{
+		left: 0;
+	}
+}

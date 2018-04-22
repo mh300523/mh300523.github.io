@@ -1,0 +1,144 @@
+
+body
+{
+    font-family: 'OpenSans';
+}
+.coins .bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    left: auto;
+    right: 6px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: left;
+}
+.coins .bootstrap-select>.dropdown-toggle
+{
+    direction: rtl;
+}
+header .contact
+{
+    direction: ltr;
+    margin-left: 15px;
+}
+header .contact img
+{
+    margin-right: 6px
+}
+header .social
+{
+    margin-right: 8px;
+}
+.categories .bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    display: none;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	right: 19px;
+}
+header .recomend .my_account > button
+{
+	font-family: 'OpenSans-Bold';
+}
+header .my_account > button img
+{
+    margin-right: 8px;
+}
+header .recomend .shopping
+{
+    margin-left: 21px;
+	font-family: 'OpenSans-Bold';
+}
+header .recomend .shopping img
+{
+    margin-right: 8px;
+}
+header .recomend .shopping .fa
+{
+    margin-left: 5px;
+}
+header .my_account .dropdown-menu
+{
+    left: auto;
+}
+header .mobile_nav .list > span
+{
+    margin-left: 8px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+    right: 30px;
+}
+header .mobile_nav .list > span
+{
+	font-family: 'OpenSans-Bold';
+}
+.main .navigation_bar > ul > li > a.active:after
+{
+	left: 0;
+}
+.bans .banner:not(:last-child)
+{
+	margin-right: 10px;
+}
+.special .pro .name > a
+{
+	font-family: 'OpenSans-Bold';
+	font-size: 13px;
+}
+.heading > h3
+{
+	font-size: 21px;
+}
+.products .pro .detail .share
+{
+	margin-right: 7px;
+}
+.products .pro .price .past:after
+{
+	left: -8px;
+}
+.products .pro .info
+{
+	padding: 14px 19px;
+}
+.products .pro .price
+{
+	direction: ltr;
+}
+.products .pro .name > a
+{
+	font-size: 13px;
+}
+footer .title
+{
+	font-family: 'OpenSans-Bold';
+}
+footer .footer_links > ul > li > a
+{
+	font-size: 14px;
+}
+footer .social > h4
+{
+	font-size: 15px;
+}
+.join .form-group .check
+{
+	font-size: 9px;
+}
+footer .copyright
+{
+	font-family: 'OpenSans';
+}
+
+
+
+
+@media(max-width:991px)
+{
+	header .recomend .shopping
+	{
+		margin-left: 15px;
+	}
+}

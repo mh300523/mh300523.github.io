@@ -1,0 +1,192 @@
+
+/*------------------------------------ start range-section -------------------------------------*/
+.range-section{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.range-h{
+    text-align: center;
+    font-size: 26px;
+    color: #b62a83;
+    font-family: ITC_MEDIUM;
+    margin-bottom: 60px;
+}
+
+.range-elements{
+    text-align: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.range-ele{
+    width: 25%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.range-head:hover{
+    cursor: pointer;
+}
+.range-head:hover > p{
+    color: #7c7c7c;
+}
+.range-head > img{
+    margin-bottom: 15px;
+}
+.range-head > p{
+    font-size: 18px;
+    font-family: ITC_MEDIUM;
+    color: #3f3f3f;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.range-body{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: auto;
+    box-shadow: 2px 2px 6px #00000017,
+                -2px -2px 6px #00000017;
+    border-bottom: 3px solid #d64899;
+    padding: 20px 15px;
+    overflow: hidden;
+    z-index: 2;
+}
+.range-body > ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    height: 210px;
+    width: 700px;
+}
+.range-body > ul > li{
+    width: 25%;
+    padding: 0px 8px;
+}
+.range-body > ul > li:nth-child(6n+0) > a{
+    border: none;
+}
+.range-body > ul > li > a{
+    text-align: right;
+    display: block;
+    height: 35px;
+    font-size: 15px;
+    color: #3f3f3f;
+    padding-right: 13px;
+    padding-top: 6px;
+    border-bottom: 1px solid #ebebeb;
+    transition: padding 0.5s ease-in-out ;
+}
+.range-body > ul > li > a:hover{
+    color: #b62a83;
+    padding-right: 17px;
+}
+
+.range-ele:nth-child(1) > .range-body{
+    top: 185px;
+    right: 0px;
+}
+.range-ele:nth-child(2) > .range-body{
+    top: 185px;
+    right: -100px;
+}
+.range-ele:nth-child(3) > .range-body{
+    top: 185px;
+    left: -100px;
+}
+.range-ele:nth-child(4) > .range-body{
+    top: 185px;
+    left: 0px;
+}
+.range-ele:nth-child(5) > .range-body{
+    top: 185px;
+    right: -100px;
+}
+.range-ele:nth-child(6) > .range-body{
+    top: 185px;
+    right: -150px;
+}
+.range-ele:nth-child(7) > .range-body{
+    top: 185px;
+    left: -100px;
+}
+/*md*/
+@media (min-width:992px) and (max-width:1199px){
+    .range-ele:nth-child(6) > .range-body{
+        top: 185px;
+        right: -200px;
+    }
+}
+/*sm*/
+@media (min-width:768px) and (max-width:991px){
+    .range-ele:nth-child(2) > .range-body{
+        top: 185px;
+        right: -185px;
+    }
+    .range-ele:nth-child(3) > .range-body{
+        top: 185px;
+        left: -185px;
+    }
+    .range-ele:nth-child(4) > .range-body{
+        top: 185px;
+        left: 0px;
+    }
+    .range-ele:nth-child(5) > .range-body{
+        top: 185px;
+        right: -95px;
+    }
+    .range-ele:nth-child(6) > .range-body{
+        top: 185px;
+        right: -275px;
+    }
+    .range-ele:nth-child(7) > .range-body{
+        top: 185px;
+        left: -100px;
+    }
+}
+/*xs*/
+@media (max-width:767px){
+    .range-section{
+        padding-top: 50px;
+        margin-bottom: 75px;
+    }
+    .range-ele{
+        width: 100%;
+    }
+    .range-head{
+        display: inline-block;
+        margin: auto;
+    }
+    .range-head > p{
+        display: block;
+    }
+    .range-body{
+/*
+        right: auto !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+*/
+        position: static;
+        width: 250px;
+        margin: auto;
+    }
+    .range-body > ul{
+        flex-wrap: nowrap;
+        height: auto;
+        width: auto;
+    }
+    .range-body > ul > li{
+        width: 100%;
+    }
+    .range-body > ul > li > a{
+        border-bottom: 1px solid #ebebeb !important;
+    }
+    .range-body > ul > li:last-of-type > a{
+        border: none !important;
+    }
+}
+/*------------------------------------ end range-section ----------------------------------------*/

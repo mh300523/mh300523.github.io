@@ -1,0 +1,139 @@
+body{
+    font-family: 'pr';
+    font-size: 16px;
+}
+h1, h2,.send .btn-default,.by a{
+    font-family: 'pb';
+}
+h3,h4{
+    font-family: 'pm'; 
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 18px;
+}
+.navbar-left {
+    float: right !important;
+}
+ul.nav.navbar-nav.navbar-right,.header-bottom .list-inline {
+    float: left !important;
+}
+.header-bottom .list-inline .fa {
+    margin-right: 0px;
+    margin-left: 7px
+}
+.navbar-default .navbar-nav > li > a{
+    font-family: 'pm';
+}
+.lang a{
+    font-family: 'rr' !important;
+}
+.head .fa{
+    float: left;
+
+}
+#search.search .form-control{
+    float: left;
+}
+#search select {
+    background: #fff url(images/searcharrow-ar.png) no-repeat left;
+}
+.head{
+    font-size: 20px
+}
+.pro-slider .owl-theme .owl-controls .owl-nav [class*=owl-] {
+    display: table;
+}
+.pro-slider .owl-prev {
+    left: 30px;
+}
+.pro-slider .owl-next {
+    left: 0px;
+}
+.send {
+    float: left;
+}
+footer ul li a {
+    font-family: 'pr';
+}
+.copy span{
+    margin: 0 5px
+}
+
+
+/**
+media
+**/
+
+@media (max-width: 1200px){
+
+}
+@media (max-width: 1024px){
+
+}
+@media (max-width: 980px){
+
+}
+@media (max-width: 800px){
+
+}
+@media (max-width: 768px){
+    
+ .pro-slider .owl-controls{
+        display: none;
+    }
+    
+    .navbar-default .navbar-toggle{
+        border: 0;
+        border-color: #fff;
+        float: right;
+        top: 13px;
+        right: 15px;
+    }
+    
+    .navbar-left{
+        float: none !important;
+    }
+    
+    .visible-xs img{
+        display: block;
+        margin: auto !important;
+        
+    }
+    
+    .header-bottom .list-inline{
+        margin-top: 15px;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #fff;
+    }
+    
+    .navbar-header.two{
+        background-color: #e87528;
+        display: block;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 10px;
+    }
+    
+    
+}
+
+@media (max-width: 480px){
+    .visible-xs img {
+        max-width: 100%;
+        margin: 0  20px 0 0;
+        margin-top: -30px;
+    }
+    ul.nav.navbar-nav.navbar-right, .header-bottom .list-inline {
+        float: none !important;
+        text-align: center;
+    }
+}
+@media (max-width: 360px){
+
+}
+@media (max-width: 320px){
+
+}

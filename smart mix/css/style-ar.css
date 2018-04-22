@@ -1,0 +1,132 @@
+header .lang-bar > a:first-child
+{
+	margin-left: 9px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+	text-align: right;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	left: 18px;
+}
+header .search_cat .searchbox
+{
+	border-right: 1px solid #ebebeb;
+}
+header .search_icon
+{
+	left: 5px;
+}
+.recomend .re_btn .ic
+{
+	margin-left: 4px;
+}
+.recomend .re_btn span
+{
+	right: -8px;
+}
+.down_nav .c_title .fa-bars
+{
+	margin-left: 10px;
+}
+.demo .demo_li:not(:last-child):after
+{
+	content: '\f053';
+}
+.demo .sub_list
+{
+	left: -193px;
+}
+.demo .demo_li:not(:last-child):after
+{
+	left: 28px;
+}
+.main_links
+{
+	margin-right: 19px;
+}
+.custom-2
+{
+	margin-right: 23.77%;
+}
+.mob_bar #navbtn
+{
+	text-align: right;
+}
+.sidenav.over_mob
+{
+	right: 0;
+}
+.sidenav
+{
+	right: -290px;
+}
+.side_ul .mob_pros:after
+{
+	left: 0;
+}
+.sidenav .closebtn
+{
+	left: 20px;
+}
+.sidenav .mob_menu .mob_item
+{
+	margin-right: 60px;
+	margin-left: 45px;
+}
+.sidenav .mob_sub_list
+{
+	margin-right: 120px;
+}
+.heading:before
+{
+	right: 0;
+}
+.pro .discount
+{
+	right: 8px;
+}
+.pro .price .past
+{
+	margin-left: 4px;
+}
+.connect_info .form-group .check
+{
+	left: 5px;
+}
+footer .social > a
+{
+	margin-left: 2px;
+}
+
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)	
+{
+	.custom-2
+	{
+		margin-right: 0;
+	}
+	.fast_links .sm_title:after
+	{
+		left: 20px;
+	}
+	header .mob_bar
+	{
+		left: 0;
+	}
+}
+
+/*xs*/
+@media (max-width:767px)
+{
+	.custom-2
+	{
+		margin-right: 0;
+	}
+	.fast_links .sm_title:after
+	{
+		left: 20px;
+	}
+}

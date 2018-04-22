@@ -1,0 +1,125 @@
+header .list-inline
+{
+    margin-left: 0;
+}
+.top_nav .top_bar .mobile_nav .sidenav .closebtn
+{
+    right: 20px;
+}
+.top_nav .top_bar .links
+{
+    margin-left: 10px;
+}
+.top_nav .top_bar .links .link
+{
+    margin-right: 21px;
+}
+.top_nav .top_bar .links .link .fa-angle-down
+{
+    margin-left: 3px;
+}
+.top_nav .top_bar .lang_social .social
+{
+    margin-right: 32px;
+}
+.top_nav .top_bar .lang_social .social > a:not(:last-child)
+{
+    margin-right: 20px;
+}
+.top_nav .top_bar .lang_social .lang .ar
+{
+    margin-right: 7px;
+}
+header .down_bar .searchbox .searchinput
+{
+    padding-left: 25px;
+}
+header .down_bar .searchbox .fa-search
+{
+    right: 24px;
+}
+header .down_bar .recomend .shopping .cart
+{
+    margin-left: 26px;
+}
+header .down_bar .recomend .my_account .fa-user-circle,header .down_bar .recomend .shopping .fa-shopping-cart
+{
+    margin-right: 7px;
+}
+header .down_bar .recomend .my_account .dropdown-menu
+{
+    left: auto;
+}
+.top_nav .top_bar .mobile_nav .sidenav {
+    left: 0;
+}
+header .down_nav .main .navigation .dir
+{
+    padding: 14px 7px;
+}
+header .down_nav .main .navigation ul > li > a
+{
+    font-size: 12px;
+}
+header .down_nav .main .navigation > ul > li:last-child .dir
+{
+    padding-right: 0
+}
+.pro .info .price .current
+{
+    margin-right: 8px;
+}
+.pro .add_to .fa-shopping-cart
+{
+    margin-right: 6px;
+}
+.join .form-group .check
+{
+    right: 26px;
+}
+.footer .social > a
+{
+    margin-left: 16px;
+}
+.footer_links .title
+{
+    font-size: 13px;
+}
+.footer_links li > a
+{
+    font-size: 9px;
+}
+.join h4
+{
+    font-size: 12px;
+}
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+    header .down_nav .main .navigation .dir
+    {
+        padding: 14px 6px;
+    }
+    header .down_nav .main .navigation ul > li > a
+    {
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+@media(max-width:991px)
+{
+    .top_nav .top_bar .mobile_nav .sidenav .open .dropdown-menu >li
+    {
+        margin-left: 40px;
+    }
+    .top_nav .top_bar .logo
+    {
+        margin-left: 20px;
+    }
+}

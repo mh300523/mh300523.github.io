@@ -1,0 +1,456 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- First Mobile meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cancer</title>
+    <!-- Bootstrap css file -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap rtl -->
+    <link href="css/bootstrap-rtl.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- fancybox -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link href="css/main-style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- start navbar section -->
+    <section class="navbar-section">
+        <div class="container">
+            <div class="navbar-content">
+                <button class="xs-navbar-btn visible-xs fromTop">
+                    <img src="pic/bars.png"/>
+                </button>
+                <div class="logo-div">
+                    <a href="#"><img class="fromTop" src="pic/logo.png"></a>
+                </div>
+                
+                <div class="elements-div">
+                    <ul class="menu-ul">
+                        <li><a href="#" data-text="الرئيسية" class="menu-animation">
+                            الرئيسية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" data-text="عن الحملة" class="menu-animation">
+                                عن الحملة
+                            </a>
+                            <ul class="sub-menu">
+                                <li><a href="#" data-text="حملة 2016">
+                                    حملة 2016
+                                    </a>
+                                </li>
+                                <li><a href="#" data-text="حملة 2016">
+                                    حملة 2016
+                                    </a>
+                                </li>
+                                <li><a href="#" data-text="حملة 2016">
+                                    حملة 2016
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="range.html" data-text="نطاق الحملة" class="menu-animation">
+                                نطاق الحملة
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="الجهات المشاركة" class="menu-animation">
+                                الجهات المشاركة
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="الأنشطة التوعوية" class="menu-animation">
+                                الأنشطة التوعوية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="news.html" data-text="المركز الإعلامي" class="menu-animation">
+                                المركز الإعلامي
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-text="تواصل معنا" class="menu-animation">
+                                تواصل معنا
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="main-search-btn menu-animation hovicon effect-3 sub-b"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <button class="main-search-btn xs-search-btn visible-xs fromTop"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <div id="xs-navbar-id" class="xs-navbar visible-xs">
+        <div class="xs-navbar-content">
+            <img id="xs-menu-close" src="pic/search-close.png"/>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li class="xs-sub-menu">
+                  <a > عن الحملة <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <ul>
+                    <li><a href="#">حملة 2016</a></li>
+                    <li><a href="#">حملة 2016</a></li>
+                    <li><a href="#">حملة 2016</a></li>
+                  </ul>
+                </li>
+                <li><a href="range.html">نطاق الحملة</a></li>
+                <li><a href="#">الجهات المشاركة</a></li>
+                <li><a href="#">الأنشطة التوعوية</a></li>
+                <li><a href="news.html">المركز الإعلامى</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end navbar section -->
+    
+    
+    <!-- start search layer -->
+    <div class="search-layer">
+        <button class="close-btn"><img src="pic/search-close.png"></button>
+        <form class="main-search-form">
+            <input type="search" placeholder="كلمة البحث">
+            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </div>
+    <!-- end search layer -->
+    
+    <!-- start header section -->
+    <section class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-div">
+                    <div class="text-div-inner">
+                        <div class="ar-text-div"><p>الحملة الخليجية للتوعية بالسرطان</p></div>
+                        <div></div>
+                        <div class="en-text-div"><p>Gulf Campagin for Cancer Awareness</p></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 video-div">
+                    <div id="player"></div>
+                    <script>
+                        // 2. This code loads the IFrame Player API code asynchronously.
+                          var tag = document.createElement('script');
+
+                          tag.src = "https://www.youtube.com/iframe_api";
+                          var firstScriptTag = document.getElementsByTagName('script')[0];
+                          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                          // 3. This function creates an <iframe> (and YouTube player)
+                          //    after the API code downloads.
+                          var player;
+                          function onYouTubeIframeAPIReady() {
+                            player = new YT.Player('player', {
+                              height: '320',
+                              width: '555',
+                              videoId: 'QYr6txK4lrg',
+                              events: {
+                                'onReady': onPlayerReady,
+                                'onStateChange': onPlayerStateChange
+                              }
+                            });
+                          }
+
+                          // 4. The API will call this function when the video player is ready.
+                          function onPlayerReady(event) {
+                            //event.target.playVideo();
+                             
+                            console.log("test");
+                          }
+
+                          // 5. The API calls this function when the player's state changes.
+                          //    The function indicates that when playing a video (state=1),
+                          //    the player should play for six seconds and then stop.
+                          var done = false;
+                          function onPlayerStateChange(event) {
+                            if (event.data == YT.PlayerState.PLAYING && !done) {
+                              //setTimeout(stopVideo, 6000);
+                              done = true;
+                            }
+                          }
+                          function stopVideo() {
+                            player.stopVideo();
+                          }
+                    </script>
+                </div>
+            </div>
+            <a id="mouse-btn" class="nav-ele" href="#goalsSection"><span></span></a>
+        </div>
+    </section>
+    <!-- end header section -->
+    
+    <!-- start goals section -->
+    <section id="goalsSection" class="goals-section">
+        <div class="container">
+            <p class="h-txt fromBottom">أهداف الحملة</p>
+            <div class="goals">
+                <div class="goal-ele ele1">
+                    <p>رفع مستوى الوعي<br/>الصحي حول عوامل<br/>الإختطار المؤدية للإصابة<br/>بالسرطان</p>
+                </div>
+                <div class="goal-ele ele2">
+                    <p>تشجيع اتباع نمط<br/>غذائي صحي وممارسة<br/>النشااط البدني بين<br/>جميع فئات المجتمع</p>
+                </div>
+                <div class="goal-ele ele3">
+                    <p>رفع مستوى الوعي<br/>الصحي حول طرق الكشف<br/>المبكر عن السرطان وأهميتها<br/>في تحسين فرص الشافاء</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end goals section -->
+    
+    <!-- start counter section -->
+    <section class="counter-section">
+        <div class="container">
+            <div class="row text-center counter">
+                <div class="counter-ele fromRight">
+                    <p class="h-counter number"  data-count="100">0</p>
+                    <p class="nor-counter">اشترك في الحملة العديد من الوزارات والإمارات<br/> والجمعيات الأهلية والفرق التطوعية<br/>والجامعات والمؤسسات التعليمية وقطاعات الصحة<br/> الأهلية</p>
+                </div>
+                <div class="counter-ele fromLeft">
+                    <p class="h-counter number"  data-count="34">0</p>
+                    <p class="nor-counter">يمتد نطاق الحملة إلي جميع عواصم دول مجلس <br/>التعاون بالإضافة إلي العديد من المدن الأخري في<br/> كبري البلاد العربية كالمملكة العربية السعودية<br/> والإمارات العربية المتحدة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end counter section -->
+    
+    <!-- start activities section -->
+    <section class="activities-section">
+        <img src="pic/activities-top.png">
+        <div class="activities-content">
+            <div class="container">
+                <p class="h-txt fromBottom">أهم أنشطة وفعاليات الحملة التوعوية</p>
+                <p class="sub-h-txt fromBottom">تجاوز عدد الأنشطة خلال الحملة 1000+ نشاط منها</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="activities-box right fromRight">
+                            <div class="activities-box-inner">
+                                <div class="activities-img-div">
+                                    <a href="#"><img src="pic/activities1.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center-box text-center ">
+                        <span class="line"></span>
+                        <span class="point"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="activities-box left fromLeft">
+                            <div class="activities-box-inner">
+                                <a href="#" class="activities-a">تنفيذ أكثر من 580 ركن توعوي</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 hidden-xs">
+                        <div class="activities-box right fromRight">
+                            <div class="activities-box-inner">
+                                <a href="#" class="activities-a">تنفيذ العديد من الدورات التدريبية وورش العمل<br class="hidden-xs"/>واللقاءات التوعوية في جميع المدن الخليجية</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center-box text-center ">
+                        <span class="line"></span>
+                        <span class="point"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="activities-box left fromLeft">
+                            <div class="activities-box-inner">
+                                <div class="activities-img-div">
+                                    <a href="#"><img src="pic/activities2.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 visible-xs">
+                        <div class="activities-box right fromRight">
+                            <div class="activities-box-inner">
+                                <a href="#" class="activities-a">تنفيذ العديد من الدورات التدريبية وورش العمل<br class="hidden-xs"/>واللقاءات التوعوية في جميع المدن الخليجية</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="activities-box right fromRight">
+                            <div class="activities-box-inner">
+                                <div class="activities-img-div">
+                                    <a href="#"><img src="pic/activities3.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center-box text-center ">
+                        <span class="line"></span>
+                        <span class="point"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="activities-box left fromLeft">
+                            <div class="activities-box-inner">
+                                <a href="#" class="activities-a">تنظيم أكثر من 18 ماراثون مشي ومسيرة<br class="hidden-xs"/>للدراجات الهوائية وإسقاط مظلي</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="more-btn fromBottom">عرض المزيد</a>
+                </div>
+                
+            </div>
+        </div>
+        <img src="pic/activities-bottom.png">
+    </section>
+    <!-- end activities section -->
+    
+    <!-- start news section -->
+    <section class="news-section">
+        <div class="container">
+            <p class="h-txt fromBottom">آخر أخبار الحملة</p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="news-block fromRight">
+                        <div class="news-header">
+                            <a href="#"><img src="pic/news1.png"></a>
+                        </div>
+                        
+                        <div class="news-body">
+                            <span class="news-time"><p class="day">17</p><p>مارس</p></span>
+                            <a href="#" class="news-h">انطلاق الحملة الخليجية للتوعية بالسرطان 2017</a>
+                            <p class="news-nor">دشنت الحملة برعاية كريمة من صاحب السمو الملكي الأمير فيصل بن بندر بن عبدالعزيز أمير منطقة الرياض. واستمر تنفيذ أنشاطة الحملة تحت شعار 40*40بناءً على الدرسات التي تشايى إلى</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="news-block fromLeft">
+                        <div class="news-header">
+                            <a href="#"><img src="pic/news2.png"></a>
+                        </div>
+                        
+                        <div class="news-body">
+                            <span class="news-time"><p class="day">04</p><p>ابريل</p></span>
+                            <a href="#" class="news-h">المؤتمر الخليجي المشترك الأول للسرطان</a>
+                            <p class="news-nor">نظم الاتحاد الخليجي لمكافحة السرطان بالتعاون مع المركز الخليجي لمكافحة السرطان المنبثق عن مجلس الصحة لدول مجلس التعاون المؤتمر الخليجي المشترك الأول للسرطان على مدى يومين في قاعة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="more-btn fromBottom">عرض المزيد</a>
+            </div>
+        </div>
+    </section>
+    <!-- end news section -->
+    
+    <!-- start videos section -->
+    <section class="videos-section">
+        <img src="pic/videos-top.png">
+        <div class="videos-content">
+            <p class="h-txt fromBottom">الفيديوهات التوعوية</p>
+            <div id="videos-carousel" class="events-slider owl-carousel">
+                <div class="item">
+                    <a data-fancybox="youtube" href="https://www.youtube.com/watch?v=szT7grQnHRU"><img src="pic/video1.png"></a>
+                </div>
+                <div class="item">
+                    <a data-fancybox="youtube" href="https://www.youtube.com/watch?v=szT7grQnHRU"><img src="pic/video1.png"></a>
+                </div>
+                <div class="item">
+                    <a data-fancybox="youtube" href="https://www.youtube.com/watch?v=szT7grQnHRU"><img src="pic/video1.png"></a>
+                </div>
+                <div class="item">
+                    <a data-fancybox="youtube" href="https://www.youtube.com/watch?v=szT7grQnHRU"><img src="pic/video1.png"></a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="more-btn fromBottom">عرض المزيد</a>
+            </div>
+        </div>
+        <img src="pic/videos-bottom.png">
+    </section>
+    <!-- end videos section -->
+    
+    <!-- start sponsers section -->
+    <section class="sponsers-section">
+        <div class="container">
+            <div class="sponsers-content fromBottom">
+                <a href="#"><img src="pic/sponser11.png"></a>
+                <a href="#"><img src="pic/sponser10.png"></a>
+                <a href="#"><img src="pic/sponser9.png"></a>
+                <a href="#"><img src="pic/sponser8.png"></a>
+                <a href="#"><img src="pic/sponser7.png"></a>
+                <a href="#"><img src="pic/sponser6.png"></a>
+                <a href="#"><img src="pic/sponser5.png"></a>
+                <a href="#"><img src="pic/sponser4.png"></a>
+                <a href="#"><img src="pic/sponser3.png"></a>
+                <a href="#"><img src="pic/sponser2.png"></a>
+                <a href="#"><img src="pic/sponser1.png"></a>
+            </div>
+        </div>
+    </section>
+    <!-- end sponsers section -->
+    
+    <!-- start footer section -->
+    <section class="footer-section">
+        <div class="container">
+            <div class="row footer-content fromBottom">
+                <div class="col-sm-3 col-md-3 col-lg-4">
+                    <a href="#">
+                        <img class="footer-logo" src="pic/logo-footer.png">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-5">
+                    <ul class="footer-menu menu1">
+                        <li><a href="#">الرئيسية</a></li>
+                        <li><a href="#">عن الحملة</a></li>
+                        <li><a href="#">نطاق الحملة</a></li>
+                    </ul>
+                    <ul class="footer-menu menu2">
+                        <li><a href="#">الجهات المشاركة</a></li>
+                        <li><a href="#">الفعاليات</a></li>
+                        <li><a href="#">الفيديوهات التوعوية</a></li>
+                    </ul>
+                    <ul class="footer-menu menu3">
+                        <li><a href="#">الأخبار</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="social-div">
+                        <a href="#"><img src="pic/social1.png"></a>
+                        <a href="#"><img src="pic/social2.png"></a>
+                        <a href="#"><img src="pic/social3.png"></a>
+                        <a href="#"><img src="pic/social4.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRights fromBottom">
+                <p>جميع الحقوق محفوظة © الحملة الخليجية للتوعية بالسرطان 2018</p>
+                <a href="#"><img src="pic/tasawk.png"></a>
+            </div>
+        </div>
+    </section>
+    <!-- end footer setion -->
+    
+    
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-easing.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+    
+    
+    
+    
+</html>

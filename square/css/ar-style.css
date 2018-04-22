@@ -1,0 +1,65 @@
+header .down_bar .searchbox .fa-search
+{
+    left: 30px;
+}
+header .top_bar .lang .ar
+{
+    margin-left: 3px;
+}
+header .top_bar .lang .en
+{
+    margin-right: 3px;
+}
+header .top_bar .mobile_nav .list > .fa
+{
+    margin-left: 4px;
+}
+.top_nav .top_bar .mobile_nav .sidenav {
+    right: 0;
+}
+.top_nav .top_bar .mobile_nav .sidenav .closebtn
+{
+    left: 20px;
+}
+header .down_bar .recomend .my_account
+{
+    margin-left: 10px;
+}
+header .down_bar .recomend .shopping
+{
+    margin-right: 10px;
+}
+header .awoseme > .fa
+{
+    margin-left: 9px;
+}
+.pro .info .price .current
+{
+    margin-right: 4px;
+}
+.pro .info .price .past
+{
+    margin-left: 4px;
+}
+.join .form-group .check
+{
+    left: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px)
+{
+   
+}

@@ -1,0 +1,120 @@
+header .mobile_nav .sidenav {
+	right: -290px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	right: 0;
+}
+header .mobile_nav .list > span
+{
+	right: 7px;
+}
+header .mobile_nav .sidenav .closebtn {
+	left: 20px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+    padding-right: 70px;
+}
+.sidenav .sub_cat_menu 
+{
+    padding-right: 50px;
+}
+header .nav_bar > li:not(:last-child):after
+{
+	left: 0;
+}
+header .nav_bar .load > .fa
+{
+	margin-left: 4px;
+}
+header .lang
+{
+	padding-left: 8px;
+}
+header .lang .ar {
+    margin-left: 8px;
+}
+header .search_icon
+{
+	left: 25px;
+}
+header .recomend .fa-user-circle,header .recomend .fa-shopping-basket
+{
+	margin-left: 5px;
+}
+header .shopping > span
+{
+    right: -9px;
+}
+header .my_account
+{
+	margin-left: 12px;
+}
+header .cart
+{
+	margin-right: 12px;
+}
+.sub:not(:last-child):after
+{
+	content: "\f104";
+	left: 18px;
+}
+.sub_list
+{
+	right: 250px;
+}
+.pro .photo
+{
+	margin-left: 23px;
+}
+.pro .price .current
+{
+	margin-right: 7px;
+}
+.pro_slider .owl-nav .owl-next
+{
+	left: 38px;
+}
+.pro_slider .owl-nav .owl-prev
+{
+	left: 8px;
+}
+.connect_info > ul .fa
+{
+	margin-left: 13px;
+}
+.connect_info .phone_num .one
+{
+	margin-left: 19px;
+}
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+	.demo .sub_list
+	{
+		right: 200px;
+	}
+}
+
+
+@media(max-width:991px)
+{
+	header .lang
+	{
+		padding-left: 0;
+	}
+	.pro .photo
+	{
+		margin-left: 0;
+	}
+	.connect_info .phone_num .one
+	{
+		margin-left: 0;
+	}
+	.connect_info > ul .fa
+	{
+		margin-left: 0;
+	}
+}

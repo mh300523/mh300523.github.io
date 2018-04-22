@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.9/gmaps.min.js"></script>
+		<script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobubble/src/infobubble.js"></script>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Al owaidah</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.css">
+		<link rel="stylesheet" href="css/bootstrap-select.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/ar-style.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+		
+		
+		<header>
+			<div class="top_nav">
+				<div class="container custom">
+					<div class="top_bar">
+						<div class="main_links">
+							<ul class="nav_bar list-unstyled list-inline">
+								<li><a href="#">الرئيسية</a></li>
+								<li><a href="#">من نحن</a></li>
+								<li class="dropdown dir">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> العقارات <i class="fas fa-angle-down"></i></a>
+									<ul class="dropdown-menu pro_menu">
+										<li>
+											<a class="sub" href="#">شقق</a>
+										</li>
+										<li>
+											<a class="sub" href="#">فيلات</a>
+										</li>
+										<li>
+											<a class="sub" href="#">مكاتب</a>
+										</li>
+										<li>
+											<a class="sub" href="#">ورش</a>
+										</li>
+										<li>
+											<a class="sub" href="#">محلات</a>
+										</li>
+										<li>
+											<a class="sub" href="#">عمائر</a>
+										</li>
+										<li>
+											<a class="sub" href="#">مستودعات</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">التوظيف</a></li>
+								<li><a href="#">الأخبار</a></li>
+								<li><a href="#">اتصل بنا</a></li>
+							</ul>
+						</div>
+						<div class="logo-trick">
+							<a class="logo_back" href="#"></a>
+						</div>
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						<div class="searchbox lg">
+							<input class="searchinput" id="search" placeholder="البحث" type="search">
+							<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+						</div>
+						<div class="lang lg">
+							<a href="index.html" data-toggle="tooltip" data-placement="bottom" title="عربي" ><img src="images/lang-ar.png"></a>
+							<a href="index-en.html" data-toggle="tooltip" data-placement="bottom" title="English" ><img src="images/lang-en.png"></a>
+						</div>
+						<div class="mobile_nav">
+							<div class="mob_bar">
+								<button class="list" id="navbtn">
+									<img src="images/nav.png" alt="navbar"> 
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div id="mySidenav" class="sidenav">
+			<span href="#" class="closebtn">&times;</span>
+			<ul class="list-unstyled">
+				<li><a class="direct" href="#">الرئيسية</a></li>
+				<li><a class="direct" href="#">من نحن</a></li>
+				<li class="mob_cat">
+					<a class="direct" href="#">العقارات</a>
+					<ul class="mob_menu list-unstyled">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">شقق</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">فيلات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">مكاتب</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">ورش</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">محلات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">عمائر</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">مستودعات</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">التوظيف</a></li>
+				<li><a class="direct" href="#">الأخبار</a></li>
+				<li><a class="direct" href="#">اتصل بنا</a></li>
+			</ul>
+
+			<div class="searchbox sm">
+				<input class="searchinput" id="search" placeholder="البحث" type="search">
+				<button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+			</div>
+
+			<div class="lang sm">
+				<a href="index.html" data-toggle="tooltip" data-placement="bottom" title="عربي" ><img src="images/lang-ar.png"></a>
+				<a href="index-en.html" data-toggle="tooltip" data-placement="bottom" title="English" ><img src="images/lang-en.png"></a>
+			</div>
+		</div>
+		
+		<div class="search_filters">
+			<div class="search_engine">
+				<div class="container">
+					<div class="search_cat">
+						<div class="categories">
+							<label class="lab">المدينة</label>
+							<select class="selectpicker" data-dropup-auto="false">
+								<option selected disabled>الكل</option>
+								<option>الرياض</option>
+								<option>مكة</option>
+								<option>المدينة المنورة</option>
+								<option>بريدة</option>
+								<option>تبوك</option>
+								<option>الدمام</option>
+								<option>الاحساء</option>
+								<option>القطيف</option>
+								<option>خميس مشيط</option>
+							</select>
+						</div>
+						<div class="categories">
+							<label class="lab">القسم</label>
+							<select class="selectpicker" data-dropup-auto="false">
+								<option selected disabled>الكل</option>
+								<option>قسم 1</option>
+								<option>قسم 2</option>
+								<option>قسم 3</option>
+								<option>قسم 4</option>
+								<option>قسم 5</option>
+								<option>قسم 6</option>
+							</select>
+						</div>
+						<div class="categories">
+							<label class="lab">الخدمة</label>
+							<select class="selectpicker" data-dropup-auto="false">
+								<option selected disabled>بيع</option>
+								<option>إيجار</option>
+							</select>
+						</div>
+						<button class="sale_icon"type="submit">تصفية البحث</button>
+					</div>
+				</div>
+			</div>
+			<div class="search_map">
+				<button class="acc_1 acc" data-toggle="collapse" data-target="#id15" aria-expanded="false">تصفية البحث</button>
+				<div class="cor_panel collapse" id="id15">
+					<div class="search_cat">
+						<div class="categories">
+							<label class="lab">المدينة</label>
+							<select class="selectpicker" data-dropup-auto="false">
+								<option selected disabled>الكل</option>
+								<option>الرياض</option>
+								<option>مكة</option>
+								<option>المدينة المنورة</option>
+								<option>بريدة</option>
+								<option>تبوك</option>
+								<option>الدمام</option>
+								<option>الاحساء</option>
+								<option>القطيف</option>
+								<option>خميس مشيط</option>
+							</select>
+						</div>
+						<div class="categories">
+							<label class="lab">القسم</label>
+							<select class="selectpicker" data-dropup-auto="false">
+								<option selected disabled>الكل</option>
+								<option>قسم 1</option>
+								<option>قسم 2</option>
+								<option>قسم 3</option>
+								<option>قسم 4</option>
+								<option>قسم 5</option>
+								<option>قسم 6</option>
+							</select>
+						</div>
+						<div class="categories">
+							<label class="lab">الخدمة</label>
+							<select class="selectpicker" data-dropup-auto="false">
+								<option selected disabled>بيع</option>
+								<option>إيجار</option>
+							</select>
+						</div>
+						<button class="sale_icon"type="submit">تصفية البحث</button>
+					</div>
+				</div>
+			</div>
+			<div id="map" style="width: 100%; height: 700px;"></div>
+		</div>
+		
+		
+		<div class="about">
+			<div class="container">
+				<div class="ab_title">شركة يوسف وأحمد وعويضه ونايف العويضه العقاريه</div>
+				<div class="ab_info">
+					هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
+				</div>
+				<div class="ab_prods">
+					<div class="prod">
+						<div class="ab_photo">
+							<a href="#"><img src="images/icon-1.png" alt="icon"></a>
+						</div>
+						<div class="ab_name">
+							<a href="#">شقق</a>
+						</div>
+					</div>
+					<div class="prod">
+						<div class="ab_photo">
+							<a href="#"><img src="images/icon-2.png" alt="icon"></a>
+						</div>
+						<div class="ab_name">
+							<a href="#">فيلات</a>
+						</div>
+					</div>
+					<div class="prod">
+						<div class="ab_photo">
+							<a href="#"><img src="images/icon-3.png" alt="icon"></a>
+						</div>
+						<div class="ab_name">
+							<a href="#">مكاتب</a>
+						</div>
+					</div>
+					<div class="prod">
+						<div class="ab_photo">
+							<a href="#"><img src="images/icon-4.png" alt="icon"></a>
+						</div>
+						<div class="ab_name">
+							<a href="#">ورش</a>
+						</div>
+					</div>
+					<div class="prod">
+						<div class="ab_photo">
+							<a href="#"><img src="images/icon-5.png" alt="icon"></a>
+						</div>
+						<div class="ab_name">
+							<a href="#">محلات</a>
+						</div>
+					</div>
+					<div class="prod">
+						<div class="ab_photo">
+							<a href="#"><img src="images/icon-6.png" alt="icon"></a>
+						</div>
+						<div class="ab_name">
+							<a href="#">عمائر</a>
+						</div>
+					</div>
+					<div class="prod">
+						<div class="ab_photo">
+							<a href="#"><img src="images/icon-7.png" alt="icon"></a>
+						</div>
+						<div class="ab_name">
+							<a href="#">مستودعات</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="latest">
+			<div class="container">
+				<div class="lat_title">آخر العقارات المضافة</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="lat_pro">
+							<div class="lat_photo">
+								<a href="#">
+									<img src="images/pro-1.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<div class="lat_info">
+								<div class="lat_name">
+									<a href="#">فيلا دورين منفصلين للبيع في الصفراء</a>
+								</div>
+								<div class="lat_detail">
+									الدور الارضي مجدد ومشطب تشطيب فاخر من اسقف جبسيه وبرسلان وسجاد برسلان
+								</div>
+								<div class="lat_price">500,000 ريال</div>
+								<div class="lat_acts">
+									<a href="#" class="lat_act">فلل</a>
+									<a href="#" class="lat_act">بيع</a>
+									<a href="#" class="lat_act">القصيم</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="lat_pro">
+							<div class="lat_photo">
+								<a href="#">
+									<img src="images/pro-1.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<div class="lat_info">
+								<div class="lat_name">
+									<a href="#">شقه للإيجار بالرس حي الإحتفالات</a>
+								</div>
+								<div class="lat_detail">
+									شقه 4 غرف وصاله كبيره ومطبخ كامل مركب ومستودع مركب ودورتين مياه باب مستقل
+								</div>
+								<div class="lat_price">16,000 ريال</div>
+								<div class="lat_acts">
+									<a href="#" class="lat_act">شقق</a>
+									<a href="#" class="lat_act">إيجار</a>
+									<a href="#" class="lat_act">القصيم</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="lat_pro">
+							<div class="lat_photo">
+								<a href="#">
+									<img src="images/pro-1.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<div class="lat_info">
+								<div class="lat_name">
+									<a href="#">شاليه المنار اللايجار اليومي والاسبوعي</a>
+								</div>
+								<div class="lat_detail">
+									صاله جلوس ومطبخ وغرفة نوم وحمام جاكوزي ومسبح وملحق بابه على الشارع   
+								</div>
+								<div class="lat_price">300 ريال</div>
+								<div class="lat_acts">
+									<a href="#" class="lat_act">شقق</a>
+									<a href="#" class="lat_act">إيجار</a>
+									<a href="#" class="lat_act">القصيم</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="lat_pro">
+							<div class="lat_photo">
+								<a href="#">
+									<img src="images/pro-1.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<div class="lat_info">
+								<div class="lat_name">
+									<a href="#">عماره تجاريه للايجار بالارطاوية</a>
+								</div>
+								<div class="lat_detail">
+									عماره تجاريه للإيجار بالارطاوبه تقع ع اكبر شوارع ريئيسيه وسط البلد تصلح شقق 
+								</div>
+								<div class="lat_price">35,000 ريال</div>
+								<div class="lat_acts">
+									<a href="#" class="lat_act">شقق</a>
+									<a href="#" class="lat_act">إيجار</a>
+									<a href="#" class="lat_act">القصيم</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="view_more"><a href="#" class="more">عرض المزيد</a></div>
+			</div>
+		</div>
+		
+		
+		<div class="news">
+			<div class="container">
+				<div class="lat_title">آخر الأخبار</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="new">
+							<div class="new_photo">
+								<a href="#">
+									<img src="images/new-1.png" alt="news" class="img-responsive">
+								</a>
+							</div>
+							<div class="new_info">
+								<div class="new_date">
+									18 فبراير 2018
+								</div>
+								<div class="new_name">
+									<a href="#">خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً</a>
+								</div>
+								<div class="new_detail">
+									خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="new">
+							<div class="new_photo">
+								<a href="#">
+									<img src="images/new-2.png" alt="news" class="img-responsive">
+								</a>
+							</div>
+							<div class="new_info">
+								<div class="new_date">
+									18 فبراير 2018
+								</div>
+								<div class="new_name">
+									<a href="#">خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً</a>
+								</div>
+								<div class="new_detail">
+									خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="location"></div>
+		
+		
+		<footer>
+			<div class="container">
+				<div class="foot_content">
+					<div class="logo">
+						<a href="#"><img class="img-responsive" src="images/footer-logo.png" alt="logo"></a>
+					</div>
+					<ul class="foot_info list-unstyled">
+						<li>
+							<div class="con_icon"><i class="fas fa-phone"></i></div>
+							<ul class="con_detail list-unstyled list-inline">
+								<li><span class="special">الإدارة : </span> 0114955955</li> -
+								<li><span class="special">الفرع : </span> 0112412354</li> -
+								<li><span class="special">فرع القصيم : </span> 0163241586</li>
+							</ul>
+						</li>
+						<li>
+							<div class="con_icon"><i class="fas fa-fax"></i></div>
+							<div class="con_detail">
+								<span class="special">الفاكس : </span> 0114950528
+							</div>
+						</li>
+					</ul>
+					<div class="social">
+						<a href="#" data-toggle="tooltip" data-placement="top" title="سناب شات">
+							<i class="fab fa-snapchat-ghost"></i>
+						</a>
+						<a href="#" data-toggle="tooltip" data-placement="top" title="يوتيوب">
+							<i class="fab fa-youtube"></i>
+						</a>
+						<a href="#" data-toggle="tooltip" data-placement="top" title="انستجرام">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="#" data-toggle="tooltip" data-placement="top" title="تويتر">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#" data-toggle="tooltip" data-placement="top" title="فيس بوك">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="rights">
+				<div class="container">
+					<div class="copy_right">
+						<div class="copy">
+							© شركة يوسف وأحمد وعويضه ونايف العويضه العقاريه 2018 
+						</div>
+						<div class="right">
+							تصميم وتطوير <a class="ours" href="#"><img src="images/ours.png"> تسوق</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-select.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html> 

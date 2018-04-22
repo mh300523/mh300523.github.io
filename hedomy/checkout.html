@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+        <meta charset="utf-8">
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>hudomy</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-ar.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+    </head>
+    <body>
+    <div class="over_click"></div>
+    <header>
+    	<div class="top_nav">
+    		<div class="container custom">
+    			<div class="top_bar">
+					<div class="coins">
+						<select class="selectpicker">
+							 <option selected>المدينة المنورة</option>
+							  <option>مكة المكرمة</option>
+							  <option>الرياض</option>
+							  <option>الحمام</option>
+						</select>
+					</div>
+					<div class="lang">
+						<a class="ar" href="checkout.html" data-toggle="tooltip" data-placement="bottom" title="عربي" ><img src="images/lang-ar.png"></a>
+						<a class="en" href="checkout-en.html" data-toggle="tooltip" data-placement="bottom" title="English" ><img src="images/lang-en.png"></a>
+					</div>
+    			</div>
+    			
+    			<div class="down_bar">
+    				<div class="logo">
+                        <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="mobile_nav">
+                        <div id="mySidenav" class="sidenav">
+                            <span href="#" class="closebtn">&times;</span>
+                            <ul class="list-unstyled">
+                                <li><a class="direct" href="#">الرئيسية</a></li>
+                                <li class="mob_cat">
+                                	<a class="direct" href="#">جميع الأقسام</a>
+                                	<ul class="mob_menu list-unstyled">
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">ملابس رجالية</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">ملابس نسائية</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">ملابس أطفال</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">اكسسورات</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">أحذية</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">عطور</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">الصحة والجمال</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">الألعاب والهدايا</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">فئات أخري</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">منتج 1</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 2</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 3</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 4</a></li>
+                                               <li><a class="sub_cat_item" href="#">منتج 5</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mob_cat">
+                                	<a class="direct" href="#">حسابي</a>
+                                	<ul class="mob_menu list-unstyled">
+                                        <li class="sub_cat"><a class="mob_item" href="#">تسجيل الدخول</a></li>
+                                        <li class="sub_cat"><a class="mob_item" href="#">تسجيل جديد</a></li> 
+									</ul>      
+                                </li>
+                                <li><a class="direct" href="#">اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                        <div class="mob_bar">
+                            <button class="list" id="navbtn">
+                                <i class="fa fa-bars"></i><span>القائمة الرئيسية</span> 
+                            </button>
+                        </div>
+                    </div>
+                    <div class="trade">
+						<div class="search_cat">
+							<div class="categories">
+								<select class="selectpicker">
+									<option selected disabled>جميع الأقسام<i class="fa fa-angle-down" aria-hidden="true"></i></option>
+								   <option>قسم 1</option>
+								   <option>قسم 2</option>
+								   <option>قسم 3</option>
+								</select>
+							</div>
+							<div class="searchbox">
+							  <input class="searchinput" id="search" placeholder="ادخل كلمة البحث" type="search">
+								<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</div>
+						</div>
+                  		<div class="searchbox2">
+						  <input class="searchinput" id="search" placeholder="ابحث باسم التاجر" type="search">
+							<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+                   		<button class="replace">بحث التجار</button>
+                   		<button class="replace2">بحث المنتجات</button>
+                    </div>
+                    <div class="recomend">
+						<div class="my_account">
+						  <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						   <i class="fa fa-user-circle" aria-hidden="true"></i>
+							حسابي<i class="fa fa-angle-down" aria-hidden="true"></i>
+						  </button>
+						  <div class="triangle"></div>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li><a href="#">تسجيل الدخول</a></li>
+							<li><a href="#">تسجيل جديد</a></li>
+						  </ul>
+						</div>
+						<div class="cart">
+							 <button class="shopping">
+								 <i class="fa fa-shopping-basket" aria-hidden="true"><span>0</span></i>SAR 0
+							</button>
+						</div>
+					</div>
+    			</div>
+    		</div>
+    	</div>
+    	
+    	<div class="down_nav">
+    		<div class="container">
+    			<div class="main">
+    				<div class="cat_feat">
+						<div class="cat">
+							<div class="title">
+								<i class="fa fa-bars" aria-hidden="true"></i>جميع الأقسام
+							</div>
+							<div class="demo">
+								<ul class="list-unstyled">
+									<li>
+										<a class="sub" href="#">ملابس رجالية</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">ملابس نسائية</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">ملابس أطفال</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">اكسسورات</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">أحذية</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">عطور</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">الصحة والجمال</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">الألعاب والهدابا</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+									<li>
+										<a class="sub" href="#">فئات أخري</a>
+										<ul class="list-unstyled sub_list">
+										   <li><a class="sub_item" href="#">منتج 1</a></li>
+										   <li><a class="sub_item" href="#">منتج 2</a></li>
+										   <li><a class="sub_item" href="#">منتج 3</a></li>
+										   <li><a class="sub_item" href="#">منتج 4</a></li>
+										   <li><a class="sub_item" href="#">منتج 5</a></li>
+									   </ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="features">
+							<div class="feature">
+								<div class="photo">
+									<img src="images/icon-1.png" alt="icon">
+								</div>
+								<div class="detail">
+									منتجات ذات جودة عالية
+								</div>
+							</div>
+
+							<div class="feature">
+								<div class="photo">
+									<img src="images/icon-2.png" alt="icon">
+								</div>
+								<div class="detail">
+									خدمات الدفع الإلكتروني
+								</div>
+							</div>
+
+							<div class="feature">
+								<div class="photo">
+									<img src="images/icon-3.png" alt="icon">
+								</div>
+								<div class="detail">
+									شحن سريع خلال يومين عمل
+								</div>
+							</div>   									
+						</div>
+    				
+    				</div>
+    				
+    				<div class="contact_us">
+    					<button class="contact"><i class="fa fa-envelope" aria-hidden="true"></i>اتصل بنا</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </header>
+    
+   <div class="end_request">
+   		<div class="container">
+   			<h2 class="title">إنهاء الطلب</h2>
+   			<div class="step1">
+   				<div class="move">
+   					<span>الخطوة 1</span> : الحساب وتفاصيل الفاتورة
+   				</div>
+   				<div class="info">
+   					<div class="row">
+   						<div class="col-md-6">
+   							<div class="form-group">
+								<label class="lab" for="exampleInputName">الإسم الأول</label>
+								<input type="text" class="form-control" id="exampleInputNmae" placeholder="" required>
+							</div>
+   						</div>
+   						<div class="col-md-6">
+   							<div class="form-group">
+								<label class="lab" for="exampleInputName">رقم الجوال</label>
+								<input type="text" class="form-control" id="exampleInputNmae" placeholder="" required>
+							</div>
+   						</div>
+   					</div>
+   				</div>
+   				<div class="map">
+   					<h2>حدد موقعك علي الخريطة</h2>
+   					<div id="map" style="width: 100%; height: 190px;"></div>
+   				</div>
+   			</div>
+   			<div class="step2">
+   				<div class="move">
+   					<span>الخطوة 2</span> : طريقة الدفع
+   				</div>
+   				<h2 class="way">الرجاء إختيار طريقة الدفع المفضلة لهذا الطلب</h2>
+   				<form class="choose">
+   					<label class="choosen">سداد
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">باي بال
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">ماستر كارد
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">فيزا
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+  					<label class="choosen">الدفع عند الإستلام
+					  <input type="radio" checked="checked" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+   				</form>
+   			</div>
+   			<div class="step3">
+   				<div class="move">
+   					<span>الخطوة 3</span> : طريقة الشحن
+   				</div>
+   				<h2 class="way">الرجاء إختيار طريقة الشحن المفضلة لهذا الطلب</h2>
+   				<form class="choose">
+   					<label class="choosen">دي اتش ال
+					  <input type="radio" checked="checked" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">ارامكس
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="choosen">اكسبريس
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+   				</form>
+   				<div class="notes">
+   					<h2 class="write">اكتب أي ملاحظات تريدها مع الطلب</h2>
+   					<textarea class="note" rows="6"></textarea>
+   				</div>
+   			</div>
+   			<div class="requsts">
+   				<div class="tots">
+   					<div class="tot tot1">
+						<h6 class="name">إجمالي الطلبات</h6>
+						<h6 class="cost">2000 SAR</h6>
+   					</div>
+   					<div class="tot tot2">
+						<h6 class="name">تكلفة شحن دي اتش ال</h6>
+						<h6 class="cost">35 SAR</h6>
+   					</div>
+   					<div class="tot tot3">
+						<h6 class="name">الإجمالي النهائي</h6>
+						<h6 class="cost">2035 SAR</h6>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="cond">
+   				<label class="approv">لقد قرأت ووافقت علي شروط الإستخدام
+				  <input type="checkbox" checked="checked">
+				  <span class="checkmark"></span>
+				</label>
+  				<button class="terminate">
+  					إنهاء الطلب<i class="fa fa-arrow-left" aria-hidden="true"></i> 
+  				</button>   			
+  			</div>
+   		</div>
+   </div>
+  
+ 
+	<footer>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">معلومات</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">من نحن</a></li>
+							<li><a href="#">معلومات الشحن والتوصيل</a></li>
+							<li><a href="#">الخصوصية</a></li>
+							<li><a href="#">شروط الإستخدام</a></li>
+						</ul>
+					</div>
+    			</div>
+    			<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">خدمة العملاء</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">اتصل بنا</a></li>
+							<li><a href="#">إرجاع الطلب</a></li>
+							<li><a href="#">خريطة الموقع</a></li>
+						</ul>
+					</div>
+    			</div>
+    			<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">اضافات</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">الشركات</a></li>
+							<li><a href="#">قسائم الهدايا</a></li>
+							<li><a href="#">نظام العمولة</a></li>
+							<li><a href="#">العروض المميزة</a></li>
+						</ul>
+					</div>
+    			</div>
+    			<div class="col-md-2">
+					<div class="fast_links">
+						<h5 class="title">حسابي</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">حسابي</a></li>
+							<li><a href="#">طلباتي</a></li>
+							<li><a href="#">قائمة رغباتي</a></li>
+							<li><a href="#">القائمة البريدية</a></li>
+						</ul>
+					</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="join">
+					   <h5 class="title">القائمة البريدية</h5>
+						<h4>انضم إلي القائمة البريدية لتصلك عروضنا وأخبارانا</h4>
+						 <div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="ادخل البريد الإلكتروني">
+							 <button class="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+						 </div>
+					</div>
+    			</div>
+    		</div>
+    		<div class="pay">
+				<a href="#"><img src="images/pay.png" alt="pay" class="img-responsive"></a>
+			</div>
+			<div class="copy_social">
+				<div class="copy_right">
+					جميع الحقوق محفوظة &copy; متجر هدومي 2017 - تصميم وتطوير <a href="#">مؤسسة تسوق</a>
+				</div>
+				<div class="social">
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+			</div>
+    	</div>
+    </footer>
+  
+ 
+		<script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/plug.js"></script>
+    </body>
+</html>

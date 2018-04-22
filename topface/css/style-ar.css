@@ -1,0 +1,114 @@
+body
+{
+    font-family: 'Cairo-Regular';
+}
+header .mobile_nav .sidenav {
+	right: -290px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	right: 0;
+}
+header .mobile_nav .list > span
+{
+	right: 7px;
+	font-family: 'Cairo-Bold';
+}
+header .mobile_nav .sidenav .closebtn {
+	left: 20px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+    padding-right: 70px;
+}
+.sidenav .mob_menu .mob_item
+{
+	font-family: 'Cairo-Light';
+}
+header .search_icon
+{
+	left: 20px;
+}
+header .searchbox
+{
+	margin-left: 20px;
+}
+header .lang .ar
+{
+	margin-right: 9px;
+}
+header .nav_bar > li > a
+{
+	font-family: 'Cairo-SemiBold';
+}
+.recomend .re_btn
+{
+	font-family: 'Cairo-SemiBold';
+}
+.recomend .my_account
+{
+	margin-left: 14px;
+}
+header .recomend .fa-user-circle
+{
+	margin-left: 7px;
+}
+header .recomend .fa-shopping-cart
+{
+	margin-left: 10px;
+}
+.recomend .cart > .re_btn > span
+{
+	right: 8px;
+}
+.heading
+{
+	font-family: 'Cairo-SemiBold';
+}
+.pro .info .price .current,.pro .info .price .past
+{
+	font-family: 'Cairo-Bold';
+}
+.join .join_tit
+{
+	font-family: 'Cairo-Bold';
+}
+.join .form-group .check
+{
+	left: 19px;
+}
+footer .title
+{
+	font-family: 'Cairo-SemiBold';
+}
+.copy_right
+{
+	max-width: 262px;
+	line-height: 25px;
+}
+.copy_right > a
+{
+	font-family: 'Cairo-Bold';
+}
+
+
+
+
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)
+{
+	header .recomend
+	{
+		margin-right: auto;
+	}
+}
+
+/*xs*/
+@media (max-width:767px)	
+{
+	header .searchbox
+	{
+		margin-left: 0;
+	}
+}

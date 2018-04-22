@@ -1,0 +1,136 @@
+header .lang-bar > a:first-child
+{
+	margin-right: 9px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+	text-align: left;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	right: 18px;
+}
+header .search_cat .searchbox
+{
+	border-left: 1px solid #ebebeb;
+}
+header .search_icon
+{
+	right: 5px;
+}
+.recomend .re_btn .ic
+{
+	margin-right: 4px;
+}
+.recomend .re_btn span
+{
+	left: -8px;
+}
+.down_nav .c_title .fa-bars
+{
+	margin-right: 10px;
+}
+.demo .demo_li:not(:last-child):after
+{
+	content: '\f054';
+}
+.demo .sub_list
+{
+	right: -193px;
+}
+.demo .demo_li:not(:last-child):after
+{
+	right: 28px;
+}
+.main_links
+{
+	margin-left: 19px;
+}
+.custom-2
+{
+	margin-left: 23.77%;
+}
+.mob_bar #navbtn
+{
+	text-align: left;
+}
+.sidenav.over_mob
+{
+	left: 0;
+}
+.sidenav
+{
+	left: -290px;
+}
+.side_ul .mob_pros:after
+{
+	right: 0;
+}
+.sidenav .closebtn
+{
+	right: 20px;
+}
+.sidenav .mob_menu .mob_item
+{
+	margin-left: 60px;
+	margin-right: 45px;
+}
+.sidenav .mob_sub_list
+{
+	margin-left: 120px;
+}
+.heading:before
+{
+	left: 0;
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.pro .discount
+{
+	left: 8px;
+}
+.pro .price .past
+{
+	margin-right: 4px;
+}
+.connect_info .form-group .check
+{
+	right: 5px;
+}
+footer .social > a
+{
+	margin-right: 2px;
+}
+
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)	
+{
+	.custom-2
+	{
+		margin-left: 0;
+	}
+	.fast_links .sm_title:after
+	{
+		right: 20px;
+	}
+	header .mob_bar
+	{
+		right: 0;
+	}
+}
+
+/*xs*/
+@media (max-width:767px)
+{
+	.custom-2
+	{
+		margin-left: 0;
+	}
+	.fast_links .sm_title:after
+	{
+		right: 20px;
+	}
+}

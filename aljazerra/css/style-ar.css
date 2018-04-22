@@ -1,0 +1,147 @@
+header .mobile_nav .sidenav {
+    right: -300px;
+}
+header .mobile_nav
+{
+	margin-left: 25px;
+}
+header .contact .fa
+{
+	margin-right: 8px;
+}
+header .search_icon
+{
+	left: 40px;
+}
+header .search
+{
+	margin-right: 30px;
+	margin-left: 12px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+	left: 26px;
+}
+header .sidenav .links .expand > a:after
+{
+	content: "\f104";
+	left: 0;
+}
+header .sidenav .links .sub_expand > a:after
+{
+	content: "\f104";
+	left: 0;
+}
+header .sidenav .links .sub_expand2 > a:after
+{
+	content: "\f104";
+	left: 0;
+}
+header .mobile_nav .sidenav.over
+{
+	right: 0;
+}
+header .sidenav .links .drop_menu
+{
+	right: 273px;
+}
+header .sidenav .links .sub
+{
+	right: 246px;
+}
+header .sidenav .links .sub2
+{
+	right: 246px;
+}
+.about .heading h3:after 
+{
+    right: 0;
+}
+.about .photo
+{
+	margin-left: 30px;
+}
+.banner .detail
+{
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;
+}
+.banner .detail:before
+{
+	right: 0;
+}
+.join .form-group .check
+{
+	left: 37px;
+}
+.join .form-group
+{
+	margin-right: 35px;
+}
+
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+	header .sidenav .links .sub
+	{
+		right: 196px;
+	}
+	header .sidenav .links .sub2
+	{
+		right: 196px;
+	}
+	.about .info {
+		margin-left: 40px;
+	}
+	header .drop_menu > li > a,header .sub > li > a,header .sub2 > li > a
+	{
+		font-size: 15px;
+	}
+}
+
+
+
+
+@media(max-width:991px)
+{
+	header .mob_cat .mob_menu {
+		padding-right: 30px;
+	}
+	header .links_sm .sub_cat_menu {
+		padding-right: 40px;
+	}
+	header .links_sm .sub_cat_menu2 {
+		padding-right: 40px;
+	}
+	header .mob_cat:after,header .sub1:after,header .sub2:after
+	{
+		left: 0;
+	}
+	header .search
+	{
+		margin-right: 0;
+		margin-left: 0px;
+	}
+	header .mobile_nav
+	{
+		margin-left: 0;
+	}
+	.about .heading h3:after
+	{
+		right: auto;
+	}
+	.about .photo
+	{
+		margin-left: 0;
+	}
+	.join .form-group
+	{
+		margin-right: 0;
+	}
+	.join .form-group .check
+	{
+		left: 28px;
+	}
+}

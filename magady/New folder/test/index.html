@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Test</title>   
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet"href="css/font-awesome.min.css">
+        <link rel="stylesheet"href="css/animate.css">
+        <link rel="stylesheet"href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <div class="parent">
+                <div>
+
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                 <li role="presentation" class="active">
+                     <a href="#home" aria-controls="home" role="tab" data-toggle="tab"data-toggle="tooltip" data-placement="right" 
+                        title="Home">Home
+                     </a>
+                  </li>
+                  
+                 <li role="presentation">
+                     <a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab" data-toggle="tooltip" data-placement="right"                                   title="Create Your Account">Sign Up
+                     </a>
+                  </li>
+                 <li role="presentation">
+                     <a href="#log_in" aria-controls="log_in" role="tab" data-toggle="tab" data-toggle="tooltip" data-placement="right" 
+                       title="Log In">Log In
+                     </a>
+                  </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                  
+                  <!-- Home -->
+                  
+                <div role="tabpanel" class="tab-pane active col-md-6 col-md-push-3" id="home">
+                    
+                    <p class="lead">
+                        Welcome , <span> I know You </span> Help You To Search Aout People You Want.
+                    </p>
+                    
+                    <div class="input-group">
+                        <input type="text" class="form-control" data-toggle="tooltip" data-placement="right" title="Search Someone"                                              placeholder="Search for...">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </span>
+                    </div>
+                    <select data-toggle="tooltip" data-placement="top" title="Select your country">
+                        <option disabled selected>Country</option>
+                        <option>Egypt</option>
+                        <option>Saudia Arabia</option>
+                        <option>Syria</option>
+                        <option>Lybia</option>
+                    </select>
+                    
+                     <select data-toggle="tooltip" data-placement="top" title="Select your state">
+                        <option disabled selected>State</option>
+                        <option>Mansoura</option>
+                        <option>Talka</option>
+                        <option>Maca</option>
+                        <option>Madina</option>
+                    </select>
+                    
+                     <select data-toggle="tooltip" data-placement="top" title="Select your hobby">
+                        <option disabled selected>Hobbies</option>
+                        <option>Football</option>
+                        <option>Handball</option>
+                        <option>Vollyball</option>
+                    </select>
+                    
+                    <select data-toggle="tooltip" data-placement="top" title="Select gender">
+                        <option disabled selected>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    
+                    <input type="tel" class="tel" id="exampleInputPhone" data-toggle="tooltip" data-placement="top" title="Add phone number"                                 placeholder="Phone Number">
+                </div>
+                  
+                  <!-- Sign up -->
+                  
+                <div role="tabpanel" class="tab-pane" id="sign_up">
+                        <div class="container">
+                           <div class="row">
+                               <form class="col-md-9 col-md-push-2">
+                                   <div class="row">
+                                      <div class="form-group col-xs-5">
+                                        <label for="exampleInputName">First Name</label>
+                                        <input type="text" class="form-control" id="exampleInputNmae" placeholder="First Name"
+                                               data-toggle="tooltip" data-placement="right" title="First Name" required>
+                                      </div>
+                                      <div class="form-group col-xs-5">
+                                        <label for="exampleInputName">Lsat Name</label>
+                                        <input type="text" class="form-control" id="exampleInputNmae" placeholder="Lsat Name"
+                                               data-toggle="tooltip" data-placement="right" title="Lsat Name"required>
+                                      </div>
+                                   </div>
+                                   
+                                    <div class="row">
+                                      <div class="form-group col-xs-5">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+                                               data-toggle="tooltip" data-placement="right" title="Email address"required>
+                                      </div>
+                                      <div class="form-group col-xs-5">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" 
+                                               data-toggle="tooltip" data-placement="right" title="Password" required>
+                                      </div>
+                                   </div>
+                                   
+                                   <div class="row">
+                                      <div class="form-group col-xs-5">
+                                        <label for="exampleInputPhone">Phone</label>
+                                        <input type="tel" class="form-control" id="exampleInputPhone" placeholder="Phone Number"
+                                               data-toggle="tooltip" data-placement="right" title="Phone" required>
+                                      </div>
+                                      <div class="form-group col-xs-5">
+                                        <label for="exampleInputDate">Birth Date</label>
+                                        <input type="date"class="form-control" id="exampleInputDate"
+                                               data-toggle="tooltip" data-placement="right" title="Birth Date" required>
+                                      </div>
+                                   </div>
+                                   
+                                    <div class="row">
+                                        <div class="photo col-md-2">
+                                            <label for="exampleInputAge">Add Photo</label>
+                                            <div class="thumbnail" data-toggle="tooltip" data-placement="right" title="Add Photo">
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-xs-8">
+                                          <label for="exampleInputAge">Description</label>
+                                          <textarea class="form-control" rows="5" placeholder="Description" data-toggle="tooltip" 
+                                                    data-placement="right" title="Add Description" required>
+                                            </textarea>
+                                       </div>  
+                                   </div>
+                               </form>
+                            </div>
+                        </div>
+                   
+                </div>
+                <div role="tabpanel" class="tab-pane" id="log_in">
+                     <div class="container">
+                         <div class="row">
+                            <form class="col-md-9 col-md-push-4">
+                                 <div class="row">
+                                      <div class="form-group col-xs-5">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+                                      </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-xs-5">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                                      </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-xs-5">
+                                       <button class="btn btn-success" type="submit">Log In</button>
+                                        <a href="#">Forget Password ?</a>
+                                    </div>
+                                </div>
+                            </form>
+                         </div>
+                    </div>
+                </div>
+        </div>
+    
+         
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

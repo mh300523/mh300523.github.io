@@ -1,0 +1,293 @@
+body{font-family: roboto}
+*{margin: 0;padding: 0;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box}
+form{box-sizing: border-box}
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0}
+input:focus::-webkit-input-placeholder {opacity: 0;} input:focus::-moz-placeholder {opacity: 0;}
+a{color: #616161}
+a:hover, a:focus{text-decoration: none;color:#616161}
+.container, .row{padding: 0}
+button{border: none}
+a, img, button, i,div:not([class*="categories"]){transition: all 0.3s ease-in-out}
+
+.side img:hover,.prod-banner img:hover, .cooking img:hover, .foodtips img:hover{
+    -webkit-box-shadow: 0px 0px 12px 3px rgba(81,81,81,0.7);
+    box-shadow: 0px 0px 12px 3px rgba(81,81,81,0.7);}
+.prod-banner img:hover{filter: saturate(1.3);transform: translateY(-10px)}
+
+.prod:hover .prod-img{transform: scale(1.1)}
+
+
+/*start header*/
+header{padding-top: 46px;margin-bottom: 20px}
+.navbar-nav{float: right}
+.navbar-collapse{padding: 0;margin-top: 90px}
+.nav > li > a{text-transform: uppercase; color:#626262; margin-left: 50px;font-weight: 300;font-size: 16px;padding: 0}
+.nav > li:last-child > a{font-family: gessthree}
+.nav > li > a:hover, .nav > li > a:focus{color:#e87528; background: none}
+/*end header*/
+/*==================*/
+/*start categories menu*/
+.categories{height: 55px;background: #e87528;color: #fff;padding: 20px 30px;cursor: pointer}
+.categories h2{font-size: 16px;text-transform: uppercase;font-weight: 700;float: left}
+.categories i{float: right;color: #fff;font-size: 19px;margin: 0}
+
+.categories-menu li > a{height: 50px;width: 100%;display: block;padding-left: 30px;line-height: 50px}
+.categories-menu li{background: #f2f2f2;margin-top: 1px}
+.categories-menu li:hover{background: #e6e6e6}
+.categories-menu ul{margin: 0;list-style: none}
+.categories-menu{position: absolute;width: 90%;z-index: 10000;background: #fff}
+/*end categories menu*/
+/*=====================*/
+/*start content head*/
+
+
+.search{
+    display: inline-block;width: 100%;border: 1px solid #e5e5e5;
+    position: relative;z-index: 1000}
+.search input, .search button{height: 100%;border: none;height: 53px}
+.search input{padding-left: 24px; width: 62.9%}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){width: 170px;height: 53px}
+.btn-group.open .dropdown-toggle{box-shadow: none;-webkit-box-shadow: none}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .open > .dropdown-toggle.btn-default:hover{
+    background: none
+}
+.bootstrap-select.btn-group .dropdown-menu li{height: 35px}
+.dropdown-menu.open{border-radius: 0;box-shadow: none;}
+.btn{border-radius: 0}
+.btn:hover,.btn:focus{background: none}
+.btn-default{color: #626262}
+.btn-group.bootstrap-select::after {
+	border: 1px solid #e5e5e5; content: ""; position: absolute;
+    height: 45px; top: 4px; right: -5px;}
+
+.links{padding-right: 0; line-height: 55px;display: inline-block}
+.links a{font-size: 14px; line-height: 44px}
+.links a:last-child{margin:0 18px 0 20px }
+.links i{color: #e82828; font-size: 20px;margin-right: 10px}
+.links i.fa-user{color: #09a241}
+.cart{width: 170px;display: inline-block}
+.cart button{color: #fff; background: #e87528; font-size: 14px; padding: 0 21px; height: 55px; width: 100%}
+.cart button i{color:#fff; margin-right: 15px}
+/*end content head*/
+/*=====================*/
+
+/*start carousel*/
+.main-carousel, .side{padding-top: 20px}
+.main-carousel .owl-nav{position: absolute; top: 50%; font-size: 18px; width: 100%;;opacity: 0.2}
+.main-carousel .owl-prev, .main-carousel .owl-next{
+    display: inline-block; background: #fff; height: 32px; width: 32px;position: absolute;
+    text-align: center; line-height: 32px; color: #616161; transform: translateY(-50%);left: 0}
+.main-carousel .owl-prev{right: 0}
+.main-carousel .owl-prev:hover, .main-carousel .owl-next:hover{background: #e87528;color: #fff}
+.main-carousel .owl-dots{position: absolute;bottom: 50px;left:50%;transform: translateX(-50%);opacity: 0.2}
+.main-carousel .owl-dot{height: 12px;width: 12px;border-radius: 50%;background: #fff;display: inline-block;margin: 0 3px}
+.main-carousel .owl-dots .active{height: 12px;width: 12px;border-radius: 50%;background: #e87528}
+.main-carousel:hover .owl-nav{opacity: 1}
+.main-carousel:hover .owl-dots{opacity: 1}
+.slide{
+    background: url('../images/slider1.png');background-size: cover;
+    position: relative;height: 450px;padding: 150px 58px;direction: rtl}
+.slide h2{
+    font-size: 60px;font-weight: 900;color: #fff;margin-bottom: 15px;
+    text-shadow: 1px 1px #010202;line-height: 60px;text-transform: uppercase}
+.slide a{
+    background: #09a241;color: #fff;height: auto;font-size: 14px;line-height: normal;
+    font-weight: 500;padding: 11px 20px;text-transform: uppercase;display: inline-block}
+.side a{display: block}
+.side a:first-child{margin-bottom: 30px}
+.side .space{display: none}
+/*end carousel*/
+/*===================*/
+/*start products(new & offers & best-selling)*/
+.new-arrivals,.offers, .best-selling {padding: 0;margin-top: 30px}
+.best-selling{margin-top: 172px}
+.new-arrivals .head, .offers .head, .best-selling .head{
+    border-bottom: 1px solid #e87528;text-transform: uppercase;height: 50px}
+.new-arrivals .head h2, .offers .head h2, .best-selling .head h2{
+    background: #e87528;float: left;font-size: 16px;font-weight: 500;
+    color: #fff;line-height:50px;padding: 0 28px }
+
+.slider2 .owl-nav, .best-slider .owl-nav{position: absolute; top: -70px;right: 20px;font-size: 24px}
+.slider2 .owl-prev, .slider2 .owl-next, .best-slider .owl-prev, .best-slider .owl-next{
+    display: inline-block; line-height: 50px; color: #616161;margin-left: 25px
+}
+.slider2 .owl-prev:hover, .slider2 .owl-next:hover, .best-slider .owl-prev:hover, .best-slider .owl-next:hover{
+    color: #e87528;
+}
+
+.products{margin-top: 20px;text-align: center}
+.prod{padding: 30px 0;border:1px solid #e5e5e5;margin-right: 1px}
+.prod-description{cursor: pointer}
+.owl-carousel .owl-item img{margin: auto;max-height: 100%;max-width: 100%;width: auto}
+.products .prod-img{height: 165px}
+.products h3{font-size: 16px;font-weight: 500;color: #616161;line-height: normal}
+.prod p{font-size: 18px;color: #e87528;font-weight: 500;line-height: normal}
+.prod i{font-size: 18px;padding:5px 20px}
+.prod a:nth-of-type(2) i{border-right: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5}
+.prod .fa-heart:hover{color: #e82828}
+.prod .fa-shopping-cart:hover{color: #e87528}
+.prod .fa-eye:hover{color: #09a241}
+
+
+.prod-banner{margin: 45px 0}
+/*end products(new & offers)*/
+/*==========================*/
+
+/*start cooking & foottips*/
+.cooking, .foodtips{margin-top: 28px}
+/*end cooking & foottips*/
+
+/*==========================*/
+
+/*start features*/
+.features{margin-top: 58px}
+.subscribe{padding: 31px 36px 30px;background: #533567;color: #fff;line-height: normal;overflow: hidden}
+.subscribe h3{font-size: 24px;font-weight: 900;text-transform: uppercase;line-height: 40px}
+.subscribe p{font-size: 15px;line-height: 18px}
+.subscribe input{
+    font-size: 15px;display: block;line-height: 27px;color: #000;
+    width: 100%;height: 45px;padding: 0 26px}
+.subscribe button{
+    float: right;height: 45px;padding: 0 22px ;background: #e87528;border: none;
+    margin-top: 3px;font-size: 15px;font-weight: 700;line-height: 27px;}
+
+.cash, .shipping{width: 100%;height: 240px;position: relative;overflow: hidden;cursor: pointer;}
+
+.cash img:last-child, .shipping img:last-child{
+    position: absolute;top: 50%;transform: translateY(-50%);left: -25%;transition: all 0.6s ease-in-out}
+.cash:hover img:last-child, .shipping:hover img:last-child{left: -10%}
+
+/*end features*/
+
+
+/*===================*/
+
+footer{margin: 99px 0 49px 0;}
+.payment{margin-top: 25px;text-align: right}
+.lists{margin-top: 48px}
+.lists h3{font-size: 16px;font-weight: 400;margin-bottom: 25px;color: #515151}
+.lists ul{list-style: none}
+.lists ul li{margin-bottom: 19px}
+.lists ul li a{font-size: 14px;font-weight: 300;color: #616161;}
+.lists ul li a:hover{color: #e87528}
+
+.copyrights{margin-top: 30px}
+.copyrights p{color: #616161;font-size: 13px;line-height: 30px;margin: 0}
+.copyrights p:last-child{line-height: 20px}
+.copyrights p:first-child span{color: #e87528;}
+.copyrights p:last-child a{font-weight: 700}
+/*===================*/
+
+
+@media (max-width:1199px) and (min-width:992px)
+{
+    .nav > li > a{margin-left: 35px}
+    .categories-menu{width: 220px}
+    .categories-menu li > a{height: 45px}
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+        width: 139px
+    }
+    
+    .options{text-align: center}
+    .links, .links a{line-height: 25px}
+    .links a:last-child{margin-right: 0}
+    .cart{width: 100%}
+    .cart button{height: 30px}
+    .slide{height: 372px;padding: 120px 58px;}
+    .slide h2{font-size: 48px}
+    .prod i{padding: 5px 15px}
+    .prod-banner{margin: 30px 0}
+    .slider2 .owl-nav, .best-slider .owl-nav{right: 10px}
+    .slider2 .owl-prev, .slider2 .owl-next, .best-slider .owl-prev, .best-slider .owl-next{
+        margin-left: 15px; font-size: 20px}
+
+    .best-selling{margin-top: 193px}
+    .cash img:last-child, .shipping img:last-child{transform: translateY(-50%) scale(0.8)}
+}
+
+
+@media (max-width:991px) and (min-width:768px)
+{
+    .logo img{margin: auto}
+    .navbar-collapse{margin-top: 50px}
+    .nav > li > a {margin: 0px 20px}
+    .options{text-align: center}
+    .links, .links a{line-height: 25px}
+    .links a:last-child{margin-right: 0}
+    .cart{width: 100%}
+    .cart button{height: 30px}
+    .categories-menu{display: none;width: 750px}
+    .search, .links, .cart{margin-top: 20px}
+    .side{display: flex;justify-content: space-around}
+    .best-selling{margin-top: 50px}
+    .cooking, .foodtips{width:373px;display: inline-block;text-align: center}
+    .cooking img, .foodtips img{margin: auto;display: inline-block;}
+    .subscribe{margin-bottom: 30px;}
+    .cash img:last-child, .shipping img:last-child{transform: translateY(-50%) }
+    
+    
+}
+
+@media (max-width:768px)
+{
+    .container{width:600px}
+    header{padding-top: 20px}
+    .logo{margin: 0; padding-left: 50px}
+    .navbar{margin: 0 }
+    .navbar-header{position:absolute;right: 20px;top:-90px}
+    .navbar-toggle{margin: 0 auto;border: 1px solid #515151;color: #515151}
+    .navbar-collapse{margin-top:20px;overflow: hidden}
+    .navbar-nav{width: 100%}
+    .nav > li{height: 50px;line-height: 50px}
+    .main-carousel .owl-dots, .main-carousel .owl-nav{display: none}
+    
+    
+    .categories-menu{display: none;width: 600px}
+    .options{text-align: center}
+    .search, .options{margin-top: 20px}
+    .side{display: flex;justify-content: space-between}
+    .best-selling{margin-top: 30px}
+    .cooking, .foodtips{width:298px;display: inline-block}
+    .cooking img, .foodtips img{margin: 0 auto}
+    .subscribe{margin-bottom: 30px;}
+    .subscribe button{float: none;margin-top: 20px}
+    .features {text-align: center}
+    .cash, .shipping{width: auto;display: inline-block}
+    .cash{margin-bottom: 20px}
+    
+    footer{text-align: center}
+    .logocopy img, .payment img{margin:0 auto}
+    .lists h3{font-weight: 700}
+    .lists ul{margin-bottom: 50px}
+}
+
+@media(max-width:600px)
+{
+    .container{width: 90vw}
+    .categories-menu{width: 90vw}
+    .categories-menu li > a{height: 40px;line-height: 40px}
+    .slide {height: auto}
+    .slide h2{font-size: 36px}
+    .side a:first-child{margin-right: 10px}
+    .cooking, .foodtips{width:calc(45vw - 2px)}
+    .search input{width:56vw}
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+        width: 32vw}
+}
+
+@media(max-width:400px)
+{
+    .logo img{width: 50vw}
+    .navbar-header{top:-65px}
+    .search input{width:46vw}
+    .links a:last-child{margin-right: 0}
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+        width: 42vw}
+    .slide h2{font-size: 28px}
+    .side{display: block;text-align: center}
+    .side img{display: inline-block}
+    .side a:first-child{margin-right:0}
+    .cooking, .foodtips{width:90vw}
+    .cash img:last-child, .shipping img:last-child{transform: translateY(-50%) scale(0.65)}
+    .copyrights p{font-size: 11px}
+}

@@ -1,0 +1,182 @@
+body
+{
+	font-family: 'ITCHandelGothicArabicW23-Rg';
+}
+header .mobile_nav .sidenav {
+	right: -290px;
+}
+header .mobile_nav .sidenav.over_mob
+{
+	right: 0;
+}
+header .mobile_nav .list > span
+{
+	right: 7px;
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.sidenav .closebtn {
+	left: 25px;
+}
+.sidenav .mob_cat .mob_menu 
+{
+	padding-right: 70px;
+}
+.sidenav .mob_menu .mob_item
+{
+	font-family: 'ITCHandelGothicArabicW23-Lt';
+}
+.sidenav .direct:after
+{
+	left: 35px;
+}
+header .our_mail
+{
+	margin-left: auto;
+	margin-right: 17px;
+}
+header .fa-phone,header .fa-envelope-o
+{
+	margin-right: 6px;
+}
+header .social
+{
+	padding-left: 13px;
+	border-left: 1px solid #585858;
+	direction: rtl;
+	margin-left: 18px;
+}
+header .lang .ar
+{
+	margin-right: 4px;
+}
+.nav_bar > li > a
+{
+	font-family: 'ITCHandelGothicArabicW23-Md';
+}
+.search_icon
+{
+	left: 35px;
+}
+.heading
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.sol .sol_title
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.tst_detail .tst_title
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.foot_title
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.join_us .form-group .check
+{
+	left: 7px;
+}
+.rights > a
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+
+
+/* start about */
+.who
+{
+	font-family: 'ITCHandelGothicArabicW23-Md';
+}
+.who > span
+{
+	font-family: 'ITCHandelGothicArabicW23-Rg';
+}
+.about_title
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.feats_title
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.feats.feature
+{
+	text-align: right;
+}
+.feats_detail
+{
+	margin-right: 25px;
+}
+.feats_info > ul
+{
+	padding-right: 18px;
+}
+.state_info
+{
+	font-family: 'ITCHandelGothicArabicW23-Md';
+}
+/*end about */
+
+/*start careers */
+.cars .send_to
+{
+	font-family: 'ITCHandelGothicArabicW23-Md';
+}
+#cv{
+	direction: rtl;
+}
+.show
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+	left: 7px;
+}
+/*start careers */
+
+/*start clients */
+.navtabs > li > a
+{
+	font-family: 'ITCHandelGothicArabicW23-Md';
+}
+/*end clients */
+
+/*start solution */
+.demos .de_title
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.ils_head
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.ils_feature .fe_name
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+.req_try
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+/*end solution */
+
+/*start contact */
+.inq_head
+{
+	font-family: 'ITCHandelGothicArabicW23-Bd';
+}
+/*end contact */
+
+/*xs*/
+@media (max-width:767px)	
+{
+	header .mobile_nav .list
+	{
+		margin-right: 20px;
+	}
+	/*start about */
+	.feats_detail
+	{
+		margin-right: 0;
+	}
+	/*end about */
+}

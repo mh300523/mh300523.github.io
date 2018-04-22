@@ -1,0 +1,64 @@
+header .mobile_nav .sidenav
+{
+    right: 0;
+}
+.lang > .dropdown-toggle
+{
+    padding-right: 19px;
+    padding-left: 16px;
+    text-align: right;
+}
+.lang > .dropdown-toggle > span 
+{
+    float: left;
+}
+header .social
+{
+    margin-left: 22px;
+}
+header .menu .direct .fa
+{
+    margin-right: 3px;
+}
+header .recomend .cart .fa span
+{
+    right: -8px;
+}
+header .mobile_nav .sidenav .closebtn {
+    left: 30px;
+}
+header .mobile_nav .list > span
+{
+    margin-right: 8px;
+}
+header .searchbox .search_icon
+{
+    left: 27px;
+}
+header .recomend .my_account > .fa,header .recomend .cart > .fa
+{
+    margin-left: 9px;
+}
+header .recomend .my_account
+{
+    margin-left: 11px;
+}
+header .recomend .cart
+{
+    margin-right: 10px;
+}
+header .main .dropdown-menu li > a
+{
+    margin-right: 15px;
+}
+header .down_nav .main .dir .fa
+{
+    margin-right: 3px;
+}
+.join .form-group .check
+{
+    left: 22px;
+}
+
+
+
