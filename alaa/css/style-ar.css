@@ -1,0 +1,111 @@
+header .mobile_nav .list > span
+{
+    margin-right: 8px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+    left: 30px;
+}
+header .lang_coin > li:first-child
+{
+	padding-left: 15px;
+}
+header .lang_coin > li:not(:last-child)
+{
+	border-left: 1px solid #000000;
+}
+.lang > .dropdown-toggle
+{
+    text-align: right;
+}
+.lang > .dropdown-toggle > span 
+{
+   margin-right: 6px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: right;
+}
+.categories .bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    display: none;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	left: 0;
+}
+header .contact
+{
+	margin-left: 90px;
+}
+header .contact span
+{
+	margin-left: 8px;
+}
+header .fav .heart
+{
+	margin-right: 26px;
+}
+header .search_icon
+{
+	left: 14px;
+}
+header .cart .shopping .fa
+{
+	margin-left: 6px;
+}
+header .cart .shopping .fa span
+{
+    left: 14px;
+}
+header .main > ul > li > a.active:after
+{
+	right: 0;
+}
+.pro .price .current
+{
+	margin-left: 9px;
+}
+.heading .navtabs
+{
+	margin-left: 30px;
+}
+.join .detail
+{
+	margin-right: 35px;
+}
+footer .logo
+{
+	margin-left: 50px;
+}
+footer .comuncation > ul > li > .fa
+{
+	margin-left: 5px;
+}
+footer .external > li > a > .fa
+{
+	margin-left: 8px;
+}
+
+
+
+
+@media(max-width:991px)
+{
+	header .lang_coin > li:not(:first-child)
+	{
+		border: 0;
+	}
+	.heading .navtabs
+	{
+		margin-left: 0;
+	}
+	.join .detail
+	{
+		margin: 30px 0;
+	}
+	footer .logo
+	{
+		margin-left: 0;
+	}
+}

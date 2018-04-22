@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>alaa</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-ar.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+    </head>
+    <body>
+    
+    <header>
+    	<div class="top_nav">
+    		<div class="container custom">
+    			<div class="top_bar">
+    				<ul class="lang_coin list-unstyled list-inline">
+    					<li><button class="log">التسجيل أو تسجيل الدخول</button></li>
+    					<li>
+							<div class="dropdown lang">
+								  <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									اللغة
+									<span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+								  </button>
+								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									<li><a href="index.html">عربي</a></li>
+									<li><a href="index-en.html">english</a></li>
+								  </ul>
+							</div>
+  						</li>
+  						<li>
+							<div class="categories">
+								<select class="selectpicker">
+									<option selected disabled>العملة<i class="fa fa-angle-down" aria-hidden="true"></i></option>
+								   <option>الريال</option>
+								   <option>الدولار</option>
+								</select>
+							</div>
+   						</li>
+    				</ul>
+    				<div class="contact-fav">
+    					<div class="contact">
+							<span><i class="fa fa-phone" aria-hidden="true"></i></span>05677884353
+                        </div>
+                        <div class="fav">
+                        	<button class="bars"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                        	<button class="heart"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        </div>
+    				</div>
+    			</div>
+    			<div class="down_bar">
+    				<div class="logo">
+                        <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="mobile_nav">
+                        <div id="mySidenav" class="sidenav">
+                            <span href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</span>
+                            <ul class="list-unstyled">
+                                <li><a class="direct" href="#">الرئيسية</a></li>
+                                <li><a class="direct" href="#">نسائي</a></li>
+                                <li><a class="direct" href="#">رجالي</a></li>
+                                <li><a class="direct" href="#">إلكترونيات</a></li>
+                                <li><a class="direct" href="#">الصحة والجمال</a></li>
+                                <li><a class="direct" href="#">الأطفال والألعاب</a></li>
+                                <li><a class="direct" href="#">أحدث المنتجات</a></li>
+                                <li><a class="direct" href="#">الأكثر مبيعا</a></li>
+                                <li><a class="direct" href="#">اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                        <div class="mob_bar">
+                            <button class="list" onclick="openNav()">
+                                <i class="fa fa-bars"></i><span>القائمة الرئيسية</span> 
+                            </button>
+                        </div>
+                    </div>
+                    <div class="searchbox">
+					  <input class="searchinput" id="search" placeholder="ماذا تريد الشراء اليوم ؟" type="search">
+						<button class="search_icon"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+   					<div class="cart">
+						<button class="shopping">
+							<i class="fa fa-shopping-cart" aria-hidden="true"><span>0</span></i>سلة الشراء 
+						</button>
+					</div>
+    			</div>
+    			<div class="main">
+					<ul class="list-unstyled list-inline">
+						<li><a href="#" class="active">الرئيسية</a></li>
+						<li><a href="#">نسائي</a></li>
+						<li><a href="#">رجالي</a></li>
+						<li><a href="#">الكترونيات</a></li>
+						<li><a href="#">الصحة والجمال</a></li>
+						<li><a href="#">الأطفال والألعاب</a></li>
+						<li><a href="#">أحدث المنتجات</a></li>
+						<li><a href="#">الأكثر مبيعا</a></li>
+						<li><a href="#">اتصل بنا</a></li>
+					</ul>
+				</div>
+    		</div>
+    	</div>
+    </header>
+   
+   
+   
+   <div class="banners">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="banner">
+						<a href="#"><img src="images/banner-1.jpg" class="img-responsive" alt="banner"></a>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="banner">
+						<a href="#"><img src="images/banner-2.jpg" class="img-responsive" alt="banner"></a>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="banner">
+						<a href="#"><img src="images/banner-3.jpg" class="img-responsive" alt="banner"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+   </div>
+   
+   
+   
+   <div class="products">
+        <div class="container">
+            <div class="heading">
+                <h3>أحدث المنتجات</h3>
+                <ul class="list-unstyled navtabs">
+					<li class="active">
+						<a href="#category2" role="tab" data-toggle="tab" aria-expanded="false">نسائي</a>
+					</li>
+					<li>
+						<a href="#category3" role="tab" data-toggle="tab" aria-expanded="false">رجالي</a>
+					</li>
+					<li>
+						<a href="#category4" role="tab" data-toggle="tab" aria-expanded="false">إلكترونيات</a>
+					</li>
+					<li>
+						<a href="#category5" role="tab" data-toggle="tab" aria-expanded="false">الصحة والجمال</a>
+					</li>
+					<li>
+						<a href="#category6" role="tab" data-toggle="tab" aria-expanded="false">الأطفال والألعاب</a>
+					</li>
+				</ul>
+            </div>
+            <div class="tab-content">
+           		<div class="prods tab-pane fade in active" id="category2">
+               		<div class="row">
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-1.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-2.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-3.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-4.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-5.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-6.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-7.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-8.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            		</div>
+                </div>
+                
+                
+                <div class="prods tab-pane fade" id="category3">
+                	<div class="row">
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-1.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-2.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-3.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-4.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-5.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-6.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-7.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-8.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            		</div>
+                </div>
+                
+                <div class="prods tab-pane fade" id="category4">
+                	<div class="row">
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-1.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-2.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-3.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-4.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-5.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-6.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-7.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-8.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            		</div>
+                </div>
+                
+                
+                <div class="prods tab-pane fade" id="category5">
+                	<div class="row">
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-1.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-2.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-3.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-4.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-5.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-6.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-7.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-8.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            		</div>
+                </div>
+                
+                
+                <div class="prods tab-pane fade" id="category6">
+                	<div class="row">
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-1.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-2.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-3.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-4.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-5.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-6.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-7.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            			<div class="col-md-3">
+            				<div class="pro">
+            					<div class="photo">
+									<img src="images/pro-8.png" alt="product">
+								</div>
+           						<h3 class="detail">bobo designs woolrich klettersack</h3>
+           						<div class="price">
+									السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+								</div>
+           						<div class="overlay">
+								   <div class="actions">
+										<button class="act add">اضف للشراء</button>
+										<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+										<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+									</div>
+								</div>
+            				</div>
+            			</div>
+            			
+            		</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+ 	
+ 	<div class="banners">
+ 		<div class="container">
+ 			<div class="banner">
+ 				<a href="#"><img src="images/banner-4.jpg" class="img-responsive" alt="banner"></a>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div class="features">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-4">
+ 					<div class="feature">
+ 						<div class="photo">
+ 							<img src="images/icon-1.png" alt="support">
+ 						</div>
+ 						<h4 class="title">دعم فني علي دائم 24/7</h4>
+ 						<div class="detail">
+ 							هناك حقيقة مثبته منذ زمن طويل وهي ان المحتوي المقروء لصفحة ما سيلهي القارئ عن التركيز علي الشكل الخارجي للنص
+ 						</div>
+ 					</div>
+ 				</div>
+ 				
+ 				<div class="col-md-4">
+ 					<div class="feature">
+ 						<div class="photo">
+ 							<img src="images/icon-2.png" alt="support">
+ 						</div>
+ 						<h4 class="title">الدفع عند الإستلام</h4>
+ 						<div class="detail">
+ 							هناك حقيقة مثبته منذ زمن طويل وهي ان المحتوي المقروء لصفحة ما سيلهي القارئ عن التركيز علي الشكل الخارجي للنص
+ 						</div>
+ 					</div>
+ 				</div>
+ 				
+ 				<div class="col-md-4">
+ 					<div class="feature">
+ 						<div class="photo">
+ 							<img src="images/pro-9.png" alt="support">
+ 						</div>
+ 						<h4 class="title">خدمة سريعة التوصيل</h4>
+ 						<div class="detail">
+ 							هناك حقيقة مثبته منذ زمن طويل وهي ان المحتوي المقروء لصفحة ما سيلهي القارئ عن التركيز علي الشكل الخارجي للنص
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	
+ 	
+ 	<div class="best_seller">
+ 		<div class="container">
+ 			<div class="heading">
+                <h3>الأكثر مبيعا</h3>
+			</div>
+			
+			<div class="owl-carousel pro_slider owl-theme">
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-1.png" alt="product">
+					</div>
+					<h3 class="detail">bobo designs woolrich klettersack</h3>
+					<div class="price">
+						السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+					</div>
+					<div class="overlay">
+					   <div class="actions">
+							<button class="act add">اضف للشراء</button>
+							<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-2.png" alt="product">
+					</div>
+					<h3 class="detail">bobo designs woolrich klettersack</h3>
+					<div class="price">
+						السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+					</div>
+					<div class="overlay">
+					   <div class="actions">
+							<button class="act add">اضف للشراء</button>
+							<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-3.png" alt="product">
+					</div>
+					<h3 class="detail">bobo designs woolrich klettersack</h3>
+					<div class="price">
+						السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+					</div>
+					<div class="overlay">
+					   <div class="actions">
+							<button class="act add">اضف للشراء</button>
+							<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-4.png" alt="product">
+					</div>
+					<h3 class="detail">bobo designs woolrich klettersack</h3>
+					<div class="price">
+						السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+					</div>
+					<div class="overlay">
+					   <div class="actions">
+							<button class="act add">اضف للشراء</button>
+							<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-5.png" alt="product">
+					</div>
+					<h3 class="detail">bobo designs woolrich klettersack</h3>
+					<div class="price">
+						السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+					</div>
+					<div class="overlay">
+					   <div class="actions">
+							<button class="act add">اضف للشراء</button>
+							<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-6.png" alt="product">
+					</div>
+					<h3 class="detail">bobo designs woolrich klettersack</h3>
+					<div class="price">
+						السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+					</div>
+					<div class="overlay">
+					   <div class="actions">
+							<button class="act add">اضف للشراء</button>
+							<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-7.png" alt="product">
+					</div>
+					<h3 class="detail">bobo designs woolrich klettersack</h3>
+					<div class="price">
+						السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+					</div>
+					<div class="overlay">
+					   <div class="actions">
+							<button class="act add">اضف للشراء</button>
+							<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="item pro">
+					<div class="photo">
+						<img src="images/pro-8.png" alt="product">
+					</div>
+					<h3 class="detail">bobo designs woolrich klettersack</h3>
+					<div class="price">
+						السعر : <span class="current">$ 920</span> <span class="past">$ 1125</span>
+					</div>
+					<div class="overlay">
+					   <div class="actions">
+							<button class="act add">اضف للشراء</button>
+							<button class="act share"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+							<button class="act heart"><i class="fa fa-heart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<footer>
+ 		<div class="container">
+ 			<div class="join">
+ 				<div class="info">
+					<img src="images/mailing.png" alt="icon">
+					<div class="detail">
+						<h3 class="title">اشترك ليصلك جديدنا</h3>
+						<h5 class="title-2">لن نشارك عنوان بريدك الإلكتروني مطلقا مع جهة خارجية</h5>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="ادخل البريد الإلكتروني">
+					 <button class="check">اشترك</button>
+				</div>
+			</div>
+ 		</div>
+ 		<div class="footer_nav">
+ 			<div class="container">
+ 				<div class="footer_main">
+					<div class="logo_link">
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/footer_logo.png" alt="logo"></a>
+						</div>
+						<ul class="list-unstyled list-inline">
+							<li><a href="#" class="active">الرئيسية</a></li>
+							<li><a href="#">نسائي</a></li>
+							<li><a href="#">رجالي</a></li>
+							<li><a href="#">الكترونيات</a></li>
+							<li><a href="#">الصحة والجمال</a></li>
+							<li><a href="#">الأطفال والألعاب</a></li>
+						</ul>
+					</div>
+					<div class="social">
+						<a href="#" class="face">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+						<a href="#" class="gog">
+							<i class="fa fa-google-plus" aria-hidden="true"></i>
+						</a>
+						<a href="#" class="twt">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_links">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="comuncation">
+							<h4 class="title">احدث المنتجات</h4>
+							<ul class="list-unstyled">
+								<li><i class="fa fa-home" aria-hidden="true"></i>هناك حقيفة مثبتة منذ زمن طويل وهي أن المحتوي المقروء لصفحة ما سيلهي القارئ عن</li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i><span>0315215(0214+) - 03150215(0214+)</span></li>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i> Sales@domain.com</li>
+								<li><i class="fa fa-clock-o" aria-hidden="true"></i>Open Time : 8:00 AM-6:00 PM</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<h4 class="title">معلومات</h4>
+						<ul class="list-unstyled external">
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>رجالي</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>سؤال وجواب</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>الضمان والخدمات</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>الدعم الفني</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>تسجيل المنتجات</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>دعم المنتجات</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4 class="title">حسابي</h4>
+						<ul class="list-unstyled external">
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>تسجيل الدخول</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>تسجيل حساب جديد</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>فيليت</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>عروض خاصة</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>رباط خاص</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4 class="title">الخدمات</h4>
+						<ul class="list-unstyled external">
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>اتصل بنا</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>الدعم الفني</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>خريطة الموقع</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>الدعم الفني</a></li>
+							<li><a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i>رابط الموقع</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+      			<div class="copyright">
+					جميع الحقوق محفوظه &copy; آلاء 2017 - تصميم وتطوير<a href="#"> مؤسسة تسوق </a> 
+				</div>
+      		</div>
+ 	</footer>
+
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/plug.js"></script>
+    </body>
+</html>

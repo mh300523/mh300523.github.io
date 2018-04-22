@@ -1,0 +1,123 @@
+header .mobile_nav .list > span
+{
+    margin-left: 8px;
+}
+header .mobile_nav .sidenav .closebtn
+{
+    right: 30px;
+}
+header .lang_coin > li:first-child
+{
+	padding-right: 15px;
+}
+header .lang_coin > li:not(:last-child)
+{
+	border-right: 1px solid #000000;
+}
+.lang > .dropdown-toggle
+{
+    text-align: left;
+}
+.lang > .dropdown-toggle > span 
+{
+   margin-left: 6px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: left;
+}
+.categories .bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    display: none;
+}
+.categories .bootstrap-select>.dropdown-toggle:after
+{
+	right: 0;
+}
+header .contact
+{
+	margin-right: 90px;
+}
+header .contact span
+{
+	margin-right: 8px;
+}
+header .fav .heart
+{
+	margin-left: 26px;
+}
+header .search_icon
+{
+	right: 14px;
+}
+header .cart .shopping .fa
+{
+	margin-right: 10px;
+}
+header .cart .shopping .fa span
+{
+    left: 14px;
+}
+header .main > ul > li > a.active:after
+{
+	left: 0;
+}
+.pro .price .current
+{
+	margin-right: 9px;
+}
+.heading .navtabs
+{
+	margin-right: 30px;
+}
+.join .detail
+{
+	margin-left: 35px;
+}
+.join .form-group .check
+{
+	font-size: 15px;
+}
+.join .title
+{
+	font-size: 20px;
+}
+.join .title-2
+{
+	font-size: 12px;
+}
+footer .logo
+{
+	margin-right: 50px;
+}
+footer .comuncation > ul > li > .fa
+{
+	margin-right: 5px;
+}
+footer .external > li > a > .fa
+{
+	margin-right: 8px;
+}
+
+
+
+
+@media(max-width:991px)
+{
+	header .lang_coin > li:not(:first-child)
+	{
+		border: 0;
+	}
+	.heading .navtabs
+	{
+		margin-right: 0;
+	}
+	.join .detail
+	{
+		margin: 30px 0;
+	}
+	footer .logo
+	{
+		margin-right: 0;
+	}
+}
