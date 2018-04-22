@@ -1,0 +1,128 @@
+body
+{
+	font-family: 'AlekRegular';
+}
+.our_communicat > li:first-child
+{
+	padding-left: 0;
+}
+.our_communicat > li > a > .aws
+{
+	margin-right: 4px;
+}
+header .lang-bar > a:first-child
+{
+	margin-right: 7px;
+}
+.recomend .re_btn .ic
+{
+	margin-right: 4px;
+}
+.recomend .re_btn span
+{
+	left: -8px;
+}
+header .reg_menu > li > a
+{
+	font-size: 18px;
+}
+header .nav_bar
+{
+	margin-left: 7px;
+}
+header .nav_bar > li > a
+{
+	font-size: 20px;
+}
+header .pro_menu .sub
+{
+	font-size: 17px;
+}
+header .pro_menu .sub:hover
+{
+	-webkit-transform: translateX(10px);
+	-ms-transform: translateX(10px);
+	-o-transform: translateX(10px);
+	transform: translateX(10px);
+}
+header .search_icon
+{
+	right: 20px;
+	top: 20px;
+}
+header .searchinput
+{
+	font-family: 'AlekRegular';
+	font-size: 20px;
+}
+.wr_btn,.no_more
+{
+	font-size: 18px;
+}
+.mob_bar #navbtn
+{
+	text-align: left;
+	background-color: #e688b4;
+}
+.sidenav.over_mob
+{
+	left: 0;
+}
+.sidenav
+{
+	left: -290px;
+}
+.side_ul .mob_pros:after
+{
+	right: 0;
+}
+.sidenav .closebtn
+{
+	right: 20px;
+}
+.sidenav .mob_menu .mob_item
+{
+	margin-left: 60px;
+}
+footer .title
+{
+	font-size: 21px;
+}
+.fast_links > ul > li > a
+{
+	font-size: 16px;
+}
+.fast_links > ul > li > a:hover
+{
+	-webkit-transform: translateX(14px);
+	-ms-transform: translateX(14px);
+	-o-transform: translateX(14px);
+	transform: translateX(14px);
+}
+.fast_links .fo_ic
+{
+	margin-right: 10px;
+}
+.copy > a > img
+{
+	margin-left: 4px;
+}
+
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)	
+{
+	.fast_links .sm_title:after
+	{
+		right: 20px;
+	}
+}
+
+/*xs*/
+@media (max-width:767px)
+{
+	.fast_links .sm_title:after
+	{
+		right: 20px;
+	}
+}

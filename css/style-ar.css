@@ -1,0 +1,90 @@
+.our_communicat > li:first-child
+{
+	padding-right: 0;
+}
+.our_communicat > li > a > .aws
+{
+	margin-left: 4px;
+}
+header .lang-bar > a:first-child
+{
+	margin-left: 7px;
+}
+.recomend .re_btn .ic
+{
+	margin-left: 4px;
+}
+.recomend .re_btn span
+{
+	right: -8px;
+}
+header .nav_bar
+{
+	margin-right: 7px;
+}
+header .pro_menu .sub:hover
+{
+	-webkit-transform: translateX(-10px);
+	-ms-transform: translateX(-10px);
+	-o-transform: translateX(-10px);
+	transform: translateX(-10px);
+}
+header .search_icon
+{
+	left: 20px;
+}
+.mob_bar #navbtn
+{
+	text-align: right;
+	background-color: #e688b4;
+}
+.sidenav.over_mob
+{
+	right: 0;
+}
+.sidenav
+{
+	right: -290px;
+}
+.side_ul .mob_pros:after
+{
+	left: 0;
+}
+.sidenav .closebtn
+{
+	left: 20px;
+}
+.sidenav .mob_menu .mob_item
+{
+	margin-right: 60px;
+}
+.fast_links > ul > li > a:hover
+{
+	-webkit-transform: translateX(-14px);
+	-ms-transform: translateX(-14px);
+	-o-transform: translateX(-14px);
+	transform: translateX(-14px);
+}
+.fast_links .fo_ic
+{
+	margin-left: 10px;
+}
+
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)	
+{
+	.fast_links .sm_title:after
+	{
+		left: 20px;
+	}
+}
+
+/*xs*/
+@media (max-width:767px)
+{
+	.fast_links .sm_title:after
+	{
+		left: 20px;
+	}
+}
