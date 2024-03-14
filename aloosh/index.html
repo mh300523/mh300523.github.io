@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- for internet explorere -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--(the most important line) for mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>علوش</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/ar-style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+
+    </head>
+    <body>
+    
+    <header>
+        <div class="top_nav">
+            <div class="container custom">
+                <div class="top_bar">
+                    <div class="lang">
+                       <a class="ar" href="index.html" data-toggle="tooltip" data-placement="bottom" title="عربي"><img src="images/lang-ar.png"></a>
+                       <a class="en" href="index-en.html" data-toggle="tooltip" data-placement="bottom" title="English" ><img src="images/lang-en.png"></a>
+                    </div>
+                </div>
+                <div class="down_bar">
+                    <div class="logo">
+                        <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="mobile_nav">
+                        <div id="mySidenav" class="sidenav">
+                            <span href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</span>
+                            <ul class="list-unstyled">
+                                <li><a class="direct" href="#">الرئيسية</a></li>
+                                <li><a class="direct" href="#">من نحن</a></li>
+                                <li class="mob_cat">
+                                    <a class="direct" href="#">أقسام المنتجات</a>
+                                    <ul class="mob_menu list-unstyled">
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">فئة 2 ريال</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">الألعاب</a></li>
+                                               <li><a class="sub_cat_item" href="#">الهدايا</a></li>
+                                               <li><a class="sub_cat_item" href="#">الإكسسوارات</a></li>
+                                               <li><a class="sub_cat_item" href="#">أدوات الشعر</a></li>
+                                               <li><a class="sub_cat_item" href="#">الملابس</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">فئة 5 ريال</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">الألعاب</a></li>
+                                               <li><a class="sub_cat_item" href="#">الهدايا</a></li>
+                                               <li><a class="sub_cat_item" href="#">الإكسسوارات</a></li>
+                                               <li><a class="sub_cat_item" href="#">أدوات الشعر</a></li>
+                                               <li><a class="sub_cat_item" href="#">الملابس</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">فئة 10 ريال</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">الألعاب</a></li>
+                                               <li><a class="sub_cat_item" href="#">الهدايا</a></li>
+                                               <li><a class="sub_cat_item" href="#">الإكسسوارات</a></li>
+                                               <li><a class="sub_cat_item" href="#">أدوات الشعر</a></li>
+                                               <li><a class="sub_cat_item" href="#">الملابس</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">فئة 15 ريال</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">الألعاب</a></li>
+                                               <li><a class="sub_cat_item" href="#">الهدايا</a></li>
+                                               <li><a class="sub_cat_item" href="#">الإكسسوارات</a></li>
+                                               <li><a class="sub_cat_item" href="#">أدوات الشعر</a></li>
+                                               <li><a class="sub_cat_item" href="#">الملابس</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">فئة 20 ريال</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">الألعاب</a></li>
+                                               <li><a class="sub_cat_item" href="#">الهدايا</a></li>
+                                               <li><a class="sub_cat_item" href="#">الإكسسوارات</a></li>
+                                               <li><a class="sub_cat_item" href="#">أدوات الشعر</a></li>
+                                               <li><a class="sub_cat_item" href="#">الملابس</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_cat">
+                                            <a class="mob_item" href="#">السعر مفتوح</a>
+                                            <ul class="list-unstyled sub_cat_menu">
+                                               <li><a class="sub_cat_item" href="#">الألعاب</a></li>
+                                               <li><a class="sub_cat_item" href="#">الهدايا</a></li>
+                                               <li><a class="sub_cat_item" href="#">الإكسسوارات</a></li>
+                                               <li><a class="sub_cat_item" href="#">أدوات الشعر</a></li>
+                                               <li><a class="sub_cat_item" href="#">الملابس</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="direct" href="#">العروض المميزة</a></li>
+                                <li><a class="direct" href="#">وصل حديثا</a></li>
+                                <li><a class="direct" href="#">الأكثر مبيعا</a></li>
+                                <li><a class="direct" href="#">اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                        <button class="list" onclick="openNav()">
+                            <i class="fa fa-bars"></i><span>القائمة الرئيسية</span> 
+                        </button>
+                    </div>
+                    <div class="searchbar">
+                        <div class="categories">
+                            <select class="selectpicker">
+                                <option selected disabled>أقسام المنتجات<i class="fa fa-angle-down" aria-hidden="true"></i></option>
+                               <option>قسم 1</option>
+                               <option>قسم 2</option>
+                               <option>قسم 3</option>
+                            </select>
+                        </div>
+                        <div class="searchbox">
+                          <input class="searchinput" id="search" placeholder="كلمة البحث" type="search">
+                            <button class="lg"type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                        <button class="small" type="submit"><i class="fa fa-search" aria-hidden="true"></i>البحث</button>
+                    </div>
+                    <button class="log_in">
+                       <span class="user"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        تسجيل الدخول
+                    </button>
+                    <div class="cart">
+                        <button class="count">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>0 منتجات - 0 ريال سعودي 
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down_nav">
+            <div class="container">
+                <div class="main">
+                   <div class="cat">
+                       <div class="title"><i class="fa fa-bars fa-2x"></i>أقسام المنتجات</div>
+                       <div class="menu">
+                           <ul class="list-unstyled">
+                               <li class="sub_menu">
+                                   <a class="menu_item" href="#">فئة 2 ريال</a>
+                                   <ul class="list-unstyled sub_list">
+                                       <li><a class="sub_item" href="#">الألعاب</a></li>
+                                       <li><a class="sub_item" href="#">الهدايا</a></li>
+                                       <li><a class="sub_item" href="#">الإكسسوارات</a></li>
+                                       <li><a class="sub_item" href="#">أدوات الشعر</a></li>
+                                       <li><a class="sub_item" href="#">الملابس</a></li>
+                                   </ul>
+                               </li>
+                               <li class="sub_menu">
+                                   <a class="menu_item" href="#">فئة 5 ريال</a>
+                                   <ul class="list-unstyled sub_list">
+                                       <li><a class="sub_item" href="#">الألعاب</a></li>
+                                       <li><a class="sub_item" href="#">الهدايا</a></li>
+                                       <li><a class="sub_item" href="#">الإكسسوارات</a></li>
+                                       <li><a class="sub_item" href="#">أدوات الشعر</a></li>
+                                       <li><a class="sub_item" href="#">الملابس</a></li>
+                                   </ul>
+                               </li>
+                               <li class="sub_menu">
+                                   <a class="menu_item" href="#">فئة 10 ريال</a>
+                                   <ul class="list-unstyled sub_list">
+                                       <li><a class="sub_item" href="#">الألعاب</a></li>
+                                       <li><a class="sub_item" href="#">الهدايا</a></li>
+                                       <li><a class="sub_item" href="#">الإكسسوارات</a></li>
+                                       <li><a class="sub_item" href="#">أدوات الشعر</a></li>
+                                       <li><a class="sub_item" href="#">الملابس</a></li>
+                                   </ul>
+                               </li>
+                               <li class="sub_menu">
+                                   <a class="menu_item" href="#">فئة 15 ريال</a>
+                                   <ul class="list-unstyled sub_list">
+                                       <li><a class="sub_item" href="#">الألعاب</a></li>
+                                       <li><a class="sub_item" href="#">الهدايا</a></li>
+                                       <li><a class="sub_item" href="#">الإكسسوارات</a></li>
+                                       <li><a class="sub_item" href="#">أدوات الشعر</a></li>
+                                       <li><a class="sub_item" href="#">الملابس</a></li>
+                                   </ul>
+                               </li>
+                               <li class="sub_menu">
+                                   <a class="menu_item" href="#">فئة 20 ريال</a>
+                                   <ul class="list-unstyled sub_list">
+                                       <li><a class="sub_item" href="#">الألعاب</a></li>
+                                       <li><a class="sub_item" href="#">الهدايا</a></li>
+                                       <li><a class="sub_item" href="#">الإكسسوارات</a></li>
+                                       <li><a class="sub_item" href="#">أدوات الشعر</a></li>
+                                       <li><a class="sub_item" href="#">الملابس</a></li>
+                                   </ul>
+                               </li>
+                               <li class="sub_menu">
+                                   <a class="menu_item" href="#">السعر مفتوح</a>
+                                   <ul class="list-unstyled sub_list">
+                                       <li><a class="sub_item" href="#">الألعاب</a></li>
+                                       <li><a class="sub_item" href="#">الهدايا</a></li>
+                                       <li><a class="sub_item" href="#">الإكسسوارات</a></li>
+                                       <li><a class="sub_item" href="#">أدوات الشعر</a></li>
+                                       <li><a class="sub_item" href="#">الملابس</a></li>
+                                   </ul>
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+                    <div class="links">
+                        <ul class="list-inline list-unstyled">
+                            <li><a class="dir" href="#">الرئيسية</a></li>
+                            <li><a class="dir" href="#">من نحن</a></li>
+                            <li><a class="dir" href="#">العروض المميزة</a></li>
+                            <li><a class="dir" href="#">وصل حديثا</a></li>
+                            <li><a class="dir" href="#">الأكثر مبيعا</a></li>
+                            <li><a class="dir" href="#">اتصل بنا</a></li>
+                        </ul>
+                    </div>
+                    <div class="cart">
+                        <button class="count">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>0 منتجات - 0 ريال سعودي 
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    
+    
+    <div class="kinds">
+        <div class="container">
+            <ul class="list-unstyled list-inline available">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle element" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <div class="photo">
+                          <img src="images/star.png" alt="star" class="img-responsive">
+                      </div>
+                      <h4>فئة 2 ريال</h4>
+                  </a>
+                  <ul class="dropdown-menu sub_element">
+                       <li><a class="choice" href="#">الألعاب</a></li>
+                       <li><a class="choice" href="#">الهدايا</a></li>
+                       <li><a class="choice" href="#">الإكسسوارات</a></li>
+                       <li><a class="choice" href="#">أدوات الشعر</a></li>
+                       <li><a class="choice" href="#">الملابس</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle element" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <div class="photo">
+                          <img src="images/star.png" alt="star" class="img-responsive">
+                      </div>
+                      <h4>فئة 5 ريال</h4>
+                  </a>
+                  <ul class="dropdown-menu sub_element">
+                       <li><a class="choice" href="#">الألعاب</a></li>
+                       <li><a class="choice" href="#">الهدايا</a></li>
+                       <li><a class="choice" href="#">الإكسسوارات</a></li>
+                       <li><a class="choice" href="#">أدوات الشعر</a></li>
+                       <li><a class="choice" href="#">الملابس</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle element" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <div class="photo">
+                          <img src="images/star.png" alt="star" class="img-responsive">
+                      </div>
+                      <h4>فئة 10 ريال</h4>
+                  </a>
+                  <ul class="dropdown-menu sub_element">
+                       <li><a class="choice" href="#">الألعاب</a></li>
+                       <li><a class="choice" href="#">الهدايا</a></li>
+                       <li><a class="choice" href="#">الإكسسوارات</a></li>
+                       <li><a class="choice" href="#">أدوات الشعر</a></li>
+                       <li><a class="choice" href="#">الملابس</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle element" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <div class="photo">
+                          <img src="images/star.png" alt="star" class="img-responsive">
+                      </div>
+                      <h4>فئة 15 ريال</h4>
+                  </a>
+                  <ul class="dropdown-menu sub_element">
+                       <li><a class="choice" href="#">الألعاب</a></li>
+                       <li><a class="choice" href="#">الهدايا</a></li>
+                       <li><a class="choice" href="#">الإكسسوارات</a></li>
+                       <li><a class="choice" href="#">أدوات الشعر</a></li>
+                       <li><a class="choice" href="#">الملابس</a></li>
+                  </ul>
+                </li>
+
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle element" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <div class="photo">
+                          <img src="images/star.png" alt="star" class="img-responsive">
+                      </div>
+                      <h4>فئة 20 ريال</h4>
+                  </a>
+                  <ul class="dropdown-menu sub_element">
+                       <li><a class="choice" href="#">الألعاب</a></li>
+                       <li><a class="choice" href="#">الهدايا</a></li>
+                       <li><a class="choice" href="#">الإكسسوارات</a></li>
+                       <li><a class="choice" href="#">أدوات الشعر</a></li>
+                       <li><a class="choice" href="#">الملابس</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle element" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <div class="photo">
+                          <img src="images/star.png" alt="star" class="img-responsive">
+                      </div>
+                      <h4>السعر مفتوح</h4>
+                  </a>
+                  <ul class="dropdown-menu sub_element">
+                       <li><a class="choice" href="#">الألعاب</a></li>
+                       <li><a class="choice" href="#">الهدايا</a></li>
+                       <li><a class="choice" href="#">الإكسسوارات</a></li>
+                       <li><a class="choice" href="#">أدوات الشعر</a></li>
+                       <li><a class="choice" href="#">الملابس</a></li>
+                  </ul>
+                </li>
+            </ul>
+            <img src="images/stroke-1.png" alt="line" class="img-responsive">
+        </div>
+    </div>
+    
+    
+    <div class="shopping">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="heading">
+                          <h2>وصل حديثا</h2>
+                          <img src="images/stroke-2.png" alt="line">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                      
+                        <div class="pro">
+                            <div class="img">
+                               <img src="images/pro-1.png" class="img-responsive">
+                                <div class="overlay">
+                                   <div class="add">
+                                        <button class="add_to">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="add_to">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#"><h4>#4156</h4></a> 
+                                </div>
+                                <div class="price">
+                                    <div class="current">150 SAR</div>
+                                    <div class="past">200 SAR</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                      
+                        <div class="pro">
+                            
+                           <div class="img">
+                               <img src="images/pro-2.png" class="img-responsive">
+                                <div class="overlay">
+                                   <div class="add">
+                                        <button class="add_to">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="add_to">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#"><h4>#2033</h4></a>
+                                </div>
+                                <div class="price">
+                                    <div class="current">150 SAR</div>
+                                    <div class="past">200 SAR</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                      
+                        <div class="pro">
+                            
+                           <div class="img">
+                               <img src="images/pro-3.png" class="img-responsive">
+                                <div class="overlay">
+                                   <div class="add">
+                                        <button class="add_to">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="add_to">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#"><h4>#1258</h4></a>
+                                </div>
+                                <div class="price">
+                                    <div class="current">150 SAR</div>
+                                    <div class="past">200 SAR</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="col-md-3 col-sm-6 col-xs-12">
+                      
+                        <div class="pro">
+         
+                           <div class="img">
+                               <img src="images/pro-4.png" class="img-responsive">
+                                <div class="overlay">
+                                   <div class="add">
+                                        <button class="add_to">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="add_to">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#"><h4>#2687</h4></a>
+                                </div>
+                                <div class="price">
+                                    <div class="current">150 SAR</div>
+                                    <div class="past">200 SAR</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="offers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="heading">
+                          <h2>العروض المميزة</h2>
+                          <img src="images/stroke-2.png" alt="line">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                      
+                        <div class="pro">
+                            <div class="img">
+                               <img src="images/pro-5.png" class="img-responsive">
+                                <div class="overlay">
+                                   <div class="add">
+                                        <button class="add_to">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="add_to">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#"><h4>#4156</h4></a> 
+                                </div>
+                                <div class="price">
+                                    <div class="current">150 SAR</div>
+                                    <div class="past">200 SAR</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                      
+                        <div class="pro">
+                            
+                           <div class="img">
+                               <img src="images/pro-6.png" class="img-responsive">
+                                <div class="overlay">
+                                   <div class="add">
+                                        <button class="add_to">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="add_to">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#"><h4>#2033</h4></a>
+                                </div>
+                                <div class="price">
+                                    <div class="current">150 SAR</div>
+                                    <div class="past">200 SAR</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                      
+                        <div class="pro">
+                            
+                           <div class="img">
+                               <img src="images/pro-7.png" class="img-responsive">
+                                <div class="overlay">
+                                   <div class="add">
+                                        <button class="add_to">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="add_to">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#"><h4>#1258</h4></a>
+                                </div>
+                                <div class="price">
+                                    <div class="current">150 SAR</div>
+                                    <div class="past">200 SAR</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="col-md-3 col-sm-6 col-xs-12">
+                      
+                        <div class="pro">
+         
+                           <div class="img">
+                               <img src="images/pro-8.png" class="img-responsive">
+                                <div class="overlay">
+                                   <div class="add">
+                                        <button class="add_to">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="add_to">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#"><h4>#2687</h4></a>
+                                </div>
+                                <div class="price">
+                                    <div class="current">150 SAR</div>
+                                    <div class="past">200 SAR</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/stroke-3.png" alt="line" class="img-responsive">
+            </div>
+        </div>
+    
+    
+    
+    
+      <!--footer-->
+        <footer class="footer">
+            <div class="footer_links">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-xs-12">
+                            <ul class="list-unstyled">
+                                <li class="title">معلومات</li>
+                                <li><a href="#">من نحن</a></li>
+                                <li><a href="#">معلومات الشحن والتوصيل</a></li>
+                                <li><a href="#">الخصوصية</a></li>
+                                <li><a href="#">شروط الإستخدام</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-2 col-xs-12">
+                            <ul class="list-unstyled">
+                                <li class="title">خدمة العملاء</li>
+                                <li><a href="#">اتصل بنا</a></li>
+                                <li><a href="#">إرجاع الطلب</a></li>
+                                <li><a href="#">خريطة الموقع</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-2 col-xs-12">
+                            <ul class="list-unstyled">
+                                <li class="title">اضافات</li>
+                                <li><a href="#">الشركات</a></li>
+                                <li><a href="#">قسائم الهدايا</a></li>
+                                <li><a href="#">نظام العمولة</a></li>
+                                <li><a href="#">العروض المميزه</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-2 col-xs-12">
+                            <ul class="list-unstyled">
+                                <li class="title">حسابي</li>
+                                <li><a href="#">حسابي</a></li>
+                                <li><a href="#">طلباتي</a></li>
+                                <li><a href="#">قائمة رغباتي</a></li>
+                                <li><a href="#">القائمة البريديه</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <div class="join">
+                               <h3 class="title">القائمة البريدية</h3>
+                                <h4>انضم إلي القائمة البريدية لتصلك عروضنا وأخبارانا</h4>
+                                 <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ادخل البريد الإلكتروني">
+                                     <button class="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment">
+                <a href="#"><img src="images/payment.png" alt="pay"> </a>
+            </div>
+            <div class="down_footer">
+                <div class="container">
+                    <div class="copy_social">
+                         <div class="copyright">
+                             <p>جميع الحقوق محفوظه &copy; علوش  - تصميم وتطوير<a href="#"> مؤسسة تسوق </a> </p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!--end footer-->
+    
+    
+   
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/plug.js"></script>
+    </body>
+</html>

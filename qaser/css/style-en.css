@@ -1,0 +1,117 @@
+.nav_bar > li > a
+{
+	font-size: 16px;
+}
+header .reg_menu:before
+{
+	left: 18%;
+}
+header .p_contact
+{
+	margin-right: 21px;
+	margin-left: 48px;
+}
+header .p_contact > i
+{
+	margin-right: 6px;
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+header .lang
+{
+	margin-left: 18px;
+	direction: rtl;
+	line-height: 30px;
+}
+header .lang > a
+{
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+header .pro_menu li > img
+{
+	right: 27px;
+}
+.mob_bar #navbtn
+{
+	text-align: left;
+}
+.sidenav.over_mob
+{
+	left: 0;
+}
+.sidenav
+{
+	left: -290px;
+}
+.side_ul .mob_pros:after
+{
+	right: 0;
+}
+.sidenav .closebtn
+{
+	right: 20px;
+}
+.sidenav .mob_menu .mob_item
+{
+	margin-left: 60px;
+}
+.pro .discount
+{
+	left: 14px;
+}
+footer .con_icon
+{
+	margin-right: 8px;
+}
+
+/*contact us*/
+.bcs-icon
+{
+	margin-right: 8px;
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+/*contact us*/
+
+/*md*/
+@media (min-width:992px) and (max-width:1199px){
+	header .recomend
+	{
+		margin-left: 30px;
+	}
+}
+
+/*sm*/
+@media (min-width:768px) and (max-width:991px)
+{
+	.top_nav .bar_side
+	{
+		right: 0;
+	}
+	.fast_links .sm_title:after
+	{
+		right: 2px;
+	}
+}
+
+/*xs*/
+@media (max-width:767px)	
+{
+	header .lang
+	{
+		right: 0;
+	}
+	footer .con_icon
+	{
+		margin-right: 0;
+	}
+	.fast_links .sm_title:after
+	{
+		right: 2px;
+	}
+}

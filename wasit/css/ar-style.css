@@ -1,0 +1,94 @@
+header .top_bar .social .icons
+{
+    margin-left: 25px;
+}
+header .top_bar .social .icons > a
+{
+    margin-right: 20px;
+}
+header .top_bar .social .sign .fa-user-circle
+{
+    margin-left: 7px;
+}
+header .down_nav .searchbox .searchinput
+{
+    padding-right: 21px;
+}
+header .down_nav .searchbox .fa-search
+{
+    left: 17px;
+}
+header .down_nav .searchbar .add
+{
+    margin-right: 7px;
+}
+header .down_nav .searchbar .add .fa
+{
+    margin-left: 7px;
+}
+.content .latest .heading .list > a
+{
+    margin-right: 6px;
+}
+.content .latest .items .cell .detail ul > li > .fa
+{
+    margin-left: 11px;
+}
+footer .navigation .place
+{
+    padding-left: 110px;
+}
+footer .navigation .cat
+{
+    padding-left: 52px;
+}
+footer .visit .num
+{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+footer .down_footer .copy_social .social > a
+{
+    margin-right: 12px;
+}
+
+
+
+
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+    header .down_nav .logo
+    {
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+@media(max-width:991px)
+{
+    header .down_nav .brand .play
+    {
+        margin-left: 5px;
+    }
+    header .down_nav .brand .store
+    {
+        margin-right: 5px;
+    }
+    .content .latest .heading
+    {
+        margin-bottom: 30px;
+    }
+    footer .navigation .place,footer .navigation .cat
+    {
+        padding-left: 0;
+    }
+    footer .down_footer .copy_social .social > a
+    {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}

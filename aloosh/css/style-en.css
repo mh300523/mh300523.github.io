@@ -1,0 +1,112 @@
+header .top_bar .lang .ar
+{
+    margin-right: 3px;
+}
+header .top_bar .lang .en
+{
+    margin-left: 3px;
+}
+header .down_bar .mobile_nav .list > span
+{
+    margin-left: 10px;
+}
+header .down_bar .mobile_nav .sidenav .closebtn 
+{
+    right: 20px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    text-align: left;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret
+{
+    left: auto;
+    right: 25px;
+}
+.categories .btn
+{
+    border-right: 1px solid #f0f0f0;
+}
+.bootstrap-select.btn-group .dropdown-menu
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.searchbox
+{
+   padding-left: 30px;
+}
+.lg
+{
+    right: 8px;
+}
+header .log_in .user
+{
+    margin-right: 8px;
+}
+header .links > ul > li
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header .main .cat .title > .fa
+{
+    margin-right: 15px;
+}
+header .main .cat .title
+{
+    padding-left: 37px;
+}
+header .main .count > .fa,header .down_bar .count > .fa
+{
+    margin-right: 9px;
+}
+header .cat .menu .sub_list
+{
+    left: 226px;
+}
+.pro .info .price
+{
+    direction: ltr;
+}
+.pro .info .price .current
+{
+    margin-right: 5px;
+}
+.pro .info .price .past
+{
+    margin-left: 5px;
+}
+.join .form-group .check
+{
+    right: 8px;
+}
+.footer_links .title
+{
+    font-size: 18px;
+}
+.footer_links li > a
+{
+    font-size: 14px;
+}
+.join h4,.join .form-group .form-control
+{
+    font-size: 14px;
+}
+
+
+@media(max-width:991px)
+{
+    .footer_links li > a
+    {
+        font-size: 12px;
+    }
+    .footer_links .title
+    {
+        font-size: 16px;
+    }
+    .small .fa-search
+    {
+        margin-right: 7px;
+    }
+}

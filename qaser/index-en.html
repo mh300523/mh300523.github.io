@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Qaser</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-en.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+
+		<header>
+			<div class="top_nav">
+				<div class="logo">
+					<a href="#"><img class="img-responsive" src="images/logo-en.png" alt="logo"></a>
+				</div>
+				<div class="bar_side">
+					<div class="main_links">
+						<ul class="nav_bar list-unstyled list-inline">
+							<li><a href="#">Home</a></li>
+							<li class="dropdown dir">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									Rooms <i class="fas fa-chevron-down"></i> 
+								</a>
+								<ul class="dropdown-menu pro_menu">
+									<li>
+										<a class="sub" href="#">Bed Rooms</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">Kids Rooms</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">Sitting Rooms</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">Dining Rooms</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">TV Units</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">Safes</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown dir">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									Accessories  <i class="fas fa-chevron-down"></i> 
+								</a>
+								<ul class="dropdown-menu pro_menu">
+									<li>
+										<a class="sub" href="#">Bed Rooms</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">Kids Rooms</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">Sitting Rooms</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">Dining Rooms</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">TV Units</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">Safes</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Offers</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="p_contact">
+						<i class="fas fa-phone"></i>920020999
+					</div>
+					<div class="recomend">
+						<div class="my_account dropdown">
+							<a class="re_btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-user"></i>
+							</a>
+							<ul class="dropdown-menu reg_menu">
+								<li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li>
+							</ul>
+						</div>
+
+						<div class="fav">
+							<a class="re_btn" href="#">
+								<i class="fas fa-heart"></i>
+							</a>
+						</div>
+
+						<div class="whats tool_tip" data-toggle="tooltip" data-placement="top" title="whatsapp">
+							<a class="re_btn" href="#">
+								<i class="fab fa-whatsapp"></i>
+							</a>
+						</div>
+					</div>
+					<div class="lang">
+						<a href="index.html">ع</a>
+					</div>
+				</div>
+				<div class="mob_bar">
+					<button class="list" id="navbtn">
+						<i class="fas fa-bars"></i> <span>Main Menu</span>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<!-------------------start sidenav------------------->
+		<div id="mySidenav" class="sidenav">
+			<span href="#" class="closebtn">&times;</span>
+			<ul class="list-unstyled side_ul">
+				<li><a class="direct" href="#">Home</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id1" aria-expanded="false">Rooms</a>
+					<ul class="mob_menu list-unstyled collapse" id="id1">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Bed Rooms</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Kids Rooms</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Sitting Rooms</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Dining Rooms</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">TV Units</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Safes</a>
+						</li>
+					</ul>
+				</li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id2" aria-expanded="false">Accessories</a>
+					<ul class="mob_menu list-unstyled collapse" id="id2">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Bed Rooms</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Kids Rooms</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Sitting Rooms</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Dining Rooms</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">TV Units</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Safes</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">Offers</a></li>
+				<li><a class="direct" href="#">Contact Us</a></li>
+			</ul>
+		</div>
+		<!-------------------end sidenav------------------->
+
+		<div class="slider">
+			<div class="mainslider owl-carousel">
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="about_us">
+			<div class="container">
+				<div class="about">
+					<div class="ab_title">Qasr Al Saraya for Furniture</div>
+					<div class="ab_info">
+						There is a long-established fact that the readable content of a page will distract the reader from focusing on the outer shape of the text or the form of paragraphs on the page he reads. Get rid of his addiction to the body
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="our_products">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-1.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">Bed Rooms</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-2.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">Kids Rooms</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-3.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">Sitting Rooms</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-4.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">Dining Rooms</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-5.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">TV Units</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-6.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">Safes</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-7.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">Accessories</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-8.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">Lighting</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="offers_late">
+			<div class="container">
+				<div class="heading">Offers</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="discount">Offer</div>
+						<div class="p_photo">
+							<img src="images/pro-9.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-10.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">Offer</div>
+						<div class="p_photo">
+							<img src="images/pro-11.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">Offer</div>
+						<div class="p_photo">
+							<img src="images/pro-12.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">Offer</div>
+						<div class="p_photo">
+							<img src="images/pro-9.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="banner">
+			<div class="container">
+				<div class="bans">
+					<div class="ban_title">The latest furniture of the Arab councils</div>
+					<a href="#" class="ban_link">Shop Now</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="offers_late">
+			<div class="container">
+				<div class="heading">New Arrivals</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-13.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-14.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-15.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-16.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-9.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								Product Name
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="map">
+			<div class="container">
+				<div id="map" style="width: 100%; height: 398px;"></div>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">Information</h5>
+							<ul class="list-unstyled collapse" id="id10">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Shipping & Delivery</a></li>
+								<li><a href="#">Privacy</a></li>
+								<li><a href="#">Terms of Use</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id11" aria-expanded="false">Clients Service</h5>
+							<ul class="list-unstyled collapse" id="id11">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Return Request </a></li>
+								<li><a href="#">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id12" aria-expanded="false">Additions</h5>
+							<ul class="list-unstyled collapse" id="id12">
+								<li><a href="#">Companies</a></li>
+								<li><a href="#">Gift Vouchers</a></li>
+								<li><a href="#">Commission System</a></li>
+								<li><a href="#">Special Offers</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id13" aria-expanded="false">My Account</h5>
+							<ul class="list-unstyled collapse" id="id13">
+								<li><a href="#">My Account</a></li>
+								<li><a href="#">My Requests</a></li>
+								<li><a href="#">Wish List</a></li>
+								<li><a href="#">Mailing List</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="connection">
+							<h5 class="title">Communication Information</h5>
+							<ul class="list-unstyled">
+								<li class="con_info">
+									<div class="con_icon"><i class="fas fa-phone"></i></div>
+									<div class="con_way">
+										Questions & Suggestions Unified Number <span>920020999</span>
+									</div>
+								</li>
+								<li class="con_info">
+									<div class="con_icon"><i class="fas fa-headphones"></i></div>
+									<div class="con_way">
+										Clients service from 8 am to 5 pm Sunday-Thursday
+									</div>
+								</li>
+							</ul>
+							<div class="down_app">
+								<a href="#">
+									<img src="images/play.png" alt="app_icon" class="img-responsive"> 
+								</a>
+								<a href="#">
+									<img src="images/app.png" alt="app_icon" class="img-responsive"> 
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copy_social">
+					<div class="copy">
+						&copy; Qasr Al Saraya for Furniture Store - Designed & Developed
+						<a href="#"><img src="images/ours.png"> TASWAK</a>
+					</div>
+					<div class="social">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+						<a href="#"><i class="fab fa-whatsapp"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html>

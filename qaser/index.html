@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Qaser</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-ar.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+		
+		<header>
+			<div class="top_nav">
+				<div class="logo">
+					<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+				</div>
+				<div class="bar_side">
+					<div class="main_links">
+						<ul class="nav_bar list-unstyled list-inline">
+							<li><a href="#">الرئيسية</a></li>
+							<li class="dropdown dir">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									الغرف <i class="fas fa-chevron-down"></i> 
+								</a>
+								<ul class="dropdown-menu pro_menu">
+									<li>
+										<a class="sub" href="#">غرف النوم</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الأطفال</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الجلوس</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الطعام</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">وحدات التليفزيون</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">الخزائن</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown dir">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									الإكسسوارات  <i class="fas fa-chevron-down"></i> 
+								</a>
+								<ul class="dropdown-menu pro_menu">
+									<li>
+										<a class="sub" href="#">غرف النوم</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الأطفال</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الجلوس</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الطعام</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">وحدات التليفزيون</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">الخزائن</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">العروض</a></li>
+							<li><a href="#">اتصل بنا</a></li>
+						</ul>
+					</div>
+					<div class="p_contact">
+						<i class="fas fa-phone"></i>920020999
+					</div>
+					<div class="recomend">
+						<div class="my_account dropdown">
+							<a class="re_btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-user"></i>
+							</a>
+							<ul class="dropdown-menu reg_menu">
+								<li><a href="#">تسجيل الدخول</a></li>
+								<li><a href="#">تسجيل جديد</a></li>
+							</ul>
+						</div>
+
+						<div class="fav">
+							<a class="re_btn" href="#">
+								<i class="fas fa-heart"></i>
+							</a>
+						</div>
+
+						<div class="whats tool_tip" data-toggle="tooltip" data-placement="top" title="whatsapp">
+							<a class="re_btn" href="#">
+								<i class="fab fa-whatsapp"></i>
+							</a>
+						</div>
+					</div>
+					<div class="lang">
+						<a href="index-en.html">EN</a>
+					</div>
+				</div>
+				<div class="mob_bar">
+					<button class="list" id="navbtn">
+						<i class="fas fa-bars"></i> <span>القائمة الرئيسية</span>
+					</button>
+				</div>
+			</div>
+		</header>
+		
+		<!-------------------start sidenav------------------->
+		<div id="mySidenav" class="sidenav">
+			<span href="#" class="closebtn">&times;</span>
+			<ul class="list-unstyled side_ul">
+				<li><a class="direct" href="#">الرئيسية</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id1" aria-expanded="false">الغرف</a>
+					<ul class="mob_menu list-unstyled collapse" id="id1">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف النوم</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الأطفال</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الجلوس</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الطعام</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">وحدات التليفزيون</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">الخزائن</a>
+						</li>
+					</ul>
+				</li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id2" aria-expanded="false">الإكسسوارات</a>
+					<ul class="mob_menu list-unstyled collapse" id="id2">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف النوم</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الأطفال</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الجلوس</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الطعام</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">وحدات التليفزيون</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">الخزائن</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">العروض</a></li>
+				<li><a class="direct" href="#">اتصل بنا</a></li>
+			</ul>
+		</div>
+		<!-------------------end sidenav------------------->
+		
+		<div class="slider">
+			<div class="mainslider owl-carousel">
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+				<div class="slideitem">
+					<img class="img-responsive" src="images/slider.jpg">
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="about_us">
+			<div class="container">
+				<div class="about">
+					<div class="ab_title">قصر السرايا للمفروشات</div>
+					<div class="ab_info">
+						هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="our_products">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-1.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">غرف النوم</a>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-2.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">غرف الأطفال</a>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-3.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">غرف الجلوس</a>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-4.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">غرف الطعام</a>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-5.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">وحدات التليفزيون</a>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-6.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">الخزائن</a>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-7.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">الاكسسوارات</a>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6">
+						<div class="prodc">
+							<div class="prc_photo">
+								<a href="#">
+									<img src="images/pro-8.png" alt="product" class="img-responsive">
+								</a>
+							</div>
+							<a class="prc-name" href="#">الاضاءة</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="offers_late">
+			<div class="container">
+				<div class="heading">العروض والتخفيضات</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="discount">عرض</div>
+						<div class="p_photo">
+							<img src="images/pro-9.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-10.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">عرض</div>
+						<div class="p_photo">
+							<img src="images/pro-11.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">عرض</div>
+						<div class="p_photo">
+							<img src="images/pro-12.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item pro">
+						<div class="discount">عرض</div>
+						<div class="p_photo">
+							<img src="images/pro-9.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="banner">
+			<div class="container">
+				<div class="bans">
+					<div class="ban_title">أحدث مفروشات المجالس العربية</div>
+					<a href="#" class="ban_link">تسوق الآن</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="offers_late">
+			<div class="container">
+				<div class="heading">آخر المنتجات المضافة</div>
+				<div class="owl-carousel pro_slider owl-theme">
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-13.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-14.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-15.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="p_photo">
+							<img src="images/pro-16.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item pro">
+						<div class="discount">عرض</div>
+						<div class="p_photo">
+							<img src="images/pro-9.png" class="img-responsive" alt="product">
+						</div>
+						<div class="info">
+							<div class="pro_name">
+								اسم المنتج
+							</div>
+							<div class="price">
+								<span class="current">6,289 SAR</span>
+								<span class="past">8,200 SAR</span>
+							</div>
+							<div class="overlay">
+								<div class="actions">
+									<button class="act">
+										<i class="fas fa-heart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-shopping-cart"></i>
+									</button>
+									<button class="act">
+										<i class="fas fa-exchange-alt"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="map">
+			<div class="container">
+				<div id="map" style="width: 100%; height: 398px;"></div>
+			</div>
+		</div>
+		
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">معلومات</h5>
+							<ul class="list-unstyled collapse" id="id10">
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">معلومات الشحن والتوصيل</a></li>
+								<li><a href="#">الخصوصية</a></li>
+								<li><a href="#">شروط الإستخدام</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id11" aria-expanded="false">خدمة العملاء</h5>
+							<ul class="list-unstyled collapse" id="id11">
+								<li><a href="#">اتصل بنا</a></li>
+								<li><a href="#">ارجاع الطلب</a></li>
+								<li><a href="#">خريطة الموقع</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id12" aria-expanded="false">اضافات</h5>
+							<ul class="list-unstyled collapse" id="id12">
+								<li><a href="#">الشركات</a></li>
+								<li><a href="#">قسائم الهدايا</a></li>
+								<li><a href="#">نظام العمولة</a></li>
+								<li><a href="#">العروض المميزة</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id13" aria-expanded="false">حسابي</h5>
+							<ul class="list-unstyled collapse" id="id13">
+								<li><a href="#">حسابي</a></li>
+								<li><a href="#">طلباتي</a></li>
+								<li><a href="#">قائمة رغباتي</a></li>
+								<li><a href="#">القائمة البريدية</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="connection">
+							<h5 class="title">معلومات التواصل</h5>
+							<ul class="list-unstyled">
+								<li class="con_info">
+									<div class="con_icon"><i class="fas fa-phone"></i></div>
+									<div class="con_way">للاستفسارات والمقترحات الرقم الموحد <span>920020999</span></div>
+								</li>
+								<li class="con_info">
+									<div class="con_icon"><i class="fas fa-headphones"></i></div>
+									<div class="con_way">خدمة العملاء من 8 صباحاً حتى 5 عصراً الاحد-للخميس</div>
+								</li>
+							</ul>
+							<div class="down_app">
+								<a href="#">
+									<img src="images/play.png" alt="app_icon" class="img-responsive"> 
+								</a>
+								<a href="#">
+									<img src="images/app.png" alt="app_icon" class="img-responsive"> 
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copy_social">
+					<div class="copy">
+						&copy; متجر قصر السرايا للمفروشات  - تصميم وتطوير 
+						<a href="#"><img src="images/ours.png"> تسوق</a>
+					</div>
+					<div class="social">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+						<a href="#"><i class="fab fa-whatsapp"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html>

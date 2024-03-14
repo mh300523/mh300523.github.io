@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcvkfdvIpjUPggYLBP2BR9d8iLnqeE4M"></script>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Contact</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-ar.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+		<div class="over_click"></div>
+
+		<header>
+			<div class="top_nav">
+				<div class="logo">
+					<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+				</div>
+				<div class="bar_side">
+					<div class="main_links">
+						<ul class="nav_bar list-unstyled list-inline">
+							<li><a href="#">الرئيسية</a></li>
+							<li class="dropdown dir">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									الغرف <i class="fas fa-chevron-down"></i> 
+								</a>
+								<ul class="dropdown-menu pro_menu">
+									<li>
+										<a class="sub" href="#">غرف النوم</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الأطفال</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الجلوس</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الطعام</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">وحدات التليفزيون</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">الخزائن</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown dir">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									الإكسسوارات  <i class="fas fa-chevron-down"></i> 
+								</a>
+								<ul class="dropdown-menu pro_menu">
+									<li>
+										<a class="sub" href="#">غرف النوم</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الأطفال</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الجلوس</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">غرف الطعام</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">وحدات التليفزيون</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+									<li>
+										<a class="sub" href="#">الخزائن</a>
+										<img src="images/dpro.png" alt="product">
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">العروض</a></li>
+							<li><a href="#">اتصل بنا</a></li>
+						</ul>
+					</div>
+					<div class="p_contact">
+						<i class="fas fa-phone"></i>920020999
+					</div>
+					<div class="recomend">
+						<div class="my_account dropdown">
+							<a class="re_btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-user"></i>
+							</a>
+							<ul class="dropdown-menu reg_menu">
+								<li><a href="#">تسجيل الدخول</a></li>
+								<li><a href="#">تسجيل جديد</a></li>
+							</ul>
+						</div>
+
+						<div class="fav">
+							<a class="re_btn" href="#">
+								<i class="fas fa-heart"></i>
+							</a>
+						</div>
+
+						<div class="whats tool_tip" data-toggle="tooltip" data-placement="top" title="whatsapp">
+							<a class="re_btn" href="#">
+								<i class="fab fa-whatsapp"></i>
+							</a>
+						</div>
+					</div>
+					<div class="lang">
+						<a href="contact-en.html">EN</a>
+					</div>
+				</div>
+				<div class="mob_bar">
+					<button class="list" id="navbtn">
+						<i class="fas fa-bars"></i> <span>القائمة الرئيسية</span>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<!-------------------start sidenav------------------->
+		<div id="mySidenav" class="sidenav">
+			<span href="#" class="closebtn">&times;</span>
+			<ul class="list-unstyled side_ul">
+				<li><a class="direct" href="#">الرئيسية</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id1" aria-expanded="false">الغرف</a>
+					<ul class="mob_menu list-unstyled collapse" id="id1">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف النوم</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الأطفال</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الجلوس</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الطعام</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">وحدات التليفزيون</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">الخزائن</a>
+						</li>
+					</ul>
+				</li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id2" aria-expanded="false">الإكسسوارات</a>
+					<ul class="mob_menu list-unstyled collapse" id="id2">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف النوم</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الأطفال</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الجلوس</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">غرف الطعام</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">وحدات التليفزيون</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">الخزائن</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">العروض</a></li>
+				<li><a class="direct" href="#">اتصل بنا</a></li>
+			</ul>
+		</div>
+		<!-------------------end sidenav------------------->
+		
+		<div class="c_us">
+			<div class="crumb_con">
+				<div class="container">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+						<li class="breadcrumb-item"><a href="#">اتصل بنا</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="con_content">
+				<div class="container">
+					<div class="cnc-title">اتصل بنا</div>
+					<div class="branch_head">فروعنا</div>
+					
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا جدة</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0126448080</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا الرياض</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0112632222</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا الاحساء/الهفوف</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0135874088</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا دار الوكالات</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0112698288</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا بريدة</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0163833940</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا أسواق العويس</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0112001083</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا دار الوكالات</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0112698258</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا الدائري الجنوبي</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0112724499</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا طريق خريص</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0112572133</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا معرض الصناعية</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0112708336</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا أسواق العويس 1</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0112001049</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="brcs">
+								<div class="bcs-title">قصر السرايا أسواق العويس 2</div>
+								<ul class="list-unstyled">
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-map-marker-alt"></i></span>
+										<a href="#" class="bcs-name">الموقع علي الخريطة</a>
+									</li>
+									<li class="bcs-info">
+										<span class="bcs-icon"><i class="fas fa-phone"></i></span>
+										<span href="#" class="bcs-name">0114501334</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="contact_sample">
+			<div class="container">
+				<div class="branch_head">نموذح الاتصال</div>
+				<form class="sample_enter">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class="lab" for="exampleInputName">الاسم بالكامل</label>
+								<input type="text" class="form-control" id="exampleInputNmae1" placeholder="" required>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class="lab" for="exampleInputMail">البريد الإلكتروني</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="" required>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="notes">
+								<label class="lab">الموضوع</label>
+								<textarea class="note" rows="6" placeholder=""></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="send">
+						<a href="#" class="send_to hvr-sweep-to-left" role="button" type="button">
+							ارسال
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">معلومات</h5>
+							<ul class="list-unstyled collapse" id="id10">
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">معلومات الشحن والتوصيل</a></li>
+								<li><a href="#">الخصوصية</a></li>
+								<li><a href="#">شروط الإستخدام</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id11" aria-expanded="false">خدمة العملاء</h5>
+							<ul class="list-unstyled collapse" id="id11">
+								<li><a href="#">اتصل بنا</a></li>
+								<li><a href="#">ارجاع الطلب</a></li>
+								<li><a href="#">خريطة الموقع</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id12" aria-expanded="false">اضافات</h5>
+							<ul class="list-unstyled collapse" id="id12">
+								<li><a href="#">الشركات</a></li>
+								<li><a href="#">قسائم الهدايا</a></li>
+								<li><a href="#">نظام العمولة</a></li>
+								<li><a href="#">العروض المميزة</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-3">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id13" aria-expanded="false">حسابي</h5>
+							<ul class="list-unstyled collapse" id="id13">
+								<li><a href="#">حسابي</a></li>
+								<li><a href="#">طلباتي</a></li>
+								<li><a href="#">قائمة رغباتي</a></li>
+								<li><a href="#">القائمة البريدية</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="connection">
+							<h5 class="title">معلومات التواصل</h5>
+							<ul class="list-unstyled">
+								<li class="con_info">
+									<div class="con_icon"><i class="fas fa-phone"></i></div>
+									<div class="con_way">للاستفسارات والمقترحات الرقم الموحد <span>920020999</span></div>
+								</li>
+								<li class="con_info">
+									<div class="con_icon"><i class="fas fa-headphones"></i></div>
+									<div class="con_way">خدمة العملاء من 8 صباحاً حتى 5 عصراً الاحد-للخميس</div>
+								</li>
+							</ul>
+							<div class="down_app">
+								<a href="#">
+									<img src="images/play.png" alt="app_icon" class="img-responsive"> 
+								</a>
+								<a href="#">
+									<img src="images/app.png" alt="app_icon" class="img-responsive"> 
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copy_social">
+					<div class="copy">
+						&copy; متجر قصر السرايا للمفروشات  - تصميم وتطوير 
+						<a href="#"><img src="images/ours.png"> تسوق</a>
+					</div>
+					<div class="social">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+						<a href="#"><i class="fab fa-whatsapp"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html>
