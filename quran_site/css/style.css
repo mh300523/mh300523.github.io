@@ -28,6 +28,23 @@ body
 {
     font-family: 'CoconNextArabic-Light';
 }
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000; 
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-track-piece{
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #c59c6c;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    border-radius: 20px;
+  }
 .scroll_mob
 {
     overflow: hidden;

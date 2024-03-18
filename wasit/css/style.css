@@ -28,6 +28,23 @@ body
 {
     font-family: 'HelveticaNeueLT Arabic Roman';
 }
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000; 
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-track-piece{
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #aa0d0d;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    border-radius: 20px;
+  }
 a:focus,button:focus,input:focus,a:hover
 {
     outline: none;
@@ -272,6 +289,7 @@ header .down_nav .brand img:hover
 {
     width: 100%;
     display: flex;
+    background-color: #fafafa;
 }
 .cell .image
 {
